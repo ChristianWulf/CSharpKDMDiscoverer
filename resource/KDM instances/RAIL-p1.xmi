@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kdm:Segment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:code="http://www.eclipse.org/MoDisco/kdm/code" xmlns:kdm="http://www.eclipse.org/MoDisco/kdm/kdm" xmlns:source="http://www.eclipse.org/MoDisco/kdm/source">
+  <model xsi:type="source:InventoryModel" name="source references">
+    <inventoryElement xsi:type="source:Directory" name="RAIL" path="D:\SW-development\rail-20050119\RAIL">
+      <inventoryElement xsi:type="source:SourceFile" name="AssemblyInfo.cs" version="1105536882000" path="D:\SW-development\rail-20050119\RAIL\AssemblyInfo.cs" language="C#" encoding="not checked"/>
+      <inventoryElement xsi:type="source:Directory" name="MSIL" path="D:\SW-development\rail-20050119\RAIL\MSIL">
+        <inventoryElement xsi:type="source:SourceFile" name="ILGen.cs" version="1105540024000" path="D:\SW-development\rail-20050119\RAIL\MSIL\ILGen.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="Instructions.cs" version="1105540028000" path="D:\SW-development\rail-20050119\RAIL\MSIL\Instructions.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="MetadataResolver.cs" version="1105536878000" path="D:\SW-development\rail-20050119\RAIL\MSIL\MetadataResolver.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="MethodLoader.cs" version="1105536878000" path="D:\SW-development\rail-20050119\RAIL\MSIL\MethodLoader.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="MSIL.cs" version="1105536878000" path="D:\SW-development\rail-20050119\RAIL\MSIL\MSIL.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="OpCodesClassification.cs" version="1105536878000" path="D:\SW-development\rail-20050119\RAIL\MSIL\OpCodesClassification.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="TypeResolver.cs" version="1105536878000" path="D:\SW-development\rail-20050119\RAIL\MSIL\TypeResolver.cs" language="C#" encoding="not checked"/>
+      </inventoryElement>
+      <inventoryElement xsi:type="source:BinaryFile" name="Rail.csproj" version="1106138094000" path="D:\SW-development\rail-20050119\RAIL\Rail.csproj"/>
+      <inventoryElement xsi:type="source:BinaryFile" name="Rail.csproj.user" version="1106138878000" path="D:\SW-development\rail-20050119\RAIL\Rail.csproj.user"/>
+      <inventoryElement xsi:type="source:Directory" name="Reflect" path="D:\SW-development\rail-20050119\RAIL\Reflect">
+        <inventoryElement xsi:type="source:SourceFile" name="Assembly.cs" version="1106129942000" path="D:\SW-development\rail-20050119\RAIL\Reflect\Assembly.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="AssemblyName.cs" version="1105536878000" path="D:\SW-development\rail-20050119\RAIL\Reflect\AssemblyName.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="AssemblyReadException.cs" version="1105536878000" path="D:\SW-development\rail-20050119\RAIL\Reflect\AssemblyReadException.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="Constructor.cs" version="1105536878000" path="D:\SW-development\rail-20050119\RAIL\Reflect\Constructor.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="CustomAttribute.cs" version="1105536878000" path="D:\SW-development\rail-20050119\RAIL\Reflect\CustomAttribute.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="Event.cs" version="1105536878000" path="D:\SW-development\rail-20050119\RAIL\Reflect\Event.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="Field.cs" version="1105536878000" path="D:\SW-development\rail-20050119\RAIL\Reflect\Field.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="Member.cs" version="1105536878000" path="D:\SW-development\rail-20050119\RAIL\Reflect\Member.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="Method.cs" version="1105536878000" path="D:\SW-development\rail-20050119\RAIL\Reflect\Method.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="Module.cs" version="1105536878000" path="D:\SW-development\rail-20050119\RAIL\Reflect\Module.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="Parameters.cs" version="1105536878000" path="D:\SW-development\rail-20050119\RAIL\Reflect\Parameters.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="Property.cs" version="1105536878000" path="D:\SW-development\rail-20050119\RAIL\Reflect\Property.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="Resource.cs" version="1105536878000" path="D:\SW-development\rail-20050119\RAIL\Reflect\Resource.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="ReturnType.cs" version="1105536878000" path="D:\SW-development\rail-20050119\RAIL\Reflect\ReturnType.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="Signatures.cs" version="1105536878000" path="D:\SW-development\rail-20050119\RAIL\Reflect\Signatures.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="Type.cs" version="1105536878000" path="D:\SW-development\rail-20050119\RAIL\Reflect\Type.cs" language="C#" encoding="not checked"/>
+      </inventoryElement>
+      <inventoryElement xsi:type="source:Directory" name="Transformation" path="D:\SW-development\rail-20050119\RAIL\Transformation">
+        <inventoryElement xsi:type="source:SourceFile" name="AddExceptionHandling.cs" version="1105536878000" path="D:\SW-development\rail-20050119\RAIL\Transformation\AddExceptionHandling.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="Exception.cs" version="1105536878000" path="D:\SW-development\rail-20050119\RAIL\Transformation\Exception.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="FieldAccessReplacer.cs" version="1105536880000" path="D:\SW-development\rail-20050119\RAIL\Transformation\FieldAccessReplacer.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="Instrument.cs" version="1105536880000" path="D:\SW-development\rail-20050119\RAIL\Transformation\Instrument.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="MethodEpilogueAdder.cs" version="1105536880000" path="D:\SW-development\rail-20050119\RAIL\Transformation\MethodEpilogueAdder.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="MethodPrologueAdder.cs" version="1105536878000" path="D:\SW-development\rail-20050119\RAIL\Transformation\MethodPrologueAdder.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="MethodReplacer.cs" version="1105536880000" path="D:\SW-development\rail-20050119\RAIL\Transformation\MethodReplacer.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="PropertyAccessReplacer.cs" version="1105536880000" path="D:\SW-development\rail-20050119\RAIL\Transformation\PropertyAccessReplacer.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="ReferenceReplacer.cs" version="1105536878000" path="D:\SW-development\rail-20050119\RAIL\Transformation\ReferenceReplacer.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="ReplaceNew.cs" version="1105536880000" path="D:\SW-development\rail-20050119\RAIL\Transformation\ReplaceNew.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="Visitor.cs" version="1105536880000" path="D:\SW-development\rail-20050119\RAIL\Transformation\Visitor.cs" language="C#" encoding="not checked"/>
+        <inventoryElement xsi:type="source:SourceFile" name="Walking.cs" version="1105536878000" path="D:\SW-development\rail-20050119\RAIL\Transformation\Walking.cs" language="C#" encoding="not checked"/>
+      </inventoryElement>
+    </inventoryElement>
+  </model>
+  <model xsi:type="code:CodeModel" name="Internal CodeModel">
+    <codeElement xsi:type="code:Module" name="Namespaces">
+      <codeElement xsi:type="code:Namespace" name="global" groupedCode="//@model.1/@codeElement.0/@codeElement.1">
+        <attribute tag="FullyQualifiedName" value=""/>
+        <annotation text="INTERNAL"/>
+      </codeElement>
+      <codeElement xsi:type="code:Namespace" name="Rail" groupedCode="//@model.1/@codeElement.0/@codeElement.2 //@model.1/@codeElement.0/@codeElement.3 //@model.1/@codeElement.0/@codeElement.4 //@model.1/@codeElement.0/@codeElement.5">
+        <attribute tag="FullyQualifiedName" value="Rail"/>
+      </codeElement>
+      <codeElement xsi:type="code:Namespace" name="MSIL" groupedCode="//@model.1/@codeElement.2/@codeElement.0 //@model.1/@codeElement.2/@codeElement.1 //@model.1/@codeElement.3/@codeElement.0 //@model.1/@codeElement.3/@codeElement.1 //@model.1/@codeElement.3/@codeElement.2 //@model.1/@codeElement.3/@codeElement.3 //@model.1/@codeElement.3/@codeElement.4 //@model.1/@codeElement.3/@codeElement.5 //@model.1/@codeElement.3/@codeElement.6 //@model.1/@codeElement.3/@codeElement.7 //@model.1/@codeElement.3/@codeElement.8 //@model.1/@codeElement.3/@codeElement.9 //@model.1/@codeElement.3/@codeElement.10 //@model.1/@codeElement.3/@codeElement.11 //@model.1/@codeElement.3/@codeElement.12 //@model.1/@codeElement.3/@codeElement.13 //@model.1/@codeElement.3/@codeElement.14 //@model.1/@codeElement.3/@codeElement.15 //@model.1/@codeElement.3/@codeElement.16 //@model.1/@codeElement.3/@codeElement.17 //@model.1/@codeElement.3/@codeElement.18 //@model.1/@codeElement.3/@codeElement.19 //@model.1/@codeElement.4/@codeElement.0 //@model.1/@codeElement.4/@codeElement.1 //@model.1/@codeElement.5/@codeElement.0 //@model.1/@codeElement.6/@codeElement.0 //@model.1/@codeElement.6/@codeElement.1 //@model.1/@codeElement.6/@codeElement.2 //@model.1/@codeElement.6/@codeElement.3 //@model.1/@codeElement.6/@codeElement.4 //@model.1/@codeElement.6/@codeElement.5 //@model.1/@codeElement.6/@codeElement.6 //@model.1/@codeElement.7/@codeElement.0">
+        <attribute tag="FullyQualifiedName" value="Rail.MSIL"/>
+      </codeElement>
+      <codeElement xsi:type="code:Namespace" name="Reflect" groupedCode="//@model.1/@codeElement.8/@codeElement.0 //@model.1/@codeElement.8/@codeElement.1 //@model.1/@codeElement.9/@codeElement.0 //@model.1/@codeElement.9/@codeElement.1 //@model.1/@codeElement.9/@codeElement.2 //@model.1/@codeElement.10/@codeElement.0 //@model.1/@codeElement.10/@codeElement.1 //@model.1/@codeElement.10/@codeElement.2 //@model.1/@codeElement.10/@codeElement.3 //@model.1/@codeElement.11/@codeElement.0 //@model.1/@codeElement.12/@codeElement.0 //@model.1/@codeElement.12/@codeElement.1 //@model.1/@codeElement.12/@codeElement.2 //@model.1/@codeElement.13/@codeElement.0 //@model.1/@codeElement.13/@codeElement.1 //@model.1/@codeElement.13/@codeElement.2 //@model.1/@codeElement.13/@codeElement.3 //@model.1/@codeElement.13/@codeElement.4 //@model.1/@codeElement.14/@codeElement.0 //@model.1/@codeElement.14/@codeElement.1 //@model.1/@codeElement.14/@codeElement.2 //@model.1/@codeElement.15/@codeElement.0 //@model.1/@codeElement.15/@codeElement.1 //@model.1/@codeElement.15/@codeElement.2 //@model.1/@codeElement.16/@codeElement.0 //@model.1/@codeElement.17/@codeElement.0 //@model.1/@codeElement.17/@codeElement.1 //@model.1/@codeElement.17/@codeElement.2 //@model.1/@codeElement.17/@codeElement.3 //@model.1/@codeElement.17/@codeElement.4 //@model.1/@codeElement.18/@codeElement.0 //@model.1/@codeElement.18/@codeElement.1 //@model.1/@codeElement.18/@codeElement.2 //@model.1/@codeElement.19/@codeElement.0 //@model.1/@codeElement.20/@codeElement.0 //@model.1/@codeElement.20/@codeElement.1 //@model.1/@codeElement.20/@codeElement.2 //@model.1/@codeElement.21/@codeElement.0 //@model.1/@codeElement.22/@codeElement.0 //@model.1/@codeElement.23/@codeElement.0 //@model.1/@codeElement.23/@codeElement.1 //@model.1/@codeElement.23/@codeElement.2 //@model.1/@codeElement.23/@codeElement.3 //@model.1/@codeElement.23/@codeElement.4 //@model.1/@codeElement.23/@codeElement.5 //@model.1/@codeElement.23/@codeElement.6 //@model.1/@codeElement.23/@codeElement.7 //@model.1/@codeElement.23/@codeElement.8 //@model.1/@codeElement.23/@codeElement.9 //@model.1/@codeElement.23/@codeElement.10 //@model.1/@codeElement.23/@codeElement.11 //@model.1/@codeElement.23/@codeElement.12 //@model.1/@codeElement.23/@codeElement.13 //@model.1/@codeElement.23/@codeElement.14 //@model.1/@codeElement.23/@codeElement.15 //@model.1/@codeElement.23/@codeElement.16 //@model.1/@codeElement.23/@codeElement.17 //@model.1/@codeElement.23/@codeElement.18 //@model.1/@codeElement.23/@codeElement.19 //@model.1/@codeElement.24/@codeElement.0 //@model.1/@codeElement.24/@codeElement.1 //@model.1/@codeElement.24/@codeElement.2">
+        <attribute tag="FullyQualifiedName" value="Rail.Reflect"/>
+      </codeElement>
+      <codeElement xsi:type="code:Namespace" name="Transformation" groupedCode="//@model.1/@codeElement.25/@codeElement.0 //@model.1/@codeElement.25/@codeElement.1 //@model.1/@codeElement.27/@codeElement.0 //@model.1/@codeElement.27/@codeElement.1 //@model.1/@codeElement.27/@codeElement.2 //@model.1/@codeElement.27/@codeElement.3 //@model.1/@codeElement.28/@codeElement.0 //@model.1/@codeElement.29/@codeElement.0 //@model.1/@codeElement.30/@codeElement.0 //@model.1/@codeElement.31/@codeElement.0 //@model.1/@codeElement.32/@codeElement.0 //@model.1/@codeElement.33/@codeElement.0 //@model.1/@codeElement.34/@codeElement.0 //@model.1/@codeElement.35/@codeElement.0 //@model.1/@codeElement.35/@codeElement.1 //@model.1/@codeElement.35/@codeElement.2 //@model.1/@codeElement.36/@codeElement.0 //@model.1/@codeElement.36/@codeElement.1 //@model.1/@codeElement.36/@codeElement.2 //@model.1/@codeElement.36/@codeElement.3 //@model.1/@codeElement.36/@codeElement.4">
+        <attribute tag="FullyQualifiedName" value="Rail.Transformation"/>
+      </codeElement>
+      <codeElement xsi:type="code:Namespace" name="Exceptions" groupedCode="//@model.1/@codeElement.26/@codeElement.0 //@model.1/@codeElement.26/@codeElement.1 //@model.1/@codeElement.26/@codeElement.2 //@model.1/@codeElement.26/@codeElement.3">
+        <attribute tag="FullyQualifiedName" value="Rail.Exceptions"/>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="AssemblyInfo.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.0" path="D:\SW-development\rail-20050119\RAIL\AssemblyInfo.cs"/>
+      </source>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="ILGen.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.1/@inventoryElement.0" path="D:\SW-development\rail-20050119\RAIL\MSIL\ILGen.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="ILFactory" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.ILFactory"/>
+        <source>
+          <region startLine="43" startPosition="15"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="CLROperandType" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.CLROperandType"/>
+        <source>
+          <region startLine="1555" startPosition="8"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="Instructions.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.1/@inventoryElement.1" path="D:\SW-development\rail-20050119\RAIL\MSIL\Instructions.cs"/>
+      </source>
+      <codeElement xsi:type="code:InterfaceUnit" name="ITargeter">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.ITargeter"/>
+        <source>
+          <region startLine="27" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="Instruction" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.Instruction"/>
+        <source>
+          <region startLine="42" startPosition="17"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="ILVirtualException" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.ILVirtualException"/>
+        <source>
+          <region startLine="304" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="ILNone" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.ILNone"/>
+        <source>
+          <region startLine="431" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="ILBranch" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.ILBranch"/>
+        <source>
+          <region startLine="480" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="ILOperandI2" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.ILOperandI2"/>
+        <source>
+          <region startLine="643" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="ILOperandI4" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.ILOperandI4"/>
+        <source>
+          <region startLine="701" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="ILOperandI8" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.ILOperandI8"/>
+        <source>
+          <region startLine="759" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="ILOperandR4" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.ILOperandR4"/>
+        <source>
+          <region startLine="815" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="ILOperandR8" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.ILOperandR8"/>
+        <source>
+          <region startLine="871" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="ILLocalVariable" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.ILLocalVariable"/>
+        <source>
+          <region startLine="927" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="ILArgument" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.ILArgument"/>
+        <source>
+          <region startLine="1008" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="ILMethod" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.ILMethod"/>
+        <source>
+          <region startLine="1081" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="ILField" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.ILField"/>
+        <source>
+          <region startLine="1178" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="ILType" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.ILType"/>
+        <source>
+          <region startLine="1234" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="ILString" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.ILString"/>
+        <source>
+          <region startLine="1289" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="ILSig" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.ILSig"/>
+        <source>
+          <region startLine="1343" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="ILToken" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.ILToken"/>
+        <source>
+          <region startLine="1373" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="ILSwitch" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.ILSwitch"/>
+        <source>
+          <region startLine="1466" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="WriteContext" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.WriteContext"/>
+        <source>
+          <region startLine="1550" startPosition="10"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="MetadataResolver.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.1/@inventoryElement.2" path="D:\SW-development\rail-20050119\RAIL\MSIL\MetadataResolver.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="MetadataResolver" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.MetadataResolver"/>
+        <source>
+          <region startLine="27" startPosition="15"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:EnumeratedType" name="TypeDefOrRefTag">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.TypeDefOrRefTag"/>
+        <source>
+          <region startLine="281" startPosition="9"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="MethodLoader.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.1/@inventoryElement.3" path="D:\SW-development\rail-20050119\RAIL\MSIL\MethodLoader.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="MethodLoadContext" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.MethodLoadContext"/>
+        <source>
+          <region startLine="28" startPosition="10"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="MSIL.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.1/@inventoryElement.4" path="D:\SW-development\rail-20050119\RAIL\MSIL\MSIL.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="MethodBody" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.MethodBody"/>
+        <source>
+          <region startLine="30" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="Code" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.Code"/>
+        <source>
+          <region startLine="411" startPosition="8"/>
+        </source>
+        <codeElement xsi:type="code:ClassUnit" name="InstructionEnumerator" isAbstract="false">
+          <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.Code.InstructionEnumerator"/>
+          <source>
+            <region startLine="1369" startPosition="9"/>
+          </source>
+        </codeElement>
+        <codeElement xsi:type="code:ClassUnit" name="UnresolvedBranch" isAbstract="false">
+          <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.Code.UnresolvedBranch"/>
+          <source>
+            <region startLine="1475" startPosition="17"/>
+          </source>
+        </codeElement>
+        <codeElement xsi:type="code:ClassUnit" name="UnresolvedSwitch" isAbstract="false">
+          <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.Code.UnresolvedSwitch"/>
+          <source>
+            <region startLine="1490" startPosition="17"/>
+          </source>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="ExceptionTable" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.ExceptionTable"/>
+        <source>
+          <region startLine="1508" startPosition="8"/>
+        </source>
+        <codeElement xsi:type="code:ClassUnit" name="ProtectedBlock" isAbstract="false">
+          <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.ExceptionTable.ProtectedBlock"/>
+          <source>
+            <region startLine="1807" startPosition="17"/>
+          </source>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="ExceptionBlock" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.ExceptionBlock"/>
+        <source>
+          <region startLine="1882" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="ExceptionHandler" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.ExceptionHandler"/>
+        <source>
+          <region startLine="2150" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:EnumeratedType" name="ExceptionHandlerType">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.ExceptionHandlerType"/>
+        <source>
+          <region startLine="2269" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="LocalVariable" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.LocalVariable"/>
+        <source>
+          <region startLine="2293" startPosition="8"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="OpCodesClassification.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.1/@inventoryElement.5" path="D:\SW-development\rail-20050119\RAIL\MSIL\OpCodesClassification.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="OpCodesClassifier" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.MSIL.OpCodesClassifier"/>
+        <source>
+          <region startLine="38" startPosition="15"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="TypeResolver.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.1/@inventoryElement.6" path="D:\SW-development\rail-20050119\RAIL\MSIL\TypeResolver.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="TypeResolver" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.TypeResolver"/>
+        <source>
+          <region startLine="27" startPosition="17"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="AssemblyLoader" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.AssemblyLoader"/>
+        <source>
+          <region startLine="1078" startPosition="10"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="Assembly.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0" path="D:\SW-development\rail-20050119\RAIL\Reflect\Assembly.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="RAssembly" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RAssembly"/>
+        <source>
+          <region startLine="30" startPosition="17"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="RAssemblyRef" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RAssemblyRef"/>
+        <source>
+          <region startLine="175" startPosition="15"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="RAssemblyDef" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RAssemblyDef"/>
+        <source>
+          <region startLine="212" startPosition="15"/>
+        </source>
+        <codeElement xsi:type="code:ClassUnit" name="TypeResolveHandler" isAbstract="false">
+          <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RAssemblyDef.TypeResolveHandler"/>
+          <source>
+            <region startLine="2229" startPosition="2"/>
+          </source>
+        </codeElement>
+        <codeElement xsi:type="code:ClassUnit" name="TypeBuildersHolder" isAbstract="false">
+          <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RAssemblyDef.TypeBuildersHolder"/>
+          <source>
+            <region startLine="2300" startPosition="11"/>
+          </source>
+        </codeElement>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="AssemblyName.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.1" path="D:\SW-development\rail-20050119\RAIL\Reflect\AssemblyName.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="RAssemblyName" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RAssemblyName"/>
+        <source>
+          <region startLine="24" startPosition="17"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="RAssemblyNameRef" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RAssemblyNameRef"/>
+        <source>
+          <region startLine="173" startPosition="15"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="RAssemblyNameDef" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RAssemblyNameDef"/>
+        <source>
+          <region startLine="256" startPosition="15"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="RVersion" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RVersion"/>
+        <source>
+          <region startLine="365" startPosition="15"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="AssemblyReadException.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.2" path="D:\SW-development\rail-20050119\RAIL\Reflect\AssemblyReadException.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="AssemblyReadException" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.AssemblyReadException"/>
+        <source>
+          <region startLine="21" startPosition="8"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="Constructor.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.3" path="D:\SW-development\rail-20050119\RAIL\Reflect\Constructor.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="RConstructor" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RConstructor"/>
+        <source>
+          <region startLine="28" startPosition="17"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="RConstructorRef" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RConstructorRef"/>
+        <source>
+          <region startLine="36" startPosition="15"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="RConstructorDef" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RConstructorDef"/>
+        <source>
+          <region startLine="101" startPosition="15"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="CustomAttribute.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.4" path="D:\SW-development\rail-20050119\RAIL\Reflect\CustomAttribute.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="RCustomAttrib" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RCustomAttrib"/>
+        <source>
+          <region startLine="42" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:EnumeratedType" name="ElemType">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.ElemType"/>
+        <source>
+          <region startLine="670" startPosition="10"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:InterfaceUnit" name="ICustomAttributeOwner">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.ICustomAttributeOwner"/>
+        <source>
+          <region startLine="1007" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:InterfaceUnit" name="ICustomAttributeOwnerDef">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.ICustomAttributeOwnerDef"/>
+        <source>
+          <region startLine="1045" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="CustomAttributeOwner" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.CustomAttributeOwner"/>
+        <source>
+          <region startLine="1066" startPosition="17"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="Event.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.5" path="D:\SW-development\rail-20050119\RAIL\Reflect\Event.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="REvent" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.REvent"/>
+        <source>
+          <region startLine="30" startPosition="17"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="REventRef" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.REventRef"/>
+        <source>
+          <region startLine="181" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="REventDef" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.REventDef"/>
+        <source>
+          <region startLine="222" startPosition="8"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="Field.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.6" path="D:\SW-development\rail-20050119\RAIL\Reflect\Field.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="RField" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RField"/>
+        <source>
+          <region startLine="31" startPosition="17"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="RFieldRef" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RFieldRef"/>
+        <source>
+          <region startLine="127" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="RFieldDef" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RFieldDef"/>
+        <source>
+          <region startLine="215" startPosition="15"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="Member.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.7" path="D:\SW-development\rail-20050119\RAIL\Reflect\Member.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="RMember" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RMember"/>
+        <source>
+          <region startLine="22" startPosition="17"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="Method.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.8" path="D:\SW-development\rail-20050119\RAIL\Reflect\Method.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="RPInvokeInfo" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RPInvokeInfo"/>
+        <source>
+          <region startLine="30" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="RMethodBase" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RMethodBase"/>
+        <source>
+          <region startLine="159" startPosition="17"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="RMethod" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RMethod"/>
+        <source>
+          <region startLine="423" startPosition="17"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="RMethodRef" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RMethodRef"/>
+        <source>
+          <region startLine="453" startPosition="15"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="RMethodDef" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RMethodDef"/>
+        <source>
+          <region startLine="529" startPosition="15"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="Module.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.9" path="D:\SW-development\rail-20050119\RAIL\Reflect\Module.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="RModule" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RModule"/>
+        <source>
+          <region startLine="24" startPosition="17"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="RModuleRef" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RModuleRef"/>
+        <source>
+          <region startLine="215" startPosition="15"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="RModuleDef" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RModuleDef"/>
+        <source>
+          <region startLine="276" startPosition="15"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="Parameters.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.10" path="D:\SW-development\rail-20050119\RAIL\Reflect\Parameters.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="RParameter" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RParameter"/>
+        <source>
+          <region startLine="22" startPosition="8"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="Property.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.11" path="D:\SW-development\rail-20050119\RAIL\Reflect\Property.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="RProperty" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RProperty"/>
+        <source>
+          <region startLine="24" startPosition="17"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="RPropertyRef" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RPropertyRef"/>
+        <source>
+          <region startLine="175" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="RPropertyDef" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RPropertyDef"/>
+        <source>
+          <region startLine="214" startPosition="8"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="Resource.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.12" path="D:\SW-development\rail-20050119\RAIL\Reflect\Resource.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="RResource" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RResource"/>
+        <source>
+          <region startLine="24" startPosition="8"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="ReturnType.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.13" path="D:\SW-development\rail-20050119\RAIL\Reflect\ReturnType.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="RReturnType" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RReturnType"/>
+        <source>
+          <region startLine="22" startPosition="8"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="Signatures.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.14" path="D:\SW-development\rail-20050119\RAIL\Reflect\Signatures.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="OpCodesList" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.OpCodesList"/>
+        <source>
+          <region startLine="14" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="MetadataSignatures" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.MetadataSignatures"/>
+        <source>
+          <region startLine="259" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:EnumeratedType" name="SigTypeEnum">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.SigTypeEnum"/>
+        <source>
+          <region startLine="265" startPosition="9"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="CustomMod" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.CustomMod"/>
+        <source>
+          <region startLine="340" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="RetType" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RetType"/>
+        <source>
+          <region startLine="382" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="Param" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.Param"/>
+        <source>
+          <region startLine="469" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="SigType" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.SigType"/>
+        <source>
+          <region startLine="564" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="ValueType" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.ValueType"/>
+        <source>
+          <region startLine="583" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="CLASS" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.CLASS"/>
+        <source>
+          <region startLine="613" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="PTR" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.PTR"/>
+        <source>
+          <region startLine="644" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="FNPTR" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.FNPTR"/>
+        <source>
+          <region startLine="668" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="ARRAY" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.ARRAY"/>
+        <source>
+          <region startLine="728" startPosition="8"/>
+        </source>
+        <codeElement xsi:type="code:ClassUnit" name="ArrayShape" isAbstract="false">
+          <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.ARRAY.ArrayShape"/>
+          <source>
+            <region startLine="755" startPosition="9"/>
+          </source>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="SZARRAY" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.SZARRAY"/>
+        <source>
+          <region startLine="821" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="FieldSig" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.FieldSig"/>
+        <source>
+          <region startLine="845" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="MethodDefSig" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.MethodDefSig"/>
+        <source>
+          <region startLine="905" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="MethodRefSig" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.MethodRefSig"/>
+        <source>
+          <region startLine="998" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="PropertySig" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.PropertySig"/>
+        <source>
+          <region startLine="1147" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="TypeSpecSig" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.TypeSpecSig"/>
+        <source>
+          <region startLine="1190" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="LocalVarSig" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.LocalVarSig"/>
+        <source>
+          <region startLine="1213" startPosition="8"/>
+        </source>
+        <codeElement xsi:type="code:ClassUnit" name="LocalSigType" isAbstract="false">
+          <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.LocalVarSig.LocalSigType"/>
+          <source>
+            <region startLine="1260" startPosition="9"/>
+          </source>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="MarshalSpec" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.MarshalSpec"/>
+        <source>
+          <region startLine="1308" startPosition="8"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="Type.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.15" path="D:\SW-development\rail-20050119\RAIL\Reflect\Type.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="RType" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RType"/>
+        <source>
+          <region startLine="28" startPosition="17"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="RTypeRef" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RTypeRef"/>
+        <source>
+          <region startLine="1129" startPosition="15"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="RTypeDef" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Reflect.RTypeDef"/>
+        <source>
+          <region startLine="2382" startPosition="15"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="AddExceptionHandling.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.0" path="D:\SW-development\rail-20050119\RAIL\Transformation\AddExceptionHandling.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="AddExceptionHandling" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Transformation.AddExceptionHandling"/>
+        <source>
+          <region startLine="26" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="Delimiter">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Transformation.Delimiter"/>
+        <annotation text="represents a struct, not a class"/>
+        <source>
+          <region startLine="45" startPosition="10"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="Exception.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.1" path="D:\SW-development\rail-20050119\RAIL\Transformation\Exception.cs"/>
+      </source>
+      <codeElement xsi:type="code:EnumeratedType" name="HandlerCode">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Exceptions.HandlerCode"/>
+        <source>
+          <region startLine="21" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="ExceptionAttribute" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Exceptions.ExceptionAttribute"/>
+        <source>
+          <region startLine="32" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="Marker" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Exceptions.Marker"/>
+        <source>
+          <region startLine="53" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="InternalErrorException" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Exceptions.InternalErrorException"/>
+        <source>
+          <region startLine="65" startPosition="8"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="FieldAccessReplacer.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.2" path="D:\SW-development\rail-20050119\RAIL\Transformation\FieldAccessReplacer.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="FieldAccessReplacer" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Transformation.FieldAccessReplacer"/>
+        <source>
+          <region startLine="32" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="FieldToPropAccessReplacer" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Transformation.FieldToPropAccessReplacer"/>
+        <source>
+          <region startLine="139" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="ReplaceFieldReadAccess" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Transformation.ReplaceFieldReadAccess"/>
+        <source>
+          <region startLine="266" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="ReplaceFieldWriteAccess" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Transformation.ReplaceFieldWriteAccess"/>
+        <source>
+          <region startLine="403" startPosition="8"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="Instrument.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.3" path="D:\SW-development\rail-20050119\RAIL\Transformation\Instrument.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="CodeTransformer" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Transformation.CodeTransformer"/>
+        <source>
+          <region startLine="33" startPosition="15"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="MethodEpilogueAdder.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.4" path="D:\SW-development\rail-20050119\RAIL\Transformation\MethodEpilogueAdder.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="MethodEpilogueAdder" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Transformation.MethodEpilogueAdder"/>
+        <source>
+          <region startLine="40" startPosition="8"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="MethodPrologueAdder.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.5" path="D:\SW-development\rail-20050119\RAIL\Transformation\MethodPrologueAdder.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="MethodPrologueAdder" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Transformation.MethodPrologueAdder"/>
+        <source>
+          <region startLine="40" startPosition="8"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="MethodReplacer.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.6" path="D:\SW-development\rail-20050119\RAIL\Transformation\MethodReplacer.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="MethodReplacer" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Transformation.MethodReplacer"/>
+        <source>
+          <region startLine="27" startPosition="8"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="PropertyAccessReplacer.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.7" path="D:\SW-development\rail-20050119\RAIL\Transformation\PropertyAccessReplacer.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="PropertyAccessReplacer" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Transformation.PropertyAccessReplacer"/>
+        <source>
+          <region startLine="27" startPosition="8"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="ReferenceReplacer.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.8" path="D:\SW-development\rail-20050119\RAIL\Transformation\ReferenceReplacer.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="ReferenceReplacer" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Transformation.ReferenceReplacer"/>
+        <source>
+          <region startLine="30" startPosition="8"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="ReplaceNew.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.9" path="D:\SW-development\rail-20050119\RAIL\Transformation\ReplaceNew.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="ReplaceNew" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Transformation.ReplaceNew"/>
+        <source>
+          <region startLine="27" startPosition="8"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="Visitor.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.10" path="D:\SW-development\rail-20050119\RAIL\Transformation\Visitor.cs"/>
+      </source>
+      <codeElement xsi:type="code:ClassUnit" name="Visitor" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Transformation.Visitor"/>
+        <source>
+          <region startLine="63" startPosition="17"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="EmptyVisitor" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Transformation.EmptyVisitor"/>
+        <source>
+          <region startLine="174" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:InterfaceUnit" name="IVisitable">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Transformation.IVisitable"/>
+        <source>
+          <region startLine="222" startPosition="8"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:CompilationUnit" name="Walking.cs">
+      <source>
+        <region file="//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.11" path="D:\SW-development\rail-20050119\RAIL\Transformation\Walking.cs"/>
+      </source>
+      <codeElement xsi:type="code:EnumeratedType" name="TraversalOrder">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Transformation.TraversalOrder"/>
+        <source>
+          <region startLine="23" startPosition="8"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="Walker" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Transformation.Walker"/>
+        <source>
+          <region startLine="32" startPosition="19"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="BaseWalker" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Transformation.BaseWalker"/>
+        <source>
+          <region startLine="87" startPosition="19"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="PostOrderWalker" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Transformation.PostOrderWalker"/>
+        <source>
+          <region startLine="141" startPosition="10"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="code:ClassUnit" name="PreOrderWalker" isAbstract="false">
+        <attribute tag="FullyQualifiedName" value="global.Rail.Transformation.PreOrderWalker"/>
+        <source>
+          <region startLine="204" startPosition="10"/>
+        </source>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:LanguageUnit" name="Common C# predefined types">
+      <codeElement xsi:type="code:Datatype" name="object"/>
+      <codeElement xsi:type="code:Datatype" name="dynamic"/>
+      <codeElement xsi:type="code:StringType" name="String"/>
+      <codeElement xsi:type="code:StringType" name="string"/>
+      <codeElement xsi:type="code:OctetType" name="sbyte"/>
+      <codeElement xsi:type="code:IntegerType" name="short"/>
+      <codeElement xsi:type="code:IntegerType" name="int"/>
+      <codeElement xsi:type="code:IntegerType" name="long"/>
+      <codeElement xsi:type="code:OctetType" name="byte"/>
+      <codeElement xsi:type="code:IntegerType" name="ushort"/>
+      <codeElement xsi:type="code:IntegerType" name="uint"/>
+      <codeElement xsi:type="code:IntegerType" name="ulong"/>
+      <codeElement xsi:type="code:FloatType" name="float"/>
+      <codeElement xsi:type="code:FloatType" name="double"/>
+      <codeElement xsi:type="code:BooleanType" name="bool"/>
+      <codeElement xsi:type="code:CharType" name="char"/>
+      <codeElement xsi:type="code:DecimalType" name="decimal"/>
+      <codeElement xsi:type="code:VoidType" name="void"/>
+    </codeElement>
+  </model>
+  <model xsi:type="code:CodeModel" name="External CodeModel">
+    <codeElement xsi:type="code:Module" name="Namespaces">
+      <codeElement xsi:type="code:Namespace" name="global">
+        <attribute tag="FullyQualifiedName" value=""/>
+        <annotation text="EXTERNAL"/>
+      </codeElement>
+    </codeElement>
+  </model>
+</kdm:Segment>

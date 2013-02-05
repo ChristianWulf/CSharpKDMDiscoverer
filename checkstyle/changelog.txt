@@ -1,0 +1,36 @@
+/**
+ * Copyright (c) 2009 Mia-Software.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ * 
+ * Contributors:
+ *     Gregoire DUPE (Mia-Software)
+ *     Nicolas BROS (Mia-Software)
+ */
+
+==03/09/09 11:44==
+
+Removing 80 character line length constraint.
+
+Removing Javadoc on private fields and methods.
+
+Removing warnings on methods for which the "public" modifier in redundant. 
+
+Removing java doc checking to avoid to get warnings when the "non-javadoc" option is used.
+
+Removing the rule : "The method X is not designed to be derived."
+
+Adding "this" use check.
+
+==03/09/09 12:09==
+
+Ignoring the "Hidden Field" rule for the constructors and setters.
+
+==23/11/09 14:51==
+
+remove UnusedImports module:
+checkstyle reports unused imports when imports are in fact used in javadoc references.
+What's more, unused imports are already reported by Eclipse and easily dealt with (Ctrl+Shift+O).
+

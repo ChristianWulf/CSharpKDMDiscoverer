@@ -1,0 +1,1 @@
+cloc-1.55.exe --list-file=analysis-paths-less.txt --out=report.txt --match-f=.+\.cs --skip-win-hidden

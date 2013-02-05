@@ -1,0 +1,15 @@
+<!DOCTYPE aspectj PUBLIC "-//AspectJ//DTD//EN" "http://www.aspectj.org/dtd/aspectj_1_5_0.dtd">
+
+<aspectj>
+    <weaver options="-verbose -showWeaveInfo -Xset:weaveJavaPackages=true">
+    	<include within="example..*"/>
+        
+        <include within="monitoring.aspect..*"/>
+        <!--  <include within="antlr.runtime..*"/>
+        <include within="kieker.monitoring.probe.aspectj..*"/> -->
+    </weaver>
+    
+    <aspects>
+      <aspect name="monitoring.aspect.FileInputStreamProbe"/>
+    </aspects>
+</aspectj>

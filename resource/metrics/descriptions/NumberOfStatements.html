@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Number Of Statements</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+		<link href="../style.css" type="text/css" rel="STYLESHEET"/>
+	</head>
+	<body>
+		<h1>Number Of Statements
+        	<span id="logo"><a href="http://eclipse-metrics.sourceforge.net"> <img src="../images/logo.gif" border="0" alt="Metrics Logo"/></a></span>
+        </h1>
+		<p>This metric represents the number of statements in a method. I consider it a more robust measure than Lines of Code since the latter is fragile with 
+			respect to different formatting conventions. However, as in the case of Lines of Code, a large number of statements is not in itself a bad thing, 
+			it does suggest the possibility of extracting methods which gives related groups of statements a name and therefore increases the level of 
+			abstraction and deepens semantics.</p>
+		<p>Statements counted by this metric are: break, continue, do, explicit constructor call, explicit super constructor call, for, if, return, switch, 
+			throw, try, catch, finally, while, assignments. method calls, pre/post increment/decrement. In addition, local class definitions will cause the 
+			enclosing method's statement count to be increased by the total statement count of the local class.</p>
+		<hr/>
+        <div class="attribution">
+    		This plugin is provided by <a href="http://www.stateofflow.com" title="State Of Flow homepage">State Of Flow</a>
+    	</div>
+	</body>
+</html>

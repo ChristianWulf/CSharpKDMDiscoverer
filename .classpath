@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="mapping/code/FileMapper.java|mapping/action/MethodInvocationHelper.java|mapping/code/transformator/Transformator2.java" kind="src" path="src"/>
+	<classpathentry excluding="mapping/code/extern/TestExternalClassInfoRepositoryTest.java" kind="src" path="test"/>
+	<classpathentry kind="src" path="antlr-generated"/>
+	<classpathentry kind="src" path="analysis"/>
+	<classpathentry kind="src" path="resolution"/>
+	<classpathentry kind="src" path="plugin"/>
+	<classpathentry kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.core.runtime_3.7.0.v20110110.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/antlr-3.4-complete.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="lib/guava-11.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/aspectjrt-1.6.12.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-api-2.0-beta3.jar" sourcepath="doc/log4j-api-2.0-beta3-sources.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-core-2.0-beta3.jar" sourcepath="doc/log4j-core-2.0-beta3-sources.jar"/>
+	<classpathentry kind="lib" path="lib/kieker.jar"/>
+	<classpathentry kind="src" path="META-INF"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

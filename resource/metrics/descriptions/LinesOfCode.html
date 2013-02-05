@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Lines of Code</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+		<link href="../style.css" type="text/css" rel="STYLESHEET"/>
+	</head>
+	<body>
+		<h1>Lines of Code in Method
+        	<span id="logo"><a href="http://eclipse-metrics.sourceforge.net"> <img src="../images/logo.gif" border="0" alt="Metrics Logo"/></a></span>
+        </h1>
+		<p>This measure indicates the number of lines a method occupies - a line is determined by the presence of a newline character. It is a very basic 
+			measure of size and is susceptible to variation purely on the basis of different formatting styles. However, many users of the <a 
+			href="http://www.stateofflow.com/projects/16/eclipsemetrics">Eclipse Metrics</a> plugin asked for it's inclusion, so here it is.</p>
+		<p>Setting aside the obvious difficulties with variations produced by different formatting styles, Lines of Code counts also suffer from problems in definition due
+			to lines of whitespace, comment lines, etc (i.e. should these be counted or not). This implementation includes all of these things in the measure. For an
+			alternative that does not suffer from these problems, see the <a href="NumberOfStatements.html">Number of Statements</a> metric.</p>
+		<p>Those interested in the productivity of a development team are advised to avoid any measure based on code size, and should instead focus on the rate 
+			of delivery of completed features using appropriate incremental and evolutionary techniques.</p>
+		<hr/>
+        <div class="attribution">
+    		This plugin is provided by <a href="http://www.stateofflow.com" title="State Of Flow homepage">State Of Flow</a>
+    	</div>
+	</body>
+</html>

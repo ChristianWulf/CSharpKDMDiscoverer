@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>Lack of Cohesion in Methods - Chidamber and Kemerer</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <link href="../../style.css" type="text/css" rel="STYLESHEET"/>
+    </head>
+    <body>
+        <h1>Chidamber and Kemerer
+        	<span id="logo"><a href="http://eclipse-metrics.sourceforge.net"> <img src="../../images/logo.gif" border="0" alt="Metrics Logo"/></a></span>
+        </h1>
+        <p>Chidamber and Kemerer define Lack of Cohesion in Methods as the number of pairs of methods in a class that don't have at least one field
+        	in common minus the number of pairs of methods in the class that do share at least one field. When this value is negative, the metric
+        	value is set to 0.</p>
+        <hr/>
+        <p><b>Note 1:</b> I have only included methods if they access at least one field.</p>
+        <p><b>Note 2:</b> I have only included fields if they are accessed by at least one method in the class.</p>
+        <hr/>
+        <div class="attribution">
+    		This plugin is provided by <a href="http://www.stateofflow.com" title="State Of Flow homepage">State Of Flow</a>
+    	</div>
+    </body>
+</html>

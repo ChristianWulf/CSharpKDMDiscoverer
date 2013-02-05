@@ -1,0 +1,52 @@
+#logo {
+	float: right;
+}
+
+body {
+	font: 10pt verdana, sans-serif; 
+	color: #555753; 
+	background: #ffffff;
+}
+
+H1 {
+	color: #aaa;
+	margin-top:0em;
+	margin-bottom:0em;
+	font-variant:small-caps;
+}
+
+H2 {
+	color: #aaa;
+	margin:0em 0em 0.2em 0em;
+	font-variant:small-caps;
+}
+
+H3 {
+	color: #aaa;
+	margin:0em 0em 0.2em 0em;
+	font-variant:small-caps;
+}
+
+:link {
+    color : #319;
+    text-decoration: none;
+}
+
+:visited {
+    color: #319;
+    text-decoration: none;
+}
+
+table { 
+	border-collapse:collapse; 
+	border:1px; 
+}
+
+div.attribution {
+	font-size: 8pt;
+	font-weight: medium;
+	font-style: Regular;
+	color: #444444;
+	text-decoration: none;
+	text-align:center;
+}

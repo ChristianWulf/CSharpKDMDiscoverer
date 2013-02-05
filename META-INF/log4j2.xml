@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="OFF">
+
+	<properties>
+		<property name="filename">log.log</property>
+	</properties>
+
+	<appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n%ex" />
+		</Console>
+		<File name="File" fileName="${filename}">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n%ex" />
+		</File>
+	</appenders>
+
+	<loggers>
+		<logger name="mapping.code.transformator.PreTransformator" level="off" additivity="false">
+			<appender-ref ref="File" />
+		</logger>
+		<logger name="mapping.code.transformator" level="debug" additivity="false">
+			<appender-ref ref="Console"/>
+<!-- 			<appender-ref ref="File" /> -->
+		</logger>
+		<logger name="de.cau.chw.csharp.resolution.build" level="off" additivity="false">
+			<appender-ref ref="Console" />
+			<!-- <appender-ref ref="File"/> -->
+		</logger>
+		<logger name="de.cau.chw.csharp.resolution.read" level="debug" additivity="false">
+			<appender-ref ref="Console" />
+			<!-- <appender-ref ref="File"/> -->
+		</logger>
+		<!-- <logger name="mapping.project" level="debug" additivity="false"> -->
+		<!-- <appender-ref ref="Console"/> -->
+		<!-- <appender-ref ref="File"/> -->
+		<!-- </logger> -->
+		<!-- <logger name="util" level="trace" additivity="false"> -->
+		<!-- <appender-ref ref="Console"/> -->
+		<!-- <appender-ref ref="File"/> -->
+		<!-- </logger> -->
+		<root level="error">
+			<appender-ref ref="Console" />
+			<appender-ref ref="File" />
+		</root>
+	</loggers>
+
+</configuration>

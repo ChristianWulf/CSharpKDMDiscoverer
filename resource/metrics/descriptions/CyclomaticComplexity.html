@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>McCabe's Cyclomatic Complexity</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+		<link href="../style.css" type="text/css" rel="STYLESHEET"/>
+	</head>
+	<body>
+		<h1>McCabe's Cyclomatic Complexity
+        	<span id="logo"><a href="http://eclipse-metrics.sourceforge.net"> <img src="../images/logo.gif" border="0" alt="Metrics Logo"/></a></span>
+        </h1>
+		<p>This metric is an indication of the number of 'linear' segments in a method (<i>i.e.</i>sections of code with no branches) and therefore can be 
+			used to determine the number of tests required to obtain complete coverage. It can also be used to indicate the psychological complexity of a 
+			method.</p>
+		<p>A method with no branches has a Cyclomatic Complexity of 1 since there is 1 arc. This number is incremented whenever a branch is encountered. In 
+			this implementation, statements that represent branching are defined as: 'for', 'while', 'do', 'if', 'case' (optional), 'catch' (optional) and 
+			the ternary operator (optional). The sum of Cyclomatic Complexities for methods in local classes is also included in the total for a method.</p>
+		<p>Cyclomatic Complexity is a procedural rather than an OO metric. However, it still has meaning for OO programs at the method level.</p>
+		<hr/>
+        <div class="attribution">
+    		This plugin is provided by <a href="http://www.stateofflow.com" title="State Of Flow homepage">State Of Flow</a>
+    	</div>
+	</body>
+</html>

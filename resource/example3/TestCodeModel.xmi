@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code:CodeModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:code="http://schema.omg.org/spec/KDM/1.2/code" name="Test code model">
+  <codeElement xsi:type="code:Package" name="Test package">
+    <codeElement xsi:type="code:ClassUnit" name="TestClass" isAbstract="false">
+      <attribute tag="TestClassTag" value="example name"/>
+      <codeRelation xsi:type="code:Extends"/>
+    </codeElement>
+  </codeElement>
+</code:CodeModel>

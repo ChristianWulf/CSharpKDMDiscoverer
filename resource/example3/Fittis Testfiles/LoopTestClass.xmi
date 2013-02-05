@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:action="http://www.eclipse.org/MoDisco/kdm/action" xmlns:code="http://www.eclipse.org/MoDisco/kdm/code" xmlns:kdm="http://www.eclipse.org/MoDisco/kdm/kdm" xmlns:source="http://www.eclipse.org/MoDisco/kdm/source">
+  <kdm:Segment name="CloudMIGXpressTmpJavaProject1325947738162">
+    <model xsi:type="code:CodeModel" name="Loop">
+      <codeElement xsi:type="code:Package" name="testpackage">
+        <codeElement xsi:type="code:ClassUnit" name="TestClass" isAbstract="false">
+          <attribute tag="export" value="public"/>
+          <source language="java">
+            <region file="/0/@model.2/@inventoryElement.0" language="java"/>
+          </source>
+          <codeElement xsi:type="code:MethodUnit" name="main" type="/0/@model.0/@codeElement.0/@codeElement.0/@codeElement.0/@codeElement.0">
+            <attribute tag="export" value="public"/>
+            <source language="java">
+              <region file="/0/@model.2/@inventoryElement.0" language="java"/>
+            </source>
+            <codeElement xsi:type="code:Signature" name="main">
+              <parameterUnit type="/0/@model.0/@codeElement.1/@codeElement.5" kind="return">
+                <source language="java">
+                  <region language="java"/>
+                </source>
+              </parameterUnit>
+              <parameterUnit name="args" type="/0/@model.1/@codeElement.1" kind="unknown">
+                <source language="java">
+                  <region file="/0/@model.2/@inventoryElement.0" language="java"/>
+                </source>
+              </parameterUnit>
+            </codeElement>
+            <codeElement xsi:type="action:BlockUnit">
+              <source language="java">
+                <region file="/0/@model.2/@inventoryElement.0" language="java"/>
+              </source>
+              <codeElement xsi:type="action:ActionElement" name="for" kind="for">
+                <source language="java">
+                  <region file="/0/@model.2/@inventoryElement.0" language="java"/>
+                </source>
+                <codeElement xsi:type="action:ActionElement" name="LESS" kind="infix expression">
+                  <source language="java">
+                    <region file="/0/@model.2/@inventoryElement.0" language="java"/>
+                  </source>
+                  <codeElement xsi:type="action:ActionElement" name="variable access" kind="variable access">
+                    <actionRelation xsi:type="action:Reads" to="/0/@model.0/@codeElement.0/@codeElement.0/@codeElement.0/@codeElement.1/@codeElement.0/@codeElement.1/@codeElement.0" from="/0/@model.0/@codeElement.0/@codeElement.0/@codeElement.0/@codeElement.1/@codeElement.0/@codeElement.0"/>
+                  </codeElement>
+                  <codeElement xsi:type="code:Value" name="number literal" type="/0/@model.0/@codeElement.1/@codeElement.0" ext="10">
+                    <source language="java">
+                      <region file="/0/@model.2/@inventoryElement.0" language="java"/>
+                    </source>
+                  </codeElement>
+                </codeElement>
+                <codeElement xsi:type="action:ActionElement" name="variable declaration" kind="variable declaration">
+                  <source language="java">
+                    <region file="/0/@model.2/@inventoryElement.0" language="java"/>
+                  </source>
+                  <codeElement xsi:type="code:StorableUnit" name="i" type="/0/@model.0/@codeElement.1/@codeElement.0" kind="local">
+                    <attribute tag="export" value="none"/>
+                    <source language="java">
+                      <region file="/0/@model.2/@inventoryElement.0" language="java"/>
+                    </source>
+                    <codeRelation xsi:type="code:HasValue" to="/0/@model.1/@codeElement.2" from="/0/@model.0/@codeElement.0/@codeElement.0/@codeElement.0/@codeElement.1/@codeElement.0/@codeElement.1/@codeElement.0"/>
+                  </codeElement>
+                  <actionRelation xsi:type="action:UsesType" to="/0/@model.0/@codeElement.1/@codeElement.0" from="/0/@model.0/@codeElement.0/@codeElement.0/@codeElement.0/@codeElement.1/@codeElement.0/@codeElement.1"/>
+                </codeElement>
+                <codeElement xsi:type="action:ActionElement" name="INCREMENT" kind="postfix expression">
+                  <source language="java">
+                    <region file="/0/@model.2/@inventoryElement.0" language="java"/>
+                  </source>
+                  <codeElement xsi:type="action:ActionElement" name="variable access" kind="variable access">
+                    <actionRelation xsi:type="action:Reads" to="/0/@model.0/@codeElement.0/@codeElement.0/@codeElement.0/@codeElement.1/@codeElement.0/@codeElement.1/@codeElement.0" from="/0/@model.0/@codeElement.0/@codeElement.0/@codeElement.0/@codeElement.1/@codeElement.0/@codeElement.2"/>
+                  </codeElement>
+                </codeElement>
+                <codeElement xsi:type="action:BlockUnit">
+                  <source language="java">
+                    <region file="/0/@model.2/@inventoryElement.0" language="java"/>
+                  </source>
+                  <codeElement xsi:type="action:ActionElement" name="variable declaration" kind="variable declaration">
+                    <source language="java">
+                      <region file="/0/@model.2/@inventoryElement.0" language="java"/>
+                    </source>
+                    <codeElement xsi:type="code:StorableUnit" name="x" type="/0/@model.0/@codeElement.1/@codeElement.0" kind="local">
+                      <attribute tag="export" value="none"/>
+                      <source language="java">
+                        <region file="/0/@model.2/@inventoryElement.0" language="java"/>
+                      </source>
+                      <codeRelation xsi:type="code:HasValue" to="/0/@model.1/@codeElement.3" from="/0/@model.0/@codeElement.0/@codeElement.0/@codeElement.0/@codeElement.1/@codeElement.0/@codeElement.3/@codeElement.0/@codeElement.0"/>
+                    </codeElement>
+                  </codeElement>
+                </codeElement>
+              </codeElement>
+            </codeElement>
+          </codeElement>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:LanguageUnit" name="Common Java datatypes">
+        <codeElement xsi:type="code:IntegerType" name="int"/>
+        <codeElement xsi:type="code:IntegerType" name="long"/>
+        <codeElement xsi:type="code:FloatType" name="float"/>
+        <codeElement xsi:type="code:FloatType" name="double"/>
+        <codeElement xsi:type="code:BooleanType" name="boolean"/>
+        <codeElement xsi:type="code:VoidType" name="void"/>
+        <codeElement xsi:type="code:CharType" name="char"/>
+        <codeElement xsi:type="code:IntegerType" name="short"/>
+        <codeElement xsi:type="code:OctetType" name="byte"/>
+        <codeElement xsi:type="code:StringType" name="string"/>
+      </codeElement>
+    </model>
+    <model xsi:type="code:CodeModel" name="externals">
+      <codeElement xsi:type="code:Package" name="java">
+        <codeElement xsi:type="code:Package" name="lang">
+          <codeElement xsi:type="code:ClassUnit" name="String">
+            <source language="java">
+              <region language="java"/>
+            </source>
+            <codeRelation xsi:type="code:Implements" to="/0/@model.1/@codeElement.0/@codeElement.1/@codeElement.0" from="/0/@model.1/@codeElement.0/@codeElement.0/@codeElement.0"/>
+            <codeRelation xsi:type="code:Implements" to="/0/@model.1/@codeElement.0/@codeElement.0/@codeElement.1" from="/0/@model.1/@codeElement.0/@codeElement.0/@codeElement.0"/>
+            <codeRelation xsi:type="code:Implements" to="/0/@model.1/@codeElement.0/@codeElement.0/@codeElement.2" from="/0/@model.1/@codeElement.0/@codeElement.0/@codeElement.0"/>
+          </codeElement>
+          <codeElement xsi:type="code:TemplateUnit" name="Comparable&lt;T>">
+            <codeElement xsi:type="code:TemplateParameter" name="T"/>
+            <codeElement xsi:type="code:InterfaceUnit" name="Comparable">
+              <source language="java">
+                <region language="java"/>
+              </source>
+            </codeElement>
+          </codeElement>
+          <codeElement xsi:type="code:InterfaceUnit" name="CharSequence">
+            <source language="java">
+              <region language="java"/>
+            </source>
+          </codeElement>
+        </codeElement>
+        <codeElement xsi:type="code:Package" name="io">
+          <codeElement xsi:type="code:InterfaceUnit" name="Serializable">
+            <source language="java">
+              <region language="java"/>
+            </source>
+          </codeElement>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:ArrayType" name="java.lang.String[]" size="1">
+        <itemUnit type="/0/@model.1/@codeElement.0/@codeElement.0/@codeElement.0"/>
+        <indexUnit type="/0/@model.0/@codeElement.1/@codeElement.0"/>
+      </codeElement>
+      <codeElement xsi:type="code:Value" name="number literal" type="/0/@model.0/@codeElement.1/@codeElement.0" ext="0">
+        <source language="java">
+          <region file="/0/@model.2/@inventoryElement.0" language="java"/>
+        </source>
+      </codeElement>
+      <codeElement xsi:type="action:ActionElement" name="PLUS" kind="infix expression">
+        <source language="java">
+          <region file="/0/@model.2/@inventoryElement.0" language="java"/>
+        </source>
+        <codeElement xsi:type="action:ActionElement" name="variable access" kind="variable access">
+          <actionRelation xsi:type="action:Reads" to="/0/@model.0/@codeElement.0/@codeElement.0/@codeElement.0/@codeElement.1/@codeElement.0/@codeElement.1/@codeElement.0" from="/0/@model.1/@codeElement.3"/>
+        </codeElement>
+        <codeElement xsi:type="code:Value" name="number literal" type="/0/@model.0/@codeElement.1/@codeElement.0" ext="3">
+          <source language="java">
+            <region file="/0/@model.2/@inventoryElement.0" language="java"/>
+          </source>
+        </codeElement>
+      </codeElement>
+    </model>
+    <model xsi:type="source:InventoryModel" name="source references">
+      <inventoryElement xsi:type="source:SourceFile" name="LoopTestClass.java" path="C:\Users\ffi\runtime-org.cloudmig.cloudmigxpress.product\CloudMIGXpressTmpJavaProject1325947738162\src\main\testpackage\LoopTestClass.java" language="java"/>
+    </model>
+    <model xsi:type="source:InventoryModel" name="CloudMIGXpressTmpJavaProject1325947738162">
+      <inventoryElement xsi:type="source:Directory" name="CloudMIGXpressTmpJavaProject1325947738162" path="C:\Users\ffi\runtime-org.cloudmig.cloudmigxpress.product\CloudMIGXpressTmpJavaProject1325947738162">
+        <inventoryElement xsi:type="source:Configuration" name=".classpath" path="C:\Users\ffi\runtime-org.cloudmig.cloudmigxpress.product\CloudMIGXpressTmpJavaProject1325947738162\.classpath"/>
+        <inventoryElement xsi:type="source:Configuration" name=".project" path="C:\Users\ffi\runtime-org.cloudmig.cloudmigxpress.product\CloudMIGXpressTmpJavaProject1325947738162\.project"/>
+        <inventoryElement xsi:type="source:Directory" name="bin" path="C:\Users\ffi\runtime-org.cloudmig.cloudmigxpress.product\CloudMIGXpressTmpJavaProject1325947738162\bin"/>
+        <inventoryElement xsi:type="source:Directory" name="lib" path="C:\Users\ffi\runtime-org.cloudmig.cloudmigxpress.product\CloudMIGXpressTmpJavaProject1325947738162\lib"/>
+        <inventoryElement xsi:type="source:Directory" name="src" path="C:\Users\ffi\runtime-org.cloudmig.cloudmigxpress.product\CloudMIGXpressTmpJavaProject1325947738162\src">
+          <inventoryElement xsi:type="source:Directory" name="main" path="C:\Users\ffi\runtime-org.cloudmig.cloudmigxpress.product\CloudMIGXpressTmpJavaProject1325947738162\src\main">
+            <inventoryElement xsi:type="source:Directory" name="testpackage" path="C:\Users\ffi\runtime-org.cloudmig.cloudmigxpress.product\CloudMIGXpressTmpJavaProject1325947738162\src\main\testpackage">
+              <inventoryElement xsi:type="source:SourceFile" name="LoopTestClass.java" path="C:\Users\ffi\runtime-org.cloudmig.cloudmigxpress.product\CloudMIGXpressTmpJavaProject1325947738162\src\main\testpackage\LoopTestClass.java"/>
+            </inventoryElement>
+          </inventoryElement>
+          <inventoryElement xsi:type="source:Directory" name="misc" path="C:\Users\ffi\runtime-org.cloudmig.cloudmigxpress.product\CloudMIGXpressTmpJavaProject1325947738162\src\misc"/>
+        </inventoryElement>
+      </inventoryElement>
+    </model>
+  </kdm:Segment>
+  <kdm:Attribute tag="export" value="none"/>
+</xmi:XMI>

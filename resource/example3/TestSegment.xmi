@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kdm:Segment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:code="http://schema.omg.org/spec/KDM/1.2/code"
+	xmlns:kdm="http://schema.omg.org/spec/KDM/1.2/kdm" name="Test segment">
+	<model xsi:type="code:CodeModel" name="Test code model">
+		<codeElement xsi:type="code:Package" name="Test package">
+			<codeElement xsi:type="code:ClassUnit" name="TestClass"
+				isAbstract="false">
+				<attribute tag="TestClassTag" value="example name" />
+				<codeRelation xsi:type="code:Extends" />
+			</codeElement>
+		</codeElement>
+	</model>
+</kdm:Segment>

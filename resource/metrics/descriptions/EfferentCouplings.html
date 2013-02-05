@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Efferent Couplings</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+		<link href="../style.css" type="text/css" rel="STYLESHEET"/>
+	</head>
+	<body>
+		<h1>Efferent Couplings
+        	<span id="logo"><a href="http://eclipse-metrics.sourceforge.net"> <img src="../images/logo.gif" border="0" alt="Metrics Logo"/></a></span>
+        </h1>
+		<p>This metric is a measure of the number of types the class being measured 'knows' about. This includes: inheritance, interface implementation, 
+			parameter types, variable types, thrown and caught exceptions. In short, all types referred to anywhere within the source of the measured 
+			class.</p>
+		<p>A large efferent coupling can indicate that a class is unfocussed and also may indicate brittleness, since it depends on the stability of all 
+			the types to which it is coupled. When used to measure couplings between packages (coming in a later release) this measure can be used together 
+			with others to calculate 'abstractness', 'stability' and 'distance from the main line'.</p>
+		<p>Efferent coupling can be reduced by extracing classes from the original class (<i>i.e.</i> decomposing the class into smaller classes).</p>
+		<hr/>
+        <div class="attribution">
+    		This plugin is provided by <a href="http://www.stateofflow.com" title="State Of Flow homepage">State Of Flow</a>
+    	</div>
+	</body>
+</html>

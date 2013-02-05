@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code:ClassUnit xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:code="http://schema.omg.org/spec/KDM/1.2/code" name="TestClass" isAbstract="false">
+  <attribute tag="TestClassTag" value="example name"/>
+  <codeRelation xsi:type="code:Extends"/>
+</code:ClassUnit>

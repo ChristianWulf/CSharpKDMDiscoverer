@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>Lack of Cohesion in Methods - Pairwise Field Irrelation</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <link href="../../style.css" type="text/css" rel="STYLESHEET"/>
+    </head>
+    <body>
+        <h1>Pairwise Field Irrelation
+        	<span id="logo"><a href="http://eclipse-metrics.sourceforge.net"> <img src="../../images/logo.gif" border="0" alt="Metrics Logo"/></a></span>
+        </h1>
+        <p>Let:</p>
+        <blockquote>
+            <table>
+                <tr>
+                    <td><b>M</b>
+                    </td>
+                    <td>be the set of methods defined by the class</td>
+                </tr>
+                <tr>
+                    <td><b>F</b>
+                    </td>
+                    <td>be the set of fields defined by the class</td>
+                </tr>
+                <tr>
+                    <td><i><b>M</b><sub>f</sub></i>
+                    </td>
+                    <td>be the subset of M of methods that access field <i>f</i>, where <i>f</i> is a member of <b>F</b></td>
+                </tr>
+            </table>
+        </blockquote>
+        <p>Then, the Total Field Irrelation is the mean
+        	<a href="http://en.wikipedia.org/wiki/Jaccard_distance" title="Wikipedia page about the Jaccard Distance">Jaccard Distance</a> between
+        	<i><b>M</b><sub>f<sub>1</sub></sub></i> and <i><b>M</b><sub>f<sub>2</sub></sub></i>, where <i>f<sub>1</sub></i>&nbsp;&#8800;&nbsp;<i>f<sub>2</sub></i>.</p>
+        <hr/>
+        <p><b>Note 1:</b> I have only included methods if they access at least one field.</p>
+        <p><b>Note 2:</b> I have only included fields if they are accessed by at least one method in the class.</p>
+        <hr/>
+        <div class="attribution">
+    		This plugin is provided by <a href="http://www.stateofflow.com" title="State Of Flow homepage">State Of Flow</a>
+    	</div>
+    </body>
+</html>

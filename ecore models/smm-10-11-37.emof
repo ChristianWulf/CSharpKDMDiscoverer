@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emof:Package xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:emof="http://schema.omg.org/spec/MOF/2.0/emof.xml" xmi:id="smm"
+    name="smm" uri="http://schema.omg.org/spec/SMM/1.0">
+  <ownedType xmi:type="emof:Class" xmi:id="smm.AbstractMeasureElement" name="AbstractMeasureElement"
+      isAbstract="true" superClass="smm.SmmElement"/>
+  <ownedType xmi:type="emof:Enumeration" xmi:id="smm.Accumulator" name="Accumulator">
+    <ownedLiteral xmi:id="smm.Accumulator.sum" name="sum"/>
+    <ownedLiteral xmi:id="smm.Accumulator.maximum" name="maximum">
+    </ownedLiteral>
+    <ownedLiteral xmi:id="smm.Accumulator.minimum" name="minimum">
+    </ownedLiteral>
+    <ownedLiteral xmi:id="smm.Accumulator.average" name="average">
+    </ownedLiteral>
+    <ownedLiteral xmi:id="smm.Accumulator.standardDeviation" name="standardDeviation"
+        literal="standardDeviation">
+    </ownedLiteral>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.Annotation" name="Annotation" superClass="smm.SmmElement">
+    <ownedAttribute xmi:id="smm.Annotation.text" name="text" isOrdered="true" type="smm.String"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.Argument" name="Argument" superClass="smm.SmmElement">
+    <ownedAttribute xmi:id="smm.Argument.type" name="type" isOrdered="true" lower="0"
+        type="smm.String"/>
+    <ownedAttribute xmi:id="smm.Argument.value" name="value" isOrdered="true" lower="0"
+        type="smm.String"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.Attribute" name="Attribute" superClass="smm.SmmElement">
+    <ownedAttribute xmi:id="smm.Attribute.tag" name="tag" isOrdered="true" type="smm.String"/>
+    <ownedAttribute xmi:id="smm.Attribute.value" name="value" isOrdered="true" type="smm.String"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.Base1MeasureRelationship" name="Base1MeasureRelationship"
+      superClass="smm.MeasureRelationship">
+    <ownedAttribute xmi:id="smm.Base1MeasureRelationship.from" name="from" isOrdered="true"
+        type="smm.BinaryMeasure" opposite="smm.BinaryMeasure.baseMeasure1To"/>
+    <ownedAttribute xmi:id="smm.Base1MeasureRelationship.to" name="to" isOrdered="true"
+        type="smm.DimensionalMeasure" opposite="smm.DimensionalMeasure.baseMeasure1From"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.Base1MeasurementRelationship" name="Base1MeasurementRelationship"
+      superClass="smm.MeasurementRelationship">
+    <ownedAttribute xmi:id="smm.Base1MeasurementRelationship.from" name="from" isOrdered="true"
+        type="smm.BinaryMeasurement" opposite="smm.BinaryMeasurement.baseMeasurement1To"/>
+    <ownedAttribute xmi:id="smm.Base1MeasurementRelationship.to" name="to" isOrdered="true"
+        type="smm.DimensionalMeasurement" opposite="smm.DimensionalMeasurement.baseMeasurement1From"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.Base2MeasureRelationship" name="Base2MeasureRelationship"
+      superClass="smm.MeasureRelationship">
+    <ownedAttribute xmi:id="smm.Base2MeasureRelationship.from" name="from" isOrdered="true"
+        type="smm.BinaryMeasure" opposite="smm.BinaryMeasure.baseMeasure2To"/>
+    <ownedAttribute xmi:id="smm.Base2MeasureRelationship.to" name="to" isOrdered="true"
+        type="smm.DimensionalMeasure" opposite="smm.DimensionalMeasure.baseMeasure2From"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.Base2MeasurementRelationship" name="Base2MeasurementRelationship"
+      superClass="smm.MeasurementRelationship">
+    <ownedAttribute xmi:id="smm.Base2MeasurementRelationship.from" name="from" isOrdered="true"
+        type="smm.BinaryMeasurement" opposite="smm.BinaryMeasurement.baseMeasurement2To"/>
+    <ownedAttribute xmi:id="smm.Base2MeasurementRelationship.to" name="to" isOrdered="true"
+        type="smm.DimensionalMeasurement" opposite="smm.DimensionalMeasurement.baseMeasurement2From"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.BaseMeasureRelationship" name="BaseMeasureRelationship"
+      superClass="smm.MeasureRelationship">
+    <ownedAttribute xmi:id="smm.BaseMeasureRelationship.from" name="from" isOrdered="true"
+        type="smm.CollectiveMeasure" opposite="smm.CollectiveMeasure.baseMeasureTo"/>
+    <ownedAttribute xmi:id="smm.BaseMeasureRelationship.to" name="to" isOrdered="true"
+        type="smm.DimensionalMeasure" opposite="smm.DimensionalMeasure.baseMeasureFrom"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.BaseMeasurementRelationship" name="BaseMeasurementRelationship"
+      superClass="smm.MeasurementRelationship">
+    <ownedAttribute xmi:id="smm.BaseMeasurementRelationship.from" name="from" isOrdered="true"
+        type="smm.CollectiveMeasurement" opposite="smm.CollectiveMeasurement.baseMeasurementTo"/>
+    <ownedAttribute xmi:id="smm.BaseMeasurementRelationship.to" name="to" isOrdered="true"
+        type="smm.DimensionalMeasurement" opposite="smm.DimensionalMeasurement.baseMeasurementFrom"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.BinaryMeasure" name="BinaryMeasure"
+      superClass="smm.DimensionalMeasure">
+    <ownedAttribute xmi:id="smm.BinaryMeasure.functor" name="functor" isOrdered="true"
+        type="smm.String"/>
+    <ownedAttribute xmi:id="smm.BinaryMeasure.baseMeasure1To" name="baseMeasure1To"
+        isOrdered="true" type="smm.Base1MeasureRelationship" opposite="smm.Base1MeasureRelationship.from"/>
+    <ownedAttribute xmi:id="smm.BinaryMeasure.baseMeasure2To" name="baseMeasure2To"
+        isOrdered="true" type="smm.Base2MeasureRelationship" opposite="smm.Base2MeasureRelationship.from"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.BinaryMeasurement" name="BinaryMeasurement"
+      superClass="smm.DimensionalMeasurement">
+    <ownedAttribute xmi:id="smm.BinaryMeasurement.baseMeasurement1To" name="baseMeasurement1To"
+        isOrdered="true" lower="0" type="smm.Base1MeasurementRelationship" isComposite="true"
+        opposite="smm.Base1MeasurementRelationship.from"/>
+    <ownedAttribute xmi:id="smm.BinaryMeasurement.baseMeasurement2To" name="baseMeasurement2To"
+        isOrdered="true" lower="0" type="smm.Base2MeasurementRelationship" isComposite="true"
+        opposite="smm.Base2MeasurementRelationship.from"/>
+    <ownedAttribute xmi:id="smm.BinaryMeasurement.isBaseSupplied" name="isBaseSupplied"
+        isOrdered="true" type="smm.Boolean"/>
+  </ownedType>
+  <ownedType xmi:type="emof:PrimitiveType" xmi:id="smm.Boolean" name="Boolean">
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.CategoryRelationship" name="CategoryRelationship"
+      superClass="smm.SmmRelationship">
+    <ownedAttribute xmi:id="smm.CategoryRelationship.from" name="from" isOrdered="true"
+        type="smm.MeasureCategory"/>
+    <ownedAttribute xmi:id="smm.CategoryRelationship.to" name="to" isOrdered="true"
+        type="smm.AbstractMeasureElement"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.Characteristic" name="Characteristic"
+      superClass="smm.AbstractMeasureElement">
+    <ownedAttribute xmi:id="smm.Characteristic.parent" name="parent" isOrdered="true"
+        lower="0" type="smm.Characteristic"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.CollectiveMeasure" name="CollectiveMeasure"
+      superClass="smm.DimensionalMeasure">
+    <ownedAttribute xmi:id="smm.CollectiveMeasure.accumulator" name="accumulator"
+        isOrdered="true" type="smm.Accumulator"/>
+    <ownedAttribute xmi:id="smm.CollectiveMeasure.baseMeasureTo" name="baseMeasureTo"
+        isOrdered="true" upper="*" type="smm.BaseMeasureRelationship" opposite="smm.BaseMeasureRelationship.from"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.CollectiveMeasurement" name="CollectiveMeasurement"
+      superClass="smm.DimensionalMeasurement">
+    <ownedAttribute xmi:id="smm.CollectiveMeasurement.accumulator" name="accumulator"
+        isOrdered="true" type="smm.Accumulator"/>
+    <ownedAttribute xmi:id="smm.CollectiveMeasurement.isBaseSupplied" name="isBaseSupplied"
+        isOrdered="true" type="smm.Boolean"/>
+    <ownedAttribute xmi:id="smm.CollectiveMeasurement.baseMeasurementTo" name="baseMeasurementTo"
+        isOrdered="true" lower="0" upper="*" type="smm.BaseMeasurementRelationship"
+        opposite="smm.BaseMeasurementRelationship.from"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.Count" name="Count" superClass="smm.DirectMeasurement"/>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.Counting" name="Counting" superClass="smm.DirectMeasure"/>
+  <ownedType xmi:type="emof:PrimitiveType" xmi:id="smm.Date" name="Date">
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.DimensionalMeasure" name="DimensionalMeasure"
+      superClass="smm.Measure">
+    <ownedAttribute xmi:id="smm.DimensionalMeasure.unit" name="unit" isOrdered="true"
+        type="smm.String"/>
+    <ownedAttribute xmi:id="smm.DimensionalMeasure.baseMeasureFrom" name="baseMeasureFrom"
+        isOrdered="true" lower="0" upper="*" type="smm.BaseMeasureRelationship" opposite="smm.BaseMeasureRelationship.to"/>
+    <ownedAttribute xmi:id="smm.DimensionalMeasure.baseMeasure1From" name="baseMeasure1From"
+        isOrdered="true" lower="0" upper="*" type="smm.Base1MeasureRelationship" opposite="smm.Base1MeasureRelationship.to"/>
+    <ownedAttribute xmi:id="smm.DimensionalMeasure.baseMeasure2From" name="baseMeasure2From"
+        isOrdered="true" lower="0" upper="*" type="smm.Base2MeasureRelationship" opposite="smm.Base2MeasureRelationship.to"/>
+    <ownedAttribute xmi:id="smm.DimensionalMeasure.rescaleTo" name="rescaleTo" isOrdered="true"
+        lower="0" upper="*" type="smm.RescaleMeasureRelationship" opposite="smm.RescaleMeasureRelationship.from"/>
+    <ownedAttribute xmi:id="smm.DimensionalMeasure.rankingFrom" name="rankingFrom"
+        isOrdered="true" lower="0" upper="*" type="smm.RankingMeasureRelationship"
+        opposite="smm.RankingMeasureRelationship.to"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.DimensionalMeasurement" name="DimensionalMeasurement"
+      isAbstract="true" superClass="smm.Measurement">
+    <ownedAttribute xmi:id="smm.DimensionalMeasurement.value" name="value" isOrdered="true"
+        lower="0" type="smm.Double"/>
+    <ownedAttribute xmi:id="smm.DimensionalMeasurement.baseMeasurementFrom" name="baseMeasurementFrom"
+        isOrdered="true" lower="0" upper="*" type="smm.BaseMeasurementRelationship"
+        opposite="smm.BaseMeasurementRelationship.to"/>
+    <ownedAttribute xmi:id="smm.DimensionalMeasurement.baseMeasurement1From" name="baseMeasurement1From"
+        isOrdered="true" lower="0" upper="*" type="smm.Base1MeasurementRelationship"
+        opposite="smm.Base1MeasurementRelationship.to"/>
+    <ownedAttribute xmi:id="smm.DimensionalMeasurement.baseMeasurement2From" name="baseMeasurement2From"
+        isOrdered="true" lower="0" upper="*" type="smm.Base2MeasurementRelationship"
+        opposite="smm.Base2MeasurementRelationship.to"/>
+    <ownedAttribute xmi:id="smm.DimensionalMeasurement.rescaleTo" name="rescaleTo"
+        isOrdered="true" lower="0" upper="*" type="smm.RescaleMeasurementRelationship"
+        opposite="smm.RescaleMeasurementRelationship.from"/>
+    <ownedAttribute xmi:id="smm.DimensionalMeasurement.rankingFrom" name="rankingFrom"
+        isOrdered="true" lower="0" upper="*" type="smm.RankingMeasurementRelationship"
+        opposite="smm.RankingMeasurementRelationship.to"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.DirectMeasure" name="DirectMeasure"
+      superClass="smm.DimensionalMeasure">
+    <ownedAttribute xmi:id="smm.DirectMeasure.operation" name="operation" isOrdered="true"
+        lower="0" type="smm.Operation"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.DirectMeasurement" name="DirectMeasurement"
+      superClass="smm.DimensionalMeasurement"/>
+  <ownedType xmi:type="emof:PrimitiveType" xmi:id="smm.Double" name="Double">
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.EquivalentMeasureRelationship" name="EquivalentMeasureRelationship"
+      superClass="smm.MeasureRelationship">
+    <ownedAttribute xmi:id="smm.EquivalentMeasureRelationship.mapping" name="mapping"
+        isOrdered="true" lower="0" type="smm.Operation"/>
+    <ownedAttribute xmi:id="smm.EquivalentMeasureRelationship.from" name="from" isOrdered="true"
+        type="smm.Measure" opposite="smm.Measure.equivalentTo"/>
+    <ownedAttribute xmi:id="smm.EquivalentMeasureRelationship.to" name="to" isOrdered="true"
+        type="smm.Measure" opposite="smm.Measure.equivalentFrom"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.EquivalentMeasurementRelationship"
+      name="EquivalentMeasurementRelationship" superClass="smm.MeasurementRelationship">
+    <ownedAttribute xmi:id="smm.EquivalentMeasurementRelationship.from" name="from"
+        isOrdered="true" type="smm.Measurement" opposite="smm.Measurement.equivalentTo"/>
+    <ownedAttribute xmi:id="smm.EquivalentMeasurementRelationship.to" name="to" isOrdered="true"
+        type="smm.Measurement" opposite="smm.Measurement.equivalentFrom"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.Grade" name="Grade" superClass="smm.Measurement">
+    <ownedAttribute xmi:id="smm.Grade.isBaseSupplied" name="isBaseSupplied" isOrdered="true"
+        type="smm.Boolean"/>
+    <ownedAttribute xmi:id="smm.Grade.value" name="value" isOrdered="true" lower="0"
+        type="smm.String"/>
+    <ownedAttribute xmi:id="smm.Grade.rankingTo" name="rankingTo" isOrdered="true"
+        lower="0" type="smm.RankingMeasurementRelationship" opposite="smm.RankingMeasurementRelationship.from"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.Measure" name="Measure" isAbstract="true"
+      superClass="smm.AbstractMeasureElement">
+    <ownedOperation xmi:id="smm.Measure.getArguments" name="getArguments" isOrdered="true"
+        lower="0" upper="*" type="smm.Argument"/>
+    <ownedOperation xmi:id="smm.Measure.getAllArguments" name="getAllArguments" isOrdered="true"
+        lower="0" upper="*" type="smm.Argument"/>
+    <ownedAttribute xmi:id="smm.Measure.category" name="category" isOrdered="true"
+        lower="0" upper="*" type="smm.MeasureCategory" opposite="smm.MeasureCategory.categoryMeasure"/>
+    <ownedAttribute xmi:id="smm.Measure.trait" name="trait" isOrdered="true" type="smm.Characteristic"/>
+    <ownedAttribute xmi:id="smm.Measure.scope" name="scope" isOrdered="true" type="smm.Scope"/>
+    <ownedAttribute xmi:id="smm.Measure.measureLabelFormat" name="measureLabelFormat"
+        isOrdered="true" lower="0" type="smm.String"/>
+    <ownedAttribute xmi:id="smm.Measure.refinementTo" name="refinementTo" isOrdered="true"
+        lower="0" upper="*" type="smm.RefinementMeasureRelationship" opposite="smm.RefinementMeasureRelationship.from"/>
+    <ownedAttribute xmi:id="smm.Measure.refinementFrom" name="refinementFrom" isOrdered="true"
+        lower="0" upper="*" type="smm.RefinementMeasureRelationship" opposite="smm.RefinementMeasureRelationship.to"/>
+    <ownedAttribute xmi:id="smm.Measure.equivalentTo" name="equivalentTo" isOrdered="true"
+        lower="0" upper="*" type="smm.EquivalentMeasureRelationship" opposite="smm.EquivalentMeasureRelationship.from"/>
+    <ownedAttribute xmi:id="smm.Measure.equivalentFrom" name="equivalentFrom" isOrdered="true"
+        lower="0" upper="*" type="smm.EquivalentMeasureRelationship" opposite="smm.EquivalentMeasureRelationship.to"/>
+    <ownedAttribute xmi:id="smm.Measure.recursiveTo" name="recursiveTo" isOrdered="true"
+        lower="0" type="smm.RecursiveMeasureRelationship" opposite="smm.RecursiveMeasureRelationship.from"/>
+    <ownedAttribute xmi:id="smm.Measure.recursiveFrom" name="recursiveFrom" isOrdered="true"
+        lower="0" type="smm.RecursiveMeasureRelationship" opposite="smm.RecursiveMeasureRelationship.to"/>
+    <ownedAttribute xmi:id="smm.Measure.measurementLabelFormat" name="measurementLabelFormat"
+        isOrdered="true" lower="0" type="smm.String"/>
+    <ownedAttribute xmi:id="smm.Measure.visible" name="visible" isOrdered="true" lower="0"
+        type="smm.Boolean" default="true"/>
+    <ownedAttribute xmi:id="smm.Measure.measureRelationships" name="measureRelationships"
+        isOrdered="true" lower="0" upper="*" type="smm.MeasureRelationship" isComposite="true"/>
+    <ownedAttribute xmi:id="smm.Measure.defaultQuery" name="defaultQuery" isOrdered="true"
+        lower="0" type="smm.Operation"/>
+    <ownedAttribute xmi:id="smm.Measure.inbound" name="inbound" isOrdered="true" lower="0"
+        upper="*" type="smm.MeasureRelationship">
+    </ownedAttribute>
+    <ownedAttribute xmi:id="smm.Measure.outbound" name="outbound" isOrdered="true"
+        lower="0" upper="*" type="smm.MeasureRelationship">
+    </ownedAttribute>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.MeasureCategory" name="MeasureCategory"
+      superClass="smm.AbstractMeasureElement">
+    <ownedAttribute xmi:id="smm.MeasureCategory.category" name="category" isOrdered="true"
+        lower="0" upper="*" type="smm.MeasureCategory" opposite="smm.MeasureCategory.categoryElement"/>
+    <ownedAttribute xmi:id="smm.MeasureCategory.categoryElement" name="categoryElement"
+        isOrdered="true" lower="0" upper="*" type="smm.MeasureCategory" opposite="smm.MeasureCategory.category"/>
+    <ownedAttribute xmi:id="smm.MeasureCategory.categoryMeasure" name="categoryMeasure"
+        isOrdered="true" lower="0" upper="*" type="smm.Measure" opposite="smm.Measure.category"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.MeasureLibrary" name="MeasureLibrary"
+      superClass="smm.SmmElement">
+    <ownedOperation xmi:id="smm.MeasureLibrary.getOperations" name="getOperations"
+        isOrdered="true" lower="0" upper="*" type="smm.AbstractMeasureElement"/>
+    <ownedOperation xmi:id="smm.MeasureLibrary.getOclOperations" name="getOclOperations"
+        isOrdered="true" lower="0" upper="*" type="smm.AbstractMeasureElement"/>
+    <ownedAttribute xmi:id="smm.MeasureLibrary.measureElements" name="measureElements"
+        isOrdered="true" lower="0" upper="*" type="smm.AbstractMeasureElement" isComposite="true"/>
+    <ownedAttribute xmi:id="smm.MeasureLibrary.categoryRelationships" name="categoryRelationships"
+        isOrdered="true" lower="0" upper="*" type="smm.CategoryRelationship" isComposite="true"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.MeasureRelationship" name="MeasureRelationship"
+      isAbstract="true" superClass="smm.SmmRelationship">
+    <ownedAttribute xmi:id="smm.MeasureRelationship.measurandQuery" name="measurandQuery"
+        isOrdered="true" lower="0" type="smm.Operation"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.Measurement" name="Measurement" isAbstract="true"
+      superClass="smm.SmmElement">
+    <ownedOperation xmi:id="smm.Measurement.getMeasureLabel" name="getMeasureLabel"
+        isOrdered="true" lower="0" type="smm.String"/>
+    <ownedOperation xmi:id="smm.Measurement.getMeasurementLabel" name="getMeasurementLabel"
+        isOrdered="true" lower="0" type="smm.String"/>
+    <ownedAttribute xmi:id="smm.Measurement.error" name="error" isOrdered="true" lower="0"
+        type="smm.String"/>
+    <ownedAttribute xmi:id="smm.Measurement.measurand" name="measurand" isOrdered="true"
+        lower="0" type="smm.MofElement"/>
+    <ownedAttribute xmi:id="smm.Measurement.breakValue" name="breakValue" isOrdered="true"
+        lower="0" type="smm.String"/>
+    <ownedAttribute xmi:id="smm.Measurement.refinementTo" name="refinementTo" isOrdered="true"
+        lower="0" upper="*" type="smm.RefinementMeasurementRelationship" opposite="smm.RefinementMeasurementRelationship.from"/>
+    <ownedAttribute xmi:id="smm.Measurement.refinementFrom" name="refinementFrom"
+        isOrdered="true" lower="0" upper="*" type="smm.RefinementMeasurementRelationship"
+        opposite="smm.RefinementMeasurementRelationship.to"/>
+    <ownedAttribute xmi:id="smm.Measurement.equivalentTo" name="equivalentTo" isOrdered="true"
+        lower="0" upper="*" type="smm.EquivalentMeasurementRelationship" opposite="smm.EquivalentMeasurementRelationship.from"/>
+    <ownedAttribute xmi:id="smm.Measurement.equivalentFrom" name="equivalentFrom"
+        isOrdered="true" lower="0" upper="*" type="smm.EquivalentMeasurementRelationship"
+        opposite="smm.EquivalentMeasurementRelationship.to"/>
+    <ownedAttribute xmi:id="smm.Measurement.recursiveTo" name="recursiveTo" isOrdered="true"
+        lower="0" type="smm.RecursiveMeasurementRelationship" opposite="smm.RecursiveMeasurementRelationship.from"/>
+    <ownedAttribute xmi:id="smm.Measurement.recursiveFrom" name="recursiveFrom" isOrdered="true"
+        lower="0" type="smm.RecursiveMeasurementRelationship" opposite="smm.RecursiveMeasurementRelationship.to"/>
+    <ownedAttribute xmi:id="smm.Measurement.measurementRelationships" name="measurementRelationships"
+        isOrdered="true" lower="0" upper="*" type="smm.MeasurementRelationship" isComposite="true"/>
+    <ownedAttribute xmi:id="smm.Measurement.inbound" name="inbound" isOrdered="true"
+        lower="0" upper="*" type="smm.MeasurementRelationship">
+    </ownedAttribute>
+    <ownedAttribute xmi:id="smm.Measurement.outbound" name="outbound" isOrdered="true"
+        lower="0" upper="*" type="smm.MeasurementRelationship">
+    </ownedAttribute>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.MeasurementRelationship" name="MeasurementRelationship"
+      isAbstract="true" superClass="smm.SmmRelationship">
+    <ownedOperation xmi:id="smm.MeasurementRelationship.getTo" name="getTo" isOrdered="true"
+        type="smm.Measurement"/>
+    <ownedOperation xmi:id="smm.MeasurementRelationship.getFrom" name="getFrom" isOrdered="true"
+        type="smm.Measurement"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.MofElement" name="MofElement"/>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.NamedMeasure" name="NamedMeasure" superClass="smm.DimensionalMeasure"/>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.NamedMeasurement" name="NamedMeasurement"
+      superClass="smm.DimensionalMeasurement"/>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.OCLOperation" name="OCLOperation" superClass="smm.AbstractMeasureElement">
+    <ownedAttribute xmi:id="smm.OCLOperation.context" name="context" isOrdered="true"
+        lower="0" type="smm.String"/>
+    <ownedAttribute xmi:id="smm.OCLOperation.body" name="body" isOrdered="true" lower="0"
+        type="smm.String"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.Observation" name="Observation" superClass="smm.SmmElement">
+    <ownedAttribute xmi:id="smm.Observation.observer" name="observer" isOrdered="true"
+        lower="0" type="smm.String"/>
+    <ownedAttribute xmi:id="smm.Observation.tool" name="tool" isOrdered="true" lower="0"
+        type="smm.String"/>
+    <ownedAttribute xmi:id="smm.Observation.whenObserved" name="whenObserved" isOrdered="true"
+        lower="0" type="smm.Date"/>
+    <ownedAttribute xmi:id="smm.Observation.scopes" name="scopes" isOrdered="true"
+        lower="0" upper="*" type="smm.ObservationScope" isComposite="true"/>
+    <ownedAttribute xmi:id="smm.Observation.observedMeasures" name="observedMeasures"
+        isOrdered="true" lower="0" upper="*" type="smm.ObservedMeasure" isComposite="true"/>
+    <ownedAttribute xmi:id="smm.Observation.requestedMeasures" name="requestedMeasures"
+        isOrdered="true" lower="0" upper="*" type="smm.SmmElement"/>
+    <ownedAttribute xmi:id="smm.Observation.measurementRelations" name="measurementRelations"
+        isOrdered="true" lower="0" upper="*" type="smm.SmmRelationship" isComposite="true"/>
+    <ownedAttribute xmi:id="smm.Observation.arguments" name="arguments" isOrdered="true"
+        lower="0" upper="*" type="smm.Argument" isComposite="true"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.ObservationScope" name="ObservationScope"
+      superClass="smm.SmmElement">
+    <ownedAttribute xmi:id="smm.ObservationScope.scopeUri" name="scopeUri" isOrdered="true"
+        type="smm.String"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.ObservedMeasure" name="ObservedMeasure"
+      superClass="smm.SmmRelationship">
+    <ownedAttribute xmi:id="smm.ObservedMeasure.measure" name="measure" isOrdered="true"
+        type="smm.Measure"/>
+    <ownedAttribute xmi:id="smm.ObservedMeasure.measurements" name="measurements"
+        isOrdered="true" lower="0" upper="*" type="smm.Measurement" isComposite="true"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.Operation" name="Operation" superClass="smm.AbstractMeasureElement">
+    <ownedOperation xmi:id="smm.Operation.getParamStrings" name="getParamStrings"
+        isOrdered="true" lower="0" upper="*" type="smm.String"/>
+    <ownedAttribute xmi:id="smm.Operation.language" name="language" isOrdered="true"
+        lower="0" type="smm.String"/>
+    <ownedAttribute xmi:id="smm.Operation.body" name="body" isOrdered="true" lower="0"
+        type="smm.String"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.Ranking" name="Ranking" superClass="smm.Measure">
+    <ownedAttribute xmi:id="smm.Ranking.interval" name="interval" isOrdered="true"
+        upper="*" type="smm.RankingInterval" isComposite="true"/>
+    <ownedAttribute xmi:id="smm.Ranking.rankingTo" name="rankingTo" isOrdered="true"
+        lower="0" type="smm.RankingMeasureRelationship" opposite="smm.RankingMeasureRelationship.from"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.RankingInterval" name="RankingInterval"
+      superClass="smm.SmmElement">
+    <ownedAttribute xmi:id="smm.RankingInterval.maximumEndpoint" name="maximumEndpoint"
+        isOrdered="true" type="smm.Double"/>
+    <ownedAttribute xmi:id="smm.RankingInterval.maximumOpen" name="maximumOpen" isOrdered="true"
+        lower="0" type="smm.Boolean"/>
+    <ownedAttribute xmi:id="smm.RankingInterval.minimumEndpoint" name="minimumEndpoint"
+        isOrdered="true" type="smm.Double"/>
+    <ownedAttribute xmi:id="smm.RankingInterval.minimumOpen" name="minimumOpen" isOrdered="true"
+        lower="0" type="smm.Boolean"/>
+    <ownedAttribute xmi:id="smm.RankingInterval.symbol" name="symbol" isOrdered="true"
+        type="smm.String"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.RankingMeasureRelationship" name="RankingMeasureRelationship"
+      superClass="smm.MeasureRelationship">
+    <ownedAttribute xmi:id="smm.RankingMeasureRelationship.from" name="from" isOrdered="true"
+        type="smm.Ranking" opposite="smm.Ranking.rankingTo"/>
+    <ownedAttribute xmi:id="smm.RankingMeasureRelationship.to" name="to" isOrdered="true"
+        type="smm.DimensionalMeasure" opposite="smm.DimensionalMeasure.rankingFrom"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.RankingMeasurementRelationship" name="RankingMeasurementRelationship"
+      superClass="smm.MeasurementRelationship">
+    <ownedAttribute xmi:id="smm.RankingMeasurementRelationship.from" name="from" isOrdered="true"
+        type="smm.Grade" opposite="smm.Grade.rankingTo"/>
+    <ownedAttribute xmi:id="smm.RankingMeasurementRelationship.to" name="to" isOrdered="true"
+        type="smm.DimensionalMeasurement" opposite="smm.DimensionalMeasurement.rankingFrom"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.RatioMeasure" name="RatioMeasure" superClass="smm.BinaryMeasure"/>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.RatioMeasurement" name="RatioMeasurement"
+      superClass="smm.BinaryMeasurement"/>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.RecursiveMeasureRelationship" name="RecursiveMeasureRelationship"
+      superClass="smm.MeasureRelationship">
+    <ownedAttribute xmi:id="smm.RecursiveMeasureRelationship.from" name="from" isOrdered="true"
+        type="smm.Measure" opposite="smm.Measure.recursiveTo"/>
+    <ownedAttribute xmi:id="smm.RecursiveMeasureRelationship.to" name="to" isOrdered="true"
+        type="smm.Measure" opposite="smm.Measure.recursiveFrom"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.RecursiveMeasurementRelationship" name="RecursiveMeasurementRelationship"
+      superClass="smm.MeasurementRelationship">
+    <ownedAttribute xmi:id="smm.RecursiveMeasurementRelationship.from" name="from"
+        isOrdered="true" type="smm.Measurement" opposite="smm.Measurement.recursiveTo"/>
+    <ownedAttribute xmi:id="smm.RecursiveMeasurementRelationship.to" name="to" isOrdered="true"
+        type="smm.Measurement" opposite="smm.Measurement.recursiveFrom"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.RefinementMeasureRelationship" name="RefinementMeasureRelationship"
+      superClass="smm.MeasureRelationship">
+    <ownedAttribute xmi:id="smm.RefinementMeasureRelationship.from" name="from" isOrdered="true"
+        type="smm.Measure" opposite="smm.Measure.refinementTo"/>
+    <ownedAttribute xmi:id="smm.RefinementMeasureRelationship.to" name="to" isOrdered="true"
+        type="smm.Measure" opposite="smm.Measure.refinementFrom"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.RefinementMeasurementRelationship"
+      name="RefinementMeasurementRelationship" superClass="smm.MeasurementRelationship">
+    <ownedAttribute xmi:id="smm.RefinementMeasurementRelationship.from" name="from"
+        isOrdered="true" type="smm.Measurement" opposite="smm.Measurement.refinementTo"/>
+    <ownedAttribute xmi:id="smm.RefinementMeasurementRelationship.to" name="to" isOrdered="true"
+        type="smm.Measurement" opposite="smm.Measurement.refinementFrom"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.RescaledMeasure" name="RescaledMeasure"
+      superClass="smm.DimensionalMeasure">
+    <ownedAttribute xmi:id="smm.RescaledMeasure.formula" name="formula" isOrdered="true"
+        type="smm.String"/>
+    <ownedAttribute xmi:id="smm.RescaledMeasure.rescaleFrom" name="rescaleFrom" isOrdered="true"
+        lower="0" upper="*" type="smm.RescaleMeasureRelationship" opposite="smm.RescaleMeasureRelationship.to"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.RescaleMeasureRelationship" name="RescaleMeasureRelationship"
+      superClass="smm.MeasureRelationship">
+    <ownedAttribute xmi:id="smm.RescaleMeasureRelationship.to" name="to" isOrdered="true"
+        type="smm.RescaledMeasure" opposite="smm.RescaledMeasure.rescaleFrom"/>
+    <ownedAttribute xmi:id="smm.RescaleMeasureRelationship.from" name="from" isOrdered="true"
+        type="smm.DimensionalMeasure" opposite="smm.DimensionalMeasure.rescaleTo"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.RescaledMeasurement" name="RescaledMeasurement"
+      superClass="smm.DimensionalMeasurement">
+    <ownedAttribute xmi:id="smm.RescaledMeasurement.isBaseSupplied" name="isBaseSupplied"
+        isOrdered="true" type="smm.Boolean"/>
+    <ownedAttribute xmi:id="smm.RescaledMeasurement.rescaleFrom" name="rescaleFrom"
+        isOrdered="true" lower="0" upper="*" type="smm.RescaleMeasurementRelationship"
+        opposite="smm.RescaleMeasurementRelationship.to"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.RescaleMeasurementRelationship" name="RescaleMeasurementRelationship"
+      superClass="smm.MeasurementRelationship">
+    <ownedAttribute xmi:id="smm.RescaleMeasurementRelationship.to" name="to" isOrdered="true"
+        type="smm.RescaledMeasurement" opposite="smm.RescaledMeasurement.rescaleFrom"/>
+    <ownedAttribute xmi:id="smm.RescaleMeasurementRelationship.from" name="from" isOrdered="true"
+        type="smm.DimensionalMeasurement" opposite="smm.DimensionalMeasurement.rescaleTo"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.Scope" name="Scope" superClass="smm.AbstractMeasureElement">
+    <ownedAttribute xmi:id="smm.Scope.class" name="class" isOrdered="true" type="smm.String"/>
+    <ownedAttribute xmi:id="smm.Scope.recognizer" name="recognizer" isOrdered="true"
+        lower="0" type="smm.Operation"/>
+    <ownedAttribute xmi:id="smm.Scope.breakCondition" name="breakCondition" isOrdered="true"
+        lower="0" type="smm.Operation"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.SmmElement" name="SmmElement" isAbstract="true">
+    <ownedOperation xmi:id="smm.SmmElement.getInbound" name="getInbound" isOrdered="true"
+        lower="0" upper="*" type="smm.SmmRelationship"/>
+    <ownedOperation xmi:id="smm.SmmElement.getOutbound" name="getOutbound" isOrdered="true"
+        lower="0" upper="*" type="smm.SmmRelationship"/>
+    <ownedAttribute xmi:id="smm.SmmElement.attributes" name="attributes" isOrdered="true"
+        lower="0" upper="*" type="smm.Attribute" isComposite="true"/>
+    <ownedAttribute xmi:id="smm.SmmElement.annotations" name="annotations" isOrdered="true"
+        lower="0" upper="*" type="smm.Annotation" isComposite="true"/>
+    <ownedAttribute xmi:id="smm.SmmElement.name" name="name" isOrdered="true" lower="0"
+        type="smm.String"/>
+    <ownedAttribute xmi:id="smm.SmmElement.shortDescription" name="shortDescription"
+        isOrdered="true" lower="0" type="smm.String"/>
+    <ownedAttribute xmi:id="smm.SmmElement.description" name="description" isOrdered="true"
+        lower="0" type="smm.String"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.SmmModel" name="SmmModel" superClass="smm.SmmElement">
+    <ownedAttribute xmi:id="smm.SmmModel.observations" name="observations" isOrdered="true"
+        lower="0" upper="*" type="smm.Observation" isComposite="true"/>
+    <ownedAttribute xmi:id="smm.SmmModel.librairies" name="librairies" isOrdered="true"
+        lower="0" upper="*" type="smm.MeasureLibrary" isComposite="true"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="smm.SmmRelationship" name="SmmRelationship"
+      isAbstract="true" superClass="smm.SmmElement">
+    <ownedOperation xmi:id="smm.SmmRelationship.getTo" name="getTo" isOrdered="true"
+        type="smm.SmmElement"/>
+    <ownedOperation xmi:id="smm.SmmRelationship.getFrom" name="getFrom" isOrdered="true"
+        type="smm.SmmElement"/>
+  </ownedType>
+  <ownedType xmi:type="emof:PrimitiveType" xmi:id="smm.String" name="String">
+  </ownedType>
+  <ownedType xmi:type="emof:PrimitiveType" xmi:id="smm.Timestamp" name="Timestamp">
+  </ownedType>
+</emof:Package>

@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Feature Envy</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+		<link href="../style.css" type="text/css" rel="STYLESHEET"/>
+	</head>
+	<body>
+		<h1>Feature Envy
+        	<span id="logo"><a href="http://eclipse-metrics.sourceforge.net"> <img src="../images/logo.gif" border="0" alt="Metrics Logo"/></a></span>
+        </h1>
+		<p>Feature Envy occurs when a method is more interested in the features (methods and fields) of other classes than its own. The solution
+			if it exists at all, is straightforward; move the method to the class that it is most envious of, passing any parameters the new method
+			requires. If only part of the method demonstrates this envy, extract that part and then move the new method into the envied class.
+			Sometimes this is not possible, since the envied class may be available only in a non-modifiable form.</p>
+		<p>Although conceptually straightforward, there are intricacies. For example:</p>
+		<ul>
+			<li>Features are normally accessed through instances, so if a method makes use of the features of one class through two different instances,
+				how should the envy be calculated?</li>
+			<li>A degree of envy is exhibited when a method makes use of more than one feature of another class, regardless of how many of its
+				own features it uses. It is possible to eliminate any such envy, but this may result in a design that is more intricate and less
+				clear than the alternative.</li>
+		</ul>
+		<p>The approach we have taken is straightforward. Let:</p>
+		
+		<blockquote>
+			<table>
+				<tr><td><i>m</i></td><td>be the method for which we want to calculate Feature Envy</td></tr>
+				<tr><td><b>F</b><sub>c</sub></td><td>be the set of features used by <i>m</i> that belong to type <i>c</i></td></tr>
+				<tr><td><i>c<sub>m</sub></i></td><td>be the class in which <i>m</i> is defined</td></tr>
+			</table>
+		</blockquote>
+		
+		<p>Then:</p>
+		
+		<blockquote>
+			Feature&nbsp;Envy&nbsp;=&nbsp;max<sub><i>c</i>&nbsp;&#8800;&nbsp;<i>c<sub>m</sub></i></sub>(|<b>F</b><sub><i>c</i></sub>|) - |<b>F</b><sub><i>c<sub>m</sub></i></sub>|
+		</blockquote>
+		
+		<hr/>
+		<p><b>Note:</b> I have only included features for types derived by Eclipse from source, rather than in binary form.
+			This is to prevent unhelpful reports of high values of Feature Envy which cannot be eliminated because the envied type is
+			an external library.</p>
+        <hr/>
+        <div class="attribution">
+    		This plugin is provided by <a href="http://www.stateofflow.com" title="State Of Flow homepage">State Of Flow</a>
+    	</div>
+	</body>
+</html>
