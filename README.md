@@ -12,3 +12,21 @@ Eclipse Public License - v 1.0 (http://www.eclipse.org/legal/epl-v10.html)
 Example
 ---
 A first example can be found in src/example/TransformationTest.java.
+
+Compilation
+---
+
+Requirements
+---
+- JDK 1.5+
+- Eclipse
+- EMF
+- JUnit
+
+Steps to run
+---
+- If some EMF libraries are missing, let them be searched and added automatically by Eclipse via
+
+~~~
+Build Path -> Add Libraries... -> Plugin-in Dependencies -> Next -> Finish
+~~~
