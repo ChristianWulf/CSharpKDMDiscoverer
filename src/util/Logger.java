@@ -70,7 +70,7 @@ public class Logger {
 	}
 
 	public void error(final String msg, final Throwable t) {
-		logger.error(msg, t);
+		logger.error(msg + "\n\t" + t.getLocalizedMessage(), t);
 	}
 
 }

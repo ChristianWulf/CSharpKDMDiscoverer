@@ -692,12 +692,12 @@ public class Phase2Transformator extends AbstractTransformator implements IKDMMa
 				}
 			} catch (ClassCastException e) {
 				// if resolveType returns a Namespace due to LOGGER.unsupported case
-				throw new TypeNotFoundException(typeName.toString());
+				throw new TypeNotFoundException(typeName.toString(), e);
 			}
 		}
 		// LOGGER.unsupported case: NamedEdge<R> : NamedEdge<S,T>
 		if (parent == type) {
-			throw new TypeNotFoundException("parent == type (" + typeName + ")");
+			throw new TypeNotFoundException("parent == type (" + typeName + ")", null);
 		}
 
 		// create KDM relation
@@ -734,7 +734,7 @@ public class Phase2Transformator extends AbstractTransformator implements IKDMMa
 
 		// LOGGER.unsupported case: NamedEdge<R> : NamedEdge<S,T>
 		if (parent == type) {
-			throw new TypeNotFoundException("parent == type (" + typeName + ")");
+			throw new TypeNotFoundException("parent == type (" + typeName + ")", null);
 		}
 
 		Extends extendz = CodeFactory.eINSTANCE.createExtends();

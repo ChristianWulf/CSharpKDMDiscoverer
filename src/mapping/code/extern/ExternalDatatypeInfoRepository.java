@@ -149,7 +149,7 @@ public class ExternalDatatypeInfoRepository {
 		referenceInfo = repository.get(key);
 		if (referenceInfo == null) {
 			// e.g. the unsupported delegate (method)
-			throw new TypeNotFoundException(key);
+			throw new TypeNotFoundException(key, null);
 		}
 		return referenceInfo;
 	}

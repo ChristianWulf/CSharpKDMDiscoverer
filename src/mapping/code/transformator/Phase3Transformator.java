@@ -425,7 +425,7 @@ public class Phase3Transformator extends AbstractTransformator implements IKDMMa
 					return typeTransformator.transform(commonTreeNode, parent, _declarationsForTypeParams,
 							internalNamespaceStack, compilationUnit);
 				} catch (RuntimeException e) {
-					throw new TypeNotFoundException(e.getLocalizedMessage());
+					throw new TypeNotFoundException(e.getLocalizedMessage(), e);
 				}
 				// break;
 			case CSharp4AST.IDENTIFIER:

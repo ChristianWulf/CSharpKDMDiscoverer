@@ -20,11 +20,8 @@
 
 package example;
 
-import java.io.BufferedInputStream;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.InputStream;
 
 import mapping.source.InventoryModelCreator;
 import mapping.util.ModelCreationHelper;
@@ -35,10 +32,12 @@ import org.eclipse.gmt.modisco.omg.kdm.kdm.Segment;
 import org.eclipse.gmt.modisco.omg.kdm.source.InventoryModel;
 
 import util.FileAccess;
+import util.Logger;
 import util.MyProperties;
 
 public class TransformationTest {
 
+	private static final Logger LOG = new Logger(TransformationTest.class);
 	IProgressMonitor monitor = new ProgressMonitorExample();
 
 	// On Windows, the default thread stack size is read from the binary
@@ -54,14 +53,6 @@ public class TransformationTest {
 
 	public static void main(final String[] args) throws IOException {
 		TransformationTest test = new TransformationTest();
-
-		InputStream fis = new BufferedInputStream( new FileInputStream("META-INF/logging.properties"));
-		//		fis = new FileInputStream("META-INF/logging.properties");
-		try {
-			fis.read();
-		} finally {
-			fis.close();
-		}
 
 		long start = System.currentTimeMillis();
 		// test.transform("resource/test/testcases/5", "HelloWorld5.xmi");
@@ -84,14 +75,15 @@ public class TransformationTest {
 		//		test.transform("D:/SW-development/NordicAnalytics", "NordicAnalytics.xmi");
 		//		test.transform("E:/SUT/SharpDevelop_4.1.0.8000_Source/src", "SharpDevelop.xmi");
 		//				test.transform("D:/SW-development/nant-0.91-src/src", "NAnt-p1.xmi");
-		test.transform("E:/sw-dev/nant-0.92-beta1/src", "NAnt.xmi");
+		test.transform("D:/SUT/nant-0.92-beta1/src", "NAnt.xmi");
+		//test.transform("D:/SUT/Quartz.NET-2.1.2/src", "Quartz.NET.xmi");
 		//		test.transform("D:/SW-development/rail-20050119/RAIL", "RAIL-p1.xmi");
 
 		//		test.transform("C:/NA_2_0_29/NordicAnalytics/NordicAnalytics", "NordicAnalytics.xmi");
 		//		test.transform("C:/chw/workspace/ANTLR/resource/SharpDevelop_4.1.0.8000_Source/src", "SharpDevelop.xmi");
 
 		long end = System.currentTimeMillis();
-		System.out.println("Duration: " + (end - start) + " ms");
+		LOG.info("Duration: " + (end - start) + " ms");
 	}
 
 	private void transform(final String dir, final String outputFilename)

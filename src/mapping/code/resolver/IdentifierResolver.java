@@ -92,7 +92,7 @@ public class IdentifierResolver extends FSResolver {
 				internalNamespaceStack, compilationUnit, parent);
 		// e.g. because type is a variable of a type parameter
 		if (type == null)
-			throw new TypeNotFoundException(typeName.toString());
+			throw new TypeNotFoundException(typeName.toString(), null);
 
 		for (int i = 1; i < typeName.size(); i++) {
 			identifier = typeName.get(i);
@@ -101,7 +101,7 @@ public class IdentifierResolver extends FSResolver {
 
 		// e.g. because the required using directive was not declared
 		if (type == null)
-			throw new TypeNotFoundException(typeName.toString());
+			throw new TypeNotFoundException(typeName.toString(), null);
 		return type;
 	}
 
@@ -316,7 +316,7 @@ public class IdentifierResolver extends FSResolver {
 		if (codeItem != null)
 			return codeItem;
 
-		throw new TypeNotFoundException(identifier);
+		throw new TypeNotFoundException(identifier, null);
 	}
 
 	public List<CodeItem> resolveDeclarations(final Deque<List<CodeItem>> declarations) {

@@ -127,12 +127,6 @@ public final class KDMElementFactory {
 		return parameterUnit;
 	}
 
-	public static Namespace createNamespaceUnit(final Attribute qualifiedNameAttribute) {
-		Namespace namespaceUnit = CODE_FACTORY.createNamespace();
-		namespaceUnit.getAttribute().add(qualifiedNameAttribute);
-		return namespaceUnit;
-	}
-
 	public static Segment createSegment() {
 		Segment segment = KDM_FACTORY.createSegment();
 		return segment;
@@ -195,8 +189,16 @@ public final class KDMElementFactory {
 
 	private static Namespace createGlobalNamespace(final GlobalKind kind) {
 		Namespace namespace = CODE_FACTORY.createNamespace();
+		//		Namespace namespace = new ThreadSafeNamespaceImpl();
 		namespace.setName(GLOBAL_NAMESPACE_NAME);
 		addAnnotation(kind.toString(), namespace);
+		return namespace;
+	}
+
+	public static Namespace createNamespaceUnit(final Attribute qualifiedNameAttribute) {
+		Namespace namespace = CODE_FACTORY.createNamespace();
+		//		Namespace namespace = new ThreadSafeNamespaceImpl();
+		namespace.getAttribute().add(qualifiedNameAttribute);
 		return namespace;
 	}
 

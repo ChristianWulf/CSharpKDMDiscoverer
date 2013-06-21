@@ -24,7 +24,8 @@ public class TypeNotFoundException extends RuntimeException {
 
 	private static final long	serialVersionUID	= 1L;
 
-	public TypeNotFoundException(final String message) {
-		super(message);
+	public TypeNotFoundException(final String message, final Throwable t) {
+		super(message, t);
 	}
+
 }

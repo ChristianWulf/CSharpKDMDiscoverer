@@ -15,10 +15,16 @@
 	</appenders>
 
 	<loggers>
+	    <logger name="example" level="info">
+			<appender-ref ref="Console" />
+		</logger>
 		<logger name="mapping.code.transformator.PreTransformator" level="off" additivity="false">
 			<appender-ref ref="File" />
 		</logger>
-		<logger name="mapping.code.transformator" level="debug" additivity="false">
+		<logger name="mapping.action.visitor" level="off">
+			<appender-ref ref="Console" />
+		</logger>
+		<logger name="mapping.code.transformator" level="off" additivity="false">
 			<appender-ref ref="Console"/>
 <!-- 			<appender-ref ref="File" /> -->
 		</logger>

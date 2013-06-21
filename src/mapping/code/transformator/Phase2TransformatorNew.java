@@ -434,7 +434,7 @@ public class Phase2TransformatorNew extends AbstractTransformator implements IKD
 						classRelations.add(relation);
 					} catch (TypeNotFoundException e) {
 						// TODO skip for now to transform SharpDevelop
-						LOGGER.error(e);
+						LOGGER.error("TypeNotFoundException at EXTENDS_OR_IMPLEMENTS ", e);
 						continue;
 					}
 				}
@@ -451,7 +451,7 @@ public class Phase2TransformatorNew extends AbstractTransformator implements IKD
 						interfaceRelations.add(relation);
 					} catch (TypeNotFoundException e) {
 						// TODO skip for now to transform SharpDevelop
-						LOGGER.error(e);
+						LOGGER.error("TypeNotFoundException at IMPLEMENTS", e);
 						continue;
 					}
 				}
@@ -465,7 +465,7 @@ public class Phase2TransformatorNew extends AbstractTransformator implements IKD
 						enumDeclars.add(enumValue);
 					} catch (RuntimeException e) {
 						// TODO skip for now to transform SharpDevelop
-						LOGGER.error(e);
+						LOGGER.error("RuntimeException at ENUM_MEMBER_DECLARATIONS", e);
 					}
 				}
 				return enumDeclars;
@@ -674,12 +674,12 @@ public class Phase2TransformatorNew extends AbstractTransformator implements IKD
 				}
 			} catch (ClassCastException e) {
 				// if resolveType returns a Namespace due to LOGGER.unsupported case
-				throw new TypeNotFoundException(typeName.toString());
+				throw new TypeNotFoundException(typeName.toString(), e);
 			}
 		}
 		// LOGGER.unsupported case: NamedEdge<R> : NamedEdge<S,T>
 		if (parent == type) {
-			throw new TypeNotFoundException("parent == type (" + typeName + ")");
+			throw new TypeNotFoundException("parent == type (" + typeName + ")", null);
 		}
 
 		// create KDM relation
@@ -716,7 +716,7 @@ public class Phase2TransformatorNew extends AbstractTransformator implements IKD
 
 		// LOGGER.unsupported case: NamedEdge<R> : NamedEdge<S,T>
 		if (parent == type) {
-			throw new TypeNotFoundException("parent == type (" + typeName + ")");
+			throw new TypeNotFoundException("parent == type (" + typeName + ")", null);
 		}
 
 		Extends extendz = CodeFactory.eINSTANCE.createExtends();

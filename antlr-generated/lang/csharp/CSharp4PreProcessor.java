@@ -1,4 +1,4 @@
-// $ANTLR 3.4 C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g 2013-01-09 17:08:25
+// $ANTLR 3.4 C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g 2013-03-17 20:21:17
 
 package lang.csharp;
 
@@ -336,22 +336,22 @@ public class CSharp4PreProcessor extends Lexer {
     public CSharp4PreProcessor(CharStream input, RecognizerSharedState state) {
         super(input,state);
     }
-    public String getGrammarFileName() { return "C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g"; }
+    public String getGrammarFileName() { return "C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g"; }
 
     // $ANTLR start "Pp_directive"
     public final void mPp_directive() throws RecognitionException {
         try {
             int _type = Pp_directive;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:114:3: ( ( Pp_declaration | Pp_conditional | Pp_line | Pp_diagnostic | Pp_region | Pp_pragma ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:114:5: ( Pp_declaration | Pp_conditional | Pp_line | Pp_diagnostic | Pp_region | Pp_pragma )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:114:3: ( ( Pp_declaration | Pp_conditional | Pp_line | Pp_diagnostic | Pp_region | Pp_pragma ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:114:5: ( Pp_declaration | Pp_conditional | Pp_line | Pp_diagnostic | Pp_region | Pp_pragma )
             {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:114:5: ( Pp_declaration | Pp_conditional | Pp_line | Pp_diagnostic | Pp_region | Pp_pragma )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:114:5: ( Pp_declaration | Pp_conditional | Pp_line | Pp_diagnostic | Pp_region | Pp_pragma )
             int alt1=6;
             alt1 = dfa1.predict(input);
             switch (alt1) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:114:6: Pp_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:114:6: Pp_declaration
                     {
                     mPp_declaration(); if (state.failed) return ;
 
@@ -359,7 +359,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:115:5: Pp_conditional
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:115:5: Pp_conditional
                     {
                     mPp_conditional(); if (state.failed) return ;
 
@@ -367,7 +367,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:116:5: Pp_line
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:116:5: Pp_line
                     {
                     mPp_line(); if (state.failed) return ;
 
@@ -375,7 +375,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:117:5: Pp_diagnostic
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:117:5: Pp_diagnostic
                     {
                     mPp_diagnostic(); if (state.failed) return ;
 
@@ -383,7 +383,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 5 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:118:5: Pp_region
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:118:5: Pp_region
                     {
                     mPp_region(); if (state.failed) return ;
 
@@ -391,7 +391,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 6 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:119:5: Pp_pragma
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:119:5: Pp_pragma
                     {
                     mPp_pragma(); if (state.failed) return ;
 
@@ -419,10 +419,10 @@ public class CSharp4PreProcessor extends Lexer {
     public final void mPp_expression(Expression exprObj) throws RecognitionException {
         try {
              Expression expr = new Expression(); 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:124:3: ( ( WHITESPACE )? Pp_or_expression[exprObj] ( WHITESPACE )? )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:124:5: ( WHITESPACE )? Pp_or_expression[exprObj] ( WHITESPACE )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:124:3: ( ( WHITESPACE )? Pp_or_expression[exprObj] ( WHITESPACE )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:124:5: ( WHITESPACE )? Pp_or_expression[exprObj] ( WHITESPACE )?
             {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:124:5: ( WHITESPACE )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:124:5: ( WHITESPACE )?
             int alt2=2;
             int LA2_0 = input.LA(1);
 
@@ -431,7 +431,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt2) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:124:5: WHITESPACE
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:124:5: WHITESPACE
                     {
                     mWHITESPACE(); if (state.failed) return ;
 
@@ -445,7 +445,7 @@ public class CSharp4PreProcessor extends Lexer {
             mPp_or_expression(exprObj); if (state.failed) return ;
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:124:43: ( WHITESPACE )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:124:43: ( WHITESPACE )?
             int alt3=2;
             int LA3_0 = input.LA(1);
 
@@ -454,7 +454,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt3) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:124:43: WHITESPACE
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:124:43: WHITESPACE
                     {
                     mWHITESPACE(); if (state.failed) return ;
 
@@ -479,15 +479,15 @@ public class CSharp4PreProcessor extends Lexer {
     public final void mPp_or_expression(Expression exprObj) throws RecognitionException {
         try {
              Expression expr = new Expression(); 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:128:3: ( Pp_and_expression[expr] ( WHITESPACE )? ( '||' ( WHITESPACE )? Pp_and_expression[expr] )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:128:5: Pp_and_expression[expr] ( WHITESPACE )? ( '||' ( WHITESPACE )? Pp_and_expression[expr] )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:128:3: ( Pp_and_expression[expr] ( WHITESPACE )? ( '||' ( WHITESPACE )? Pp_and_expression[expr] )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:128:5: Pp_and_expression[expr] ( WHITESPACE )? ( '||' ( WHITESPACE )? Pp_and_expression[expr] )*
             {
             mPp_and_expression(expr); if (state.failed) return ;
 
 
             if ( state.backtracking==0 ) {exprObj.set(expr); }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:128:51: ( WHITESPACE )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:128:51: ( WHITESPACE )?
             int alt4=2;
             int LA4_0 = input.LA(1);
 
@@ -496,7 +496,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt4) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:128:51: WHITESPACE
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:128:51: WHITESPACE
                     {
                     mWHITESPACE(); if (state.failed) return ;
 
@@ -507,7 +507,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:129:5: ( '||' ( WHITESPACE )? Pp_and_expression[expr] )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:129:5: ( '||' ( WHITESPACE )? Pp_and_expression[expr] )*
             loop6:
             do {
                 int alt6=2;
@@ -520,13 +520,13 @@ public class CSharp4PreProcessor extends Lexer {
 
                 switch (alt6) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:129:6: '||' ( WHITESPACE )? Pp_and_expression[expr]
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:129:6: '||' ( WHITESPACE )? Pp_and_expression[expr]
             	    {
             	    match("||"); if (state.failed) return ;
 
 
 
-            	    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:129:11: ( WHITESPACE )?
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:129:11: ( WHITESPACE )?
             	    int alt5=2;
             	    int LA5_0 = input.LA(1);
 
@@ -535,7 +535,7 @@ public class CSharp4PreProcessor extends Lexer {
             	    }
             	    switch (alt5) {
             	        case 1 :
-            	            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:129:11: WHITESPACE
+            	            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:129:11: WHITESPACE
             	            {
             	            mWHITESPACE(); if (state.failed) return ;
 
@@ -574,15 +574,15 @@ public class CSharp4PreProcessor extends Lexer {
     public final void mPp_and_expression(Expression exprObj) throws RecognitionException {
         try {
              Expression expr = new Expression(); 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:133:3: ( Pp_equality_expression[expr] ( WHITESPACE )? ( '&&' ( WHITESPACE )? Pp_equality_expression[expr] ( WHITESPACE )? )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:133:5: Pp_equality_expression[expr] ( WHITESPACE )? ( '&&' ( WHITESPACE )? Pp_equality_expression[expr] ( WHITESPACE )? )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:133:3: ( Pp_equality_expression[expr] ( WHITESPACE )? ( '&&' ( WHITESPACE )? Pp_equality_expression[expr] ( WHITESPACE )? )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:133:5: Pp_equality_expression[expr] ( WHITESPACE )? ( '&&' ( WHITESPACE )? Pp_equality_expression[expr] ( WHITESPACE )? )*
             {
             mPp_equality_expression(expr); if (state.failed) return ;
 
 
             if ( state.backtracking==0 ) {exprObj.set(expr);}
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:133:55: ( WHITESPACE )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:133:55: ( WHITESPACE )?
             int alt7=2;
             int LA7_0 = input.LA(1);
 
@@ -591,7 +591,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt7) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:133:55: WHITESPACE
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:133:55: WHITESPACE
                     {
                     mWHITESPACE(); if (state.failed) return ;
 
@@ -602,7 +602,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:134:5: ( '&&' ( WHITESPACE )? Pp_equality_expression[expr] ( WHITESPACE )? )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:134:5: ( '&&' ( WHITESPACE )? Pp_equality_expression[expr] ( WHITESPACE )? )*
             loop10:
             do {
                 int alt10=2;
@@ -615,13 +615,13 @@ public class CSharp4PreProcessor extends Lexer {
 
                 switch (alt10) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:134:6: '&&' ( WHITESPACE )? Pp_equality_expression[expr] ( WHITESPACE )?
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:134:6: '&&' ( WHITESPACE )? Pp_equality_expression[expr] ( WHITESPACE )?
             	    {
             	    match("&&"); if (state.failed) return ;
 
 
 
-            	    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:134:11: ( WHITESPACE )?
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:134:11: ( WHITESPACE )?
             	    int alt8=2;
             	    int LA8_0 = input.LA(1);
 
@@ -630,7 +630,7 @@ public class CSharp4PreProcessor extends Lexer {
             	    }
             	    switch (alt8) {
             	        case 1 :
-            	            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:134:11: WHITESPACE
+            	            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:134:11: WHITESPACE
             	            {
             	            mWHITESPACE(); if (state.failed) return ;
 
@@ -644,7 +644,7 @@ public class CSharp4PreProcessor extends Lexer {
             	    mPp_equality_expression(expr); if (state.failed) return ;
 
 
-            	    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:134:52: ( WHITESPACE )?
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:134:52: ( WHITESPACE )?
             	    int alt9=2;
             	    int LA9_0 = input.LA(1);
 
@@ -653,7 +653,7 @@ public class CSharp4PreProcessor extends Lexer {
             	    }
             	    switch (alt9) {
             	        case 1 :
-            	            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:134:52: WHITESPACE
+            	            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:134:52: WHITESPACE
             	            {
             	            mWHITESPACE(); if (state.failed) return ;
 
@@ -689,15 +689,15 @@ public class CSharp4PreProcessor extends Lexer {
     public final void mPp_equality_expression(Expression exprObj) throws RecognitionException {
         try {
              Expression expr = new Expression(); 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:138:3: ( Pp_unary_expression[expr] ( WHITESPACE )? ( '==' ( WHITESPACE )? Pp_unary_expression[expr] ( WHITESPACE )? | '!=' ( WHITESPACE )? Pp_unary_expression[expr] ( WHITESPACE )? )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:138:5: Pp_unary_expression[expr] ( WHITESPACE )? ( '==' ( WHITESPACE )? Pp_unary_expression[expr] ( WHITESPACE )? | '!=' ( WHITESPACE )? Pp_unary_expression[expr] ( WHITESPACE )? )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:138:3: ( Pp_unary_expression[expr] ( WHITESPACE )? ( '==' ( WHITESPACE )? Pp_unary_expression[expr] ( WHITESPACE )? | '!=' ( WHITESPACE )? Pp_unary_expression[expr] ( WHITESPACE )? )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:138:5: Pp_unary_expression[expr] ( WHITESPACE )? ( '==' ( WHITESPACE )? Pp_unary_expression[expr] ( WHITESPACE )? | '!=' ( WHITESPACE )? Pp_unary_expression[expr] ( WHITESPACE )? )*
             {
             mPp_unary_expression(expr); if (state.failed) return ;
 
 
             if ( state.backtracking==0 ) {exprObj.set(expr);}
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:138:52: ( WHITESPACE )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:138:52: ( WHITESPACE )?
             int alt11=2;
             int LA11_0 = input.LA(1);
 
@@ -706,7 +706,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt11) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:138:52: WHITESPACE
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:138:52: WHITESPACE
                     {
                     mWHITESPACE(); if (state.failed) return ;
 
@@ -717,7 +717,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:139:5: ( '==' ( WHITESPACE )? Pp_unary_expression[expr] ( WHITESPACE )? | '!=' ( WHITESPACE )? Pp_unary_expression[expr] ( WHITESPACE )? )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:139:5: ( '==' ( WHITESPACE )? Pp_unary_expression[expr] ( WHITESPACE )? | '!=' ( WHITESPACE )? Pp_unary_expression[expr] ( WHITESPACE )? )*
             loop16:
             do {
                 int alt16=3;
@@ -733,13 +733,13 @@ public class CSharp4PreProcessor extends Lexer {
 
                 switch (alt16) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:139:7: '==' ( WHITESPACE )? Pp_unary_expression[expr] ( WHITESPACE )?
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:139:7: '==' ( WHITESPACE )? Pp_unary_expression[expr] ( WHITESPACE )?
             	    {
             	    match("=="); if (state.failed) return ;
 
 
 
-            	    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:139:12: ( WHITESPACE )?
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:139:12: ( WHITESPACE )?
             	    int alt12=2;
             	    int LA12_0 = input.LA(1);
 
@@ -748,7 +748,7 @@ public class CSharp4PreProcessor extends Lexer {
             	    }
             	    switch (alt12) {
             	        case 1 :
-            	            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:139:12: WHITESPACE
+            	            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:139:12: WHITESPACE
             	            {
             	            mWHITESPACE(); if (state.failed) return ;
 
@@ -762,7 +762,7 @@ public class CSharp4PreProcessor extends Lexer {
             	    mPp_unary_expression(expr); if (state.failed) return ;
 
 
-            	    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:139:50: ( WHITESPACE )?
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:139:50: ( WHITESPACE )?
             	    int alt13=2;
             	    int LA13_0 = input.LA(1);
 
@@ -771,7 +771,7 @@ public class CSharp4PreProcessor extends Lexer {
             	    }
             	    switch (alt13) {
             	        case 1 :
-            	            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:139:50: WHITESPACE
+            	            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:139:50: WHITESPACE
             	            {
             	            mWHITESPACE(); if (state.failed) return ;
 
@@ -787,13 +787,13 @@ public class CSharp4PreProcessor extends Lexer {
             	    }
             	    break;
             	case 2 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:140:7: '!=' ( WHITESPACE )? Pp_unary_expression[expr] ( WHITESPACE )?
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:140:7: '!=' ( WHITESPACE )? Pp_unary_expression[expr] ( WHITESPACE )?
             	    {
             	    match("!="); if (state.failed) return ;
 
 
 
-            	    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:140:12: ( WHITESPACE )?
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:140:12: ( WHITESPACE )?
             	    int alt14=2;
             	    int LA14_0 = input.LA(1);
 
@@ -802,7 +802,7 @@ public class CSharp4PreProcessor extends Lexer {
             	    }
             	    switch (alt14) {
             	        case 1 :
-            	            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:140:12: WHITESPACE
+            	            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:140:12: WHITESPACE
             	            {
             	            mWHITESPACE(); if (state.failed) return ;
 
@@ -816,7 +816,7 @@ public class CSharp4PreProcessor extends Lexer {
             	    mPp_unary_expression(expr); if (state.failed) return ;
 
 
-            	    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:140:50: ( WHITESPACE )?
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:140:50: ( WHITESPACE )?
             	    int alt15=2;
             	    int LA15_0 = input.LA(1);
 
@@ -825,7 +825,7 @@ public class CSharp4PreProcessor extends Lexer {
             	    }
             	    switch (alt15) {
             	        case 1 :
-            	            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:140:50: WHITESPACE
+            	            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:140:50: WHITESPACE
             	            {
             	            mWHITESPACE(); if (state.failed) return ;
 
@@ -861,7 +861,7 @@ public class CSharp4PreProcessor extends Lexer {
     public final void mPp_unary_expression(Expression exprObj) throws RecognitionException {
         try {
              Expression expr = new Expression(); 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:145:3: ( Pp_primary_expression[expr] | '!' ( WHITESPACE )? Pp_unary_expression[expr] )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:145:3: ( Pp_primary_expression[expr] | '!' ( WHITESPACE )? Pp_unary_expression[expr] )
             int alt18=2;
             int LA18_0 = input.LA(1);
 
@@ -881,7 +881,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt18) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:145:5: Pp_primary_expression[expr]
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:145:5: Pp_primary_expression[expr]
                     {
                     mPp_primary_expression(expr); if (state.failed) return ;
 
@@ -891,11 +891,11 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:146:5: '!' ( WHITESPACE )? Pp_unary_expression[expr]
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:146:5: '!' ( WHITESPACE )? Pp_unary_expression[expr]
                     {
                     match('!'); if (state.failed) return ;
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:146:9: ( WHITESPACE )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:146:9: ( WHITESPACE )?
                     int alt17=2;
                     int LA17_0 = input.LA(1);
 
@@ -904,7 +904,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     switch (alt17) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:146:9: WHITESPACE
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:146:9: WHITESPACE
                             {
                             mWHITESPACE(); if (state.failed) return ;
 
@@ -937,7 +937,7 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             CommonToken Conditional_symbol1=null;
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:149:3: ( ( TRUE )=> TRUE | ( FALSE )=> FALSE | Conditional_symbol | '(' Pp_expression[exprObj] ')' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:149:3: ( ( TRUE )=> TRUE | ( FALSE )=> FALSE | Conditional_symbol | '(' Pp_expression[exprObj] ')' )
             int alt19=4;
             switch ( input.LA(1) ) {
             case 't':
@@ -1223,7 +1223,7 @@ public class CSharp4PreProcessor extends Lexer {
 
             switch (alt19) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:149:5: ( TRUE )=> TRUE
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:149:5: ( TRUE )=> TRUE
                     {
                     mTRUE(); if (state.failed) return ;
 
@@ -1233,7 +1233,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:150:5: ( FALSE )=> FALSE
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:150:5: ( FALSE )=> FALSE
                     {
                     mFALSE(); if (state.failed) return ;
 
@@ -1243,7 +1243,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:151:5: Conditional_symbol
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:151:5: Conditional_symbol
                     {
                     int Conditional_symbol1Start359 = getCharIndex();
                     int Conditional_symbol1StartLine359 = getLine();
@@ -1259,7 +1259,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:152:5: '(' Pp_expression[exprObj] ')'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:152:5: '(' Pp_expression[exprObj] ')'
                     {
                     match('('); if (state.failed) return ;
 
@@ -1286,14 +1286,14 @@ public class CSharp4PreProcessor extends Lexer {
             CommonToken Conditional_symbol2=null;
             CommonToken Conditional_symbol3=null;
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:155:3: ( ( WHITESPACE )? SHARP ( WHITESPACE )? 'define' WHITESPACE Conditional_symbol Pp_new_line | ( WHITESPACE )? SHARP ( WHITESPACE )? 'undef' WHITESPACE Conditional_symbol Pp_new_line )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:155:3: ( ( WHITESPACE )? SHARP ( WHITESPACE )? 'define' WHITESPACE Conditional_symbol Pp_new_line | ( WHITESPACE )? SHARP ( WHITESPACE )? 'undef' WHITESPACE Conditional_symbol Pp_new_line )
             int alt24=2;
             alt24 = dfa24.predict(input);
             switch (alt24) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:155:5: ( WHITESPACE )? SHARP ( WHITESPACE )? 'define' WHITESPACE Conditional_symbol Pp_new_line
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:155:5: ( WHITESPACE )? SHARP ( WHITESPACE )? 'define' WHITESPACE Conditional_symbol Pp_new_line
                     {
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:155:5: ( WHITESPACE )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:155:5: ( WHITESPACE )?
                     int alt20=2;
                     int LA20_0 = input.LA(1);
 
@@ -1302,7 +1302,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     switch (alt20) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:155:5: WHITESPACE
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:155:5: WHITESPACE
                             {
                             mWHITESPACE(); if (state.failed) return ;
 
@@ -1316,7 +1316,7 @@ public class CSharp4PreProcessor extends Lexer {
                     mSHARP(); if (state.failed) return ;
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:155:23: ( WHITESPACE )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:155:23: ( WHITESPACE )?
                     int alt21=2;
                     int LA21_0 = input.LA(1);
 
@@ -1325,7 +1325,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     switch (alt21) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:155:23: WHITESPACE
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:155:23: WHITESPACE
                             {
                             mWHITESPACE(); if (state.failed) return ;
 
@@ -1360,9 +1360,9 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:157:5: ( WHITESPACE )? SHARP ( WHITESPACE )? 'undef' WHITESPACE Conditional_symbol Pp_new_line
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:157:5: ( WHITESPACE )? SHARP ( WHITESPACE )? 'undef' WHITESPACE Conditional_symbol Pp_new_line
                     {
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:157:5: ( WHITESPACE )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:157:5: ( WHITESPACE )?
                     int alt22=2;
                     int LA22_0 = input.LA(1);
 
@@ -1371,7 +1371,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     switch (alt22) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:157:5: WHITESPACE
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:157:5: WHITESPACE
                             {
                             mWHITESPACE(); if (state.failed) return ;
 
@@ -1385,7 +1385,7 @@ public class CSharp4PreProcessor extends Lexer {
                     mSHARP(); if (state.failed) return ;
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:157:23: ( WHITESPACE )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:157:23: ( WHITESPACE )?
                     int alt23=2;
                     int LA23_0 = input.LA(1);
 
@@ -1394,7 +1394,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     switch (alt23) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:157:23: WHITESPACE
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:157:23: WHITESPACE
                             {
                             mWHITESPACE(); if (state.failed) return ;
 
@@ -1441,10 +1441,10 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Pp_new_line"
     public final void mPp_new_line() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:161:3: ( ( WHITESPACE )? ( SINGLE_LINE_COMMENT )? NEW_LINE )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:161:5: ( WHITESPACE )? ( SINGLE_LINE_COMMENT )? NEW_LINE
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:161:3: ( ( WHITESPACE )? ( SINGLE_LINE_COMMENT )? NEW_LINE )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:161:5: ( WHITESPACE )? ( SINGLE_LINE_COMMENT )? NEW_LINE
             {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:161:5: ( WHITESPACE )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:161:5: ( WHITESPACE )?
             int alt25=2;
             int LA25_0 = input.LA(1);
 
@@ -1453,7 +1453,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt25) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:161:5: WHITESPACE
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:161:5: WHITESPACE
                     {
                     mWHITESPACE(); if (state.failed) return ;
 
@@ -1464,7 +1464,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:161:17: ( SINGLE_LINE_COMMENT )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:161:17: ( SINGLE_LINE_COMMENT )?
             int alt26=2;
             int LA26_0 = input.LA(1);
 
@@ -1473,7 +1473,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt26) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:161:17: SINGLE_LINE_COMMENT
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:161:17: SINGLE_LINE_COMMENT
                     {
                     mSINGLE_LINE_COMMENT(); if (state.failed) return ;
 
@@ -1500,12 +1500,12 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Pp_conditional"
     public final void mPp_conditional() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:165:3: ( Pp_if_section | Pp_elif_section | Pp_else_section | Pp_endif )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:165:3: ( Pp_if_section | Pp_elif_section | Pp_else_section | Pp_endif )
             int alt27=4;
             alt27 = dfa27.predict(input);
             switch (alt27) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:165:5: Pp_if_section
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:165:5: Pp_if_section
                     {
                     mPp_if_section(); if (state.failed) return ;
 
@@ -1513,7 +1513,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:166:5: Pp_elif_section
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:166:5: Pp_elif_section
                     {
                     mPp_elif_section(); if (state.failed) return ;
 
@@ -1521,7 +1521,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:167:5: Pp_else_section
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:167:5: Pp_else_section
                     {
                     mPp_else_section(); if (state.failed) return ;
 
@@ -1529,7 +1529,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:168:5: Pp_endif
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:168:5: Pp_endif
                     {
                     mPp_endif(); if (state.failed) return ;
 
@@ -1552,10 +1552,10 @@ public class CSharp4PreProcessor extends Lexer {
             CommonToken e=null;
 
             Expression exprObj = new Expression();
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:172:3: ( ( WHITESPACE )? SHARP ( WHITESPACE )? 'if' WHITESPACE e= Pp_expression[exprObj] Pp_new_line )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:172:5: ( WHITESPACE )? SHARP ( WHITESPACE )? 'if' WHITESPACE e= Pp_expression[exprObj] Pp_new_line
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:172:3: ( ( WHITESPACE )? SHARP ( WHITESPACE )? 'if' WHITESPACE e= Pp_expression[exprObj] Pp_new_line )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:172:5: ( WHITESPACE )? SHARP ( WHITESPACE )? 'if' WHITESPACE e= Pp_expression[exprObj] Pp_new_line
             {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:172:5: ( WHITESPACE )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:172:5: ( WHITESPACE )?
             int alt28=2;
             int LA28_0 = input.LA(1);
 
@@ -1564,7 +1564,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt28) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:172:5: WHITESPACE
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:172:5: WHITESPACE
                     {
                     mWHITESPACE(); if (state.failed) return ;
 
@@ -1578,7 +1578,7 @@ public class CSharp4PreProcessor extends Lexer {
             mSHARP(); if (state.failed) return ;
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:172:23: ( WHITESPACE )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:172:23: ( WHITESPACE )?
             int alt29=2;
             int LA29_0 = input.LA(1);
 
@@ -1587,7 +1587,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt29) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:172:23: WHITESPACE
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:172:23: WHITESPACE
                     {
                     mWHITESPACE(); if (state.failed) return ;
 
@@ -1634,10 +1634,10 @@ public class CSharp4PreProcessor extends Lexer {
     public final void mPp_elif_section() throws RecognitionException {
         try {
             Expression exprObj = new Expression();
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:178:3: ( ( WHITESPACE )? SHARP ( WHITESPACE )? 'elif' WHITESPACE Pp_expression[exprObj] Pp_new_line )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:178:5: ( WHITESPACE )? SHARP ( WHITESPACE )? 'elif' WHITESPACE Pp_expression[exprObj] Pp_new_line
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:178:3: ( ( WHITESPACE )? SHARP ( WHITESPACE )? 'elif' WHITESPACE Pp_expression[exprObj] Pp_new_line )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:178:5: ( WHITESPACE )? SHARP ( WHITESPACE )? 'elif' WHITESPACE Pp_expression[exprObj] Pp_new_line
             {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:178:5: ( WHITESPACE )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:178:5: ( WHITESPACE )?
             int alt30=2;
             int LA30_0 = input.LA(1);
 
@@ -1646,7 +1646,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt30) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:178:5: WHITESPACE
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:178:5: WHITESPACE
                     {
                     mWHITESPACE(); if (state.failed) return ;
 
@@ -1660,7 +1660,7 @@ public class CSharp4PreProcessor extends Lexer {
             mSHARP(); if (state.failed) return ;
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:178:23: ( WHITESPACE )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:178:23: ( WHITESPACE )?
             int alt31=2;
             int LA31_0 = input.LA(1);
 
@@ -1669,7 +1669,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt31) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:178:23: WHITESPACE
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:178:23: WHITESPACE
                     {
                     mWHITESPACE(); if (state.failed) return ;
 
@@ -1708,10 +1708,10 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Pp_else_section"
     public final void mPp_else_section() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:183:3: ( ( WHITESPACE )? SHARP ( WHITESPACE )? 'else' Pp_new_line )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:183:5: ( WHITESPACE )? SHARP ( WHITESPACE )? 'else' Pp_new_line
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:183:3: ( ( WHITESPACE )? SHARP ( WHITESPACE )? 'else' Pp_new_line )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:183:5: ( WHITESPACE )? SHARP ( WHITESPACE )? 'else' Pp_new_line
             {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:183:5: ( WHITESPACE )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:183:5: ( WHITESPACE )?
             int alt32=2;
             int LA32_0 = input.LA(1);
 
@@ -1720,7 +1720,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt32) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:183:5: WHITESPACE
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:183:5: WHITESPACE
                     {
                     mWHITESPACE(); if (state.failed) return ;
 
@@ -1734,7 +1734,7 @@ public class CSharp4PreProcessor extends Lexer {
             mSHARP(); if (state.failed) return ;
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:183:23: ( WHITESPACE )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:183:23: ( WHITESPACE )?
             int alt33=2;
             int LA33_0 = input.LA(1);
 
@@ -1743,7 +1743,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt33) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:183:23: WHITESPACE
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:183:23: WHITESPACE
                     {
                     mWHITESPACE(); if (state.failed) return ;
 
@@ -1776,10 +1776,10 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Pp_endif"
     public final void mPp_endif() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:188:3: ( ( WHITESPACE )? SHARP ( WHITESPACE )? 'endif' ( Pp_new_line )? )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:188:5: ( WHITESPACE )? SHARP ( WHITESPACE )? 'endif' ( Pp_new_line )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:188:3: ( ( WHITESPACE )? SHARP ( WHITESPACE )? 'endif' ( Pp_new_line )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:188:5: ( WHITESPACE )? SHARP ( WHITESPACE )? 'endif' ( Pp_new_line )?
             {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:188:5: ( WHITESPACE )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:188:5: ( WHITESPACE )?
             int alt34=2;
             int LA34_0 = input.LA(1);
 
@@ -1788,7 +1788,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt34) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:188:5: WHITESPACE
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:188:5: WHITESPACE
                     {
                     mWHITESPACE(); if (state.failed) return ;
 
@@ -1802,7 +1802,7 @@ public class CSharp4PreProcessor extends Lexer {
             mSHARP(); if (state.failed) return ;
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:188:23: ( WHITESPACE )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:188:23: ( WHITESPACE )?
             int alt35=2;
             int LA35_0 = input.LA(1);
 
@@ -1811,7 +1811,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt35) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:188:23: WHITESPACE
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:188:23: WHITESPACE
                     {
                     mWHITESPACE(); if (state.failed) return ;
 
@@ -1826,7 +1826,7 @@ public class CSharp4PreProcessor extends Lexer {
 
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:188:43: ( Pp_new_line )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:188:43: ( Pp_new_line )?
             int alt36=2;
             int LA36_0 = input.LA(1);
 
@@ -1835,7 +1835,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt36) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:188:43: Pp_new_line
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:188:43: Pp_new_line
                     {
                     mPp_new_line(); if (state.failed) return ;
 
@@ -1861,8 +1861,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Conditional_symbol"
     public final void mConditional_symbol() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:195:3: ( Identifier_or_keyword )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:195:5: Identifier_or_keyword
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:195:3: ( Identifier_or_keyword )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:195:5: Identifier_or_keyword
             {
             mIdentifier_or_keyword(); if (state.failed) return ;
 
@@ -1880,14 +1880,14 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Pp_diagnostic"
     public final void mPp_diagnostic() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:198:3: ( ( WHITESPACE )? SHARP ( WHITESPACE )? 'error' Pp_message | ( WHITESPACE )? SHARP ( WHITESPACE )? 'warning' Pp_message )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:198:3: ( ( WHITESPACE )? SHARP ( WHITESPACE )? 'error' Pp_message | ( WHITESPACE )? SHARP ( WHITESPACE )? 'warning' Pp_message )
             int alt41=2;
             alt41 = dfa41.predict(input);
             switch (alt41) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:198:5: ( WHITESPACE )? SHARP ( WHITESPACE )? 'error' Pp_message
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:198:5: ( WHITESPACE )? SHARP ( WHITESPACE )? 'error' Pp_message
                     {
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:198:5: ( WHITESPACE )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:198:5: ( WHITESPACE )?
                     int alt37=2;
                     int LA37_0 = input.LA(1);
 
@@ -1896,7 +1896,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     switch (alt37) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:198:5: WHITESPACE
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:198:5: WHITESPACE
                             {
                             mWHITESPACE(); if (state.failed) return ;
 
@@ -1910,7 +1910,7 @@ public class CSharp4PreProcessor extends Lexer {
                     mSHARP(); if (state.failed) return ;
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:198:23: ( WHITESPACE )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:198:23: ( WHITESPACE )?
                     int alt38=2;
                     int LA38_0 = input.LA(1);
 
@@ -1919,7 +1919,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     switch (alt38) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:198:23: WHITESPACE
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:198:23: WHITESPACE
                             {
                             mWHITESPACE(); if (state.failed) return ;
 
@@ -1940,9 +1940,9 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:199:5: ( WHITESPACE )? SHARP ( WHITESPACE )? 'warning' Pp_message
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:199:5: ( WHITESPACE )? SHARP ( WHITESPACE )? 'warning' Pp_message
                     {
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:199:5: ( WHITESPACE )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:199:5: ( WHITESPACE )?
                     int alt39=2;
                     int LA39_0 = input.LA(1);
 
@@ -1951,7 +1951,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     switch (alt39) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:199:5: WHITESPACE
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:199:5: WHITESPACE
                             {
                             mWHITESPACE(); if (state.failed) return ;
 
@@ -1965,7 +1965,7 @@ public class CSharp4PreProcessor extends Lexer {
                     mSHARP(); if (state.failed) return ;
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:199:23: ( WHITESPACE )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:199:23: ( WHITESPACE )?
                     int alt40=2;
                     int LA40_0 = input.LA(1);
 
@@ -1974,7 +1974,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     switch (alt40) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:199:23: WHITESPACE
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:199:23: WHITESPACE
                             {
                             mWHITESPACE(); if (state.failed) return ;
 
@@ -2007,7 +2007,7 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Pp_message"
     public final void mPp_message() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:202:3: ( NEW_LINE | WHITESPACE ( Input_character )* NEW_LINE )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:202:3: ( NEW_LINE | WHITESPACE ( Input_character )* NEW_LINE )
             int alt43=2;
             int LA43_0 = input.LA(1);
 
@@ -2027,7 +2027,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt43) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:202:5: NEW_LINE
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:202:5: NEW_LINE
                     {
                     mNEW_LINE(); if (state.failed) return ;
 
@@ -2035,12 +2035,12 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:203:5: WHITESPACE ( Input_character )* NEW_LINE
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:203:5: WHITESPACE ( Input_character )* NEW_LINE
                     {
                     mWHITESPACE(); if (state.failed) return ;
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:203:16: ( Input_character )*
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:203:16: ( Input_character )*
                     loop42:
                     do {
                         int alt42=2;
@@ -2053,7 +2053,7 @@ public class CSharp4PreProcessor extends Lexer {
 
                         switch (alt42) {
                     	case 1 :
-                    	    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+                    	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
                     	    {
                     	    if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '\t')||(input.LA(1) >= '\u000B' && input.LA(1) <= '\f')||(input.LA(1) >= '\u000E' && input.LA(1) <= '\u0084')||(input.LA(1) >= '\u0086' && input.LA(1) <= '\u2027')||(input.LA(1) >= '\u202A' && input.LA(1) <= '\uFFFF') ) {
                     	        input.consume();
@@ -2094,12 +2094,12 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Pp_region"
     public final void mPp_region() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:207:3: ( Pp_start_region | Pp_end_region )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:207:3: ( Pp_start_region | Pp_end_region )
             int alt44=2;
             alt44 = dfa44.predict(input);
             switch (alt44) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:207:5: Pp_start_region
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:207:5: Pp_start_region
                     {
                     mPp_start_region(); if (state.failed) return ;
 
@@ -2107,7 +2107,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:208:5: Pp_end_region
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:208:5: Pp_end_region
                     {
                     mPp_end_region(); if (state.failed) return ;
 
@@ -2127,10 +2127,10 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Pp_start_region"
     public final void mPp_start_region() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:211:3: ( ( WHITESPACE )? SHARP ( WHITESPACE )? 'region' Pp_message )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:211:5: ( WHITESPACE )? SHARP ( WHITESPACE )? 'region' Pp_message
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:211:3: ( ( WHITESPACE )? SHARP ( WHITESPACE )? 'region' Pp_message )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:211:5: ( WHITESPACE )? SHARP ( WHITESPACE )? 'region' Pp_message
             {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:211:5: ( WHITESPACE )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:211:5: ( WHITESPACE )?
             int alt45=2;
             int LA45_0 = input.LA(1);
 
@@ -2139,7 +2139,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt45) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:211:5: WHITESPACE
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:211:5: WHITESPACE
                     {
                     mWHITESPACE(); if (state.failed) return ;
 
@@ -2153,7 +2153,7 @@ public class CSharp4PreProcessor extends Lexer {
             mSHARP(); if (state.failed) return ;
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:211:23: ( WHITESPACE )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:211:23: ( WHITESPACE )?
             int alt46=2;
             int LA46_0 = input.LA(1);
 
@@ -2162,7 +2162,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt46) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:211:23: WHITESPACE
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:211:23: WHITESPACE
                     {
                     mWHITESPACE(); if (state.failed) return ;
 
@@ -2193,10 +2193,10 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Pp_end_region"
     public final void mPp_end_region() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:214:3: ( ( WHITESPACE )? SHARP ( WHITESPACE )? 'endregion' ( Pp_message )? )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:214:5: ( WHITESPACE )? SHARP ( WHITESPACE )? 'endregion' ( Pp_message )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:214:3: ( ( WHITESPACE )? SHARP ( WHITESPACE )? 'endregion' ( Pp_message )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:214:5: ( WHITESPACE )? SHARP ( WHITESPACE )? 'endregion' ( Pp_message )?
             {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:214:5: ( WHITESPACE )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:214:5: ( WHITESPACE )?
             int alt47=2;
             int LA47_0 = input.LA(1);
 
@@ -2205,7 +2205,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt47) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:214:5: WHITESPACE
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:214:5: WHITESPACE
                     {
                     mWHITESPACE(); if (state.failed) return ;
 
@@ -2219,7 +2219,7 @@ public class CSharp4PreProcessor extends Lexer {
             mSHARP(); if (state.failed) return ;
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:214:23: ( WHITESPACE )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:214:23: ( WHITESPACE )?
             int alt48=2;
             int LA48_0 = input.LA(1);
 
@@ -2228,7 +2228,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt48) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:214:23: WHITESPACE
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:214:23: WHITESPACE
                     {
                     mWHITESPACE(); if (state.failed) return ;
 
@@ -2243,7 +2243,7 @@ public class CSharp4PreProcessor extends Lexer {
 
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:214:47: ( Pp_message )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:214:47: ( Pp_message )?
             int alt49=2;
             int LA49_0 = input.LA(1);
 
@@ -2252,7 +2252,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt49) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:214:47: Pp_message
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:214:47: Pp_message
                     {
                     mPp_message(); if (state.failed) return ;
 
@@ -2276,10 +2276,10 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Pp_line"
     public final void mPp_line() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:218:3: ( ( WHITESPACE )? SHARP ( WHITESPACE )? 'line' WHITESPACE Line_indicator Pp_new_line )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:218:5: ( WHITESPACE )? SHARP ( WHITESPACE )? 'line' WHITESPACE Line_indicator Pp_new_line
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:218:3: ( ( WHITESPACE )? SHARP ( WHITESPACE )? 'line' WHITESPACE Line_indicator Pp_new_line )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:218:5: ( WHITESPACE )? SHARP ( WHITESPACE )? 'line' WHITESPACE Line_indicator Pp_new_line
             {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:218:5: ( WHITESPACE )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:218:5: ( WHITESPACE )?
             int alt50=2;
             int LA50_0 = input.LA(1);
 
@@ -2288,7 +2288,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt50) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:218:5: WHITESPACE
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:218:5: WHITESPACE
                     {
                     mWHITESPACE(); if (state.failed) return ;
 
@@ -2302,7 +2302,7 @@ public class CSharp4PreProcessor extends Lexer {
             mSHARP(); if (state.failed) return ;
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:218:23: ( WHITESPACE )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:218:23: ( WHITESPACE )?
             int alt51=2;
             int LA51_0 = input.LA(1);
 
@@ -2311,7 +2311,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt51) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:218:23: WHITESPACE
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:218:23: WHITESPACE
                     {
                     mWHITESPACE(); if (state.failed) return ;
 
@@ -2348,7 +2348,7 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Line_indicator"
     public final void mLine_indicator() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:221:3: ( Decimal_digits ( WHITESPACE File_name )? | 'default' | 'hidden' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:221:3: ( Decimal_digits ( WHITESPACE File_name )? | 'default' | 'hidden' )
             int alt53=3;
             switch ( input.LA(1) ) {
             case '0':
@@ -2386,12 +2386,12 @@ public class CSharp4PreProcessor extends Lexer {
 
             switch (alt53) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:221:5: Decimal_digits ( WHITESPACE File_name )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:221:5: Decimal_digits ( WHITESPACE File_name )?
                     {
                     mDecimal_digits(); if (state.failed) return ;
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:221:20: ( WHITESPACE File_name )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:221:20: ( WHITESPACE File_name )?
                     int alt52=2;
                     int LA52_0 = input.LA(1);
 
@@ -2400,7 +2400,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     switch (alt52) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:221:21: WHITESPACE File_name
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:221:21: WHITESPACE File_name
                             {
                             mWHITESPACE(); if (state.failed) return ;
 
@@ -2417,7 +2417,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:222:5: 'default'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:222:5: 'default'
                     {
                     match("default"); if (state.failed) return ;
 
@@ -2426,7 +2426,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:223:5: 'hidden'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:223:5: 'hidden'
                     {
                     match("hidden"); if (state.failed) return ;
 
@@ -2447,8 +2447,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "File_name"
     public final void mFile_name() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:226:3: ( DOUBLE_QUOTE File_name_characters DOUBLE_QUOTE )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:226:5: DOUBLE_QUOTE File_name_characters DOUBLE_QUOTE
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:226:3: ( DOUBLE_QUOTE File_name_characters DOUBLE_QUOTE )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:226:5: DOUBLE_QUOTE File_name_characters DOUBLE_QUOTE
             {
             mDOUBLE_QUOTE(); if (state.failed) return ;
 
@@ -2472,10 +2472,10 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "File_name_characters"
     public final void mFile_name_characters() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:229:3: ( ( File_name_character )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:229:5: ( File_name_character )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:229:3: ( ( File_name_character )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:229:5: ( File_name_character )+
             {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:229:5: ( File_name_character )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:229:5: ( File_name_character )+
             int cnt54=0;
             loop54:
             do {
@@ -2489,7 +2489,7 @@ public class CSharp4PreProcessor extends Lexer {
 
                 switch (alt54) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             	    {
             	    if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '\t')||(input.LA(1) >= '\u000B' && input.LA(1) <= '\f')||(input.LA(1) >= '\u000E' && input.LA(1) <= '!')||(input.LA(1) >= '#' && input.LA(1) <= '\u0084')||(input.LA(1) >= '\u0086' && input.LA(1) <= '\u2027')||(input.LA(1) >= '\u202A' && input.LA(1) <= '\uFFFF') ) {
             	        input.consume();
@@ -2530,8 +2530,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "File_name_character"
     public final void mFile_name_character() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:233:3: (~ ( NEW_LINE_CHARACTER | DOUBLE_QUOTE ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:233:3: (~ ( NEW_LINE_CHARACTER | DOUBLE_QUOTE ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '\t')||(input.LA(1) >= '\u000B' && input.LA(1) <= '\f')||(input.LA(1) >= '\u000E' && input.LA(1) <= '!')||(input.LA(1) >= '#' && input.LA(1) <= '\u0084')||(input.LA(1) >= '\u0086' && input.LA(1) <= '\u2027')||(input.LA(1) >= '\u202A' && input.LA(1) <= '\uFFFF') ) {
                 input.consume();
@@ -2558,10 +2558,10 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Pp_pragma"
     public final void mPp_pragma() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:237:3: ( ( WHITESPACE )? SHARP ( WHITESPACE )? 'pragma' Pp_pragma_text )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:237:5: ( WHITESPACE )? SHARP ( WHITESPACE )? 'pragma' Pp_pragma_text
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:237:3: ( ( WHITESPACE )? SHARP ( WHITESPACE )? 'pragma' Pp_pragma_text )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:237:5: ( WHITESPACE )? SHARP ( WHITESPACE )? 'pragma' Pp_pragma_text
             {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:237:5: ( WHITESPACE )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:237:5: ( WHITESPACE )?
             int alt55=2;
             int LA55_0 = input.LA(1);
 
@@ -2570,7 +2570,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt55) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:237:5: WHITESPACE
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:237:5: WHITESPACE
                     {
                     mWHITESPACE(); if (state.failed) return ;
 
@@ -2584,7 +2584,7 @@ public class CSharp4PreProcessor extends Lexer {
             mSHARP(); if (state.failed) return ;
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:237:23: ( WHITESPACE )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:237:23: ( WHITESPACE )?
             int alt56=2;
             int LA56_0 = input.LA(1);
 
@@ -2593,7 +2593,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt56) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:237:23: WHITESPACE
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:237:23: WHITESPACE
                     {
                     mWHITESPACE(); if (state.failed) return ;
 
@@ -2624,7 +2624,7 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Pp_pragma_text"
     public final void mPp_pragma_text() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:240:3: ( ( NEW_LINE )? | WHITESPACE ( Input_characters )? ( NEW_LINE )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:240:3: ( ( NEW_LINE )? | WHITESPACE ( Input_characters )? ( NEW_LINE )? )
             int alt60=2;
             int LA60_0 = input.LA(1);
 
@@ -2636,9 +2636,9 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt60) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:240:5: ( NEW_LINE )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:240:5: ( NEW_LINE )?
                     {
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:240:5: ( NEW_LINE )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:240:5: ( NEW_LINE )?
                     int alt57=2;
                     int LA57_0 = input.LA(1);
 
@@ -2647,7 +2647,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     switch (alt57) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:240:5: NEW_LINE
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:240:5: NEW_LINE
                             {
                             mNEW_LINE(); if (state.failed) return ;
 
@@ -2661,12 +2661,12 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:241:5: WHITESPACE ( Input_characters )? ( NEW_LINE )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:241:5: WHITESPACE ( Input_characters )? ( NEW_LINE )?
                     {
                     mWHITESPACE(); if (state.failed) return ;
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:241:16: ( Input_characters )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:241:16: ( Input_characters )?
                     int alt58=2;
                     int LA58_0 = input.LA(1);
 
@@ -2675,7 +2675,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     switch (alt58) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:241:16: Input_characters
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:241:16: Input_characters
                             {
                             mInput_characters(); if (state.failed) return ;
 
@@ -2686,7 +2686,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:241:34: ( NEW_LINE )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:241:34: ( NEW_LINE )?
                     int alt59=2;
                     int LA59_0 = input.LA(1);
 
@@ -2695,7 +2695,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     switch (alt59) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:241:34: NEW_LINE
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:241:34: NEW_LINE
                             {
                             mNEW_LINE(); if (state.failed) return ;
 
@@ -2723,14 +2723,14 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = SINGLE_LINE_DOC_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:248:3: ( '///' ( Input_character )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:248:5: '///' ( Input_character )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:248:3: ( '///' ( Input_character )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:248:5: '///' ( Input_character )*
             {
             match("///"); if (state.failed) return ;
 
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:248:11: ( Input_character )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:248:11: ( Input_character )*
             loop61:
             do {
                 int alt61=2;
@@ -2743,7 +2743,7 @@ public class CSharp4PreProcessor extends Lexer {
 
                 switch (alt61) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             	    {
             	    if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '\t')||(input.LA(1) >= '\u000B' && input.LA(1) <= '\f')||(input.LA(1) >= '\u000E' && input.LA(1) <= '\u0084')||(input.LA(1) >= '\u0086' && input.LA(1) <= '\u2027')||(input.LA(1) >= '\u202A' && input.LA(1) <= '\uFFFF') ) {
             	        input.consume();
@@ -2784,21 +2784,21 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = DELIMITED_DOC_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:251:3: ( '/**' ( Delimited_comment_section )* Asterisks '/' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:251:5: '/**' ( Delimited_comment_section )* Asterisks '/'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:251:3: ( '/**' ( Delimited_comment_section )* Asterisks '/' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:251:5: '/**' ( Delimited_comment_section )* Asterisks '/'
             {
             match("/**"); if (state.failed) return ;
 
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:251:11: ( Delimited_comment_section )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:251:11: ( Delimited_comment_section )*
             loop62:
             do {
                 int alt62=2;
                 alt62 = dfa62.predict(input);
                 switch (alt62) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:251:11: Delimited_comment_section
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:251:11: Delimited_comment_section
             	    {
             	    mDelimited_comment_section(); if (state.failed) return ;
 
@@ -2835,10 +2835,10 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = NEW_LINE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:256:3: ( ( '\\u000D' | '\\u000A' | '\\u000D' '\\u000A' | '\\u0085' | '\\u2028' | '\\u2029' ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:256:5: ( '\\u000D' | '\\u000A' | '\\u000D' '\\u000A' | '\\u0085' | '\\u2028' | '\\u2029' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:256:3: ( ( '\\u000D' | '\\u000A' | '\\u000D' '\\u000A' | '\\u0085' | '\\u2028' | '\\u2029' ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:256:5: ( '\\u000D' | '\\u000A' | '\\u000D' '\\u000A' | '\\u0085' | '\\u2028' | '\\u2029' )
             {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:256:5: ( '\\u000D' | '\\u000A' | '\\u000D' '\\u000A' | '\\u0085' | '\\u2028' | '\\u2029' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:256:5: ( '\\u000D' | '\\u000A' | '\\u000D' '\\u000A' | '\\u0085' | '\\u2028' | '\\u2029' )
             int alt63=6;
             switch ( input.LA(1) ) {
             case '\r':
@@ -2884,21 +2884,21 @@ public class CSharp4PreProcessor extends Lexer {
 
             switch (alt63) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:256:6: '\\u000D'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:256:6: '\\u000D'
                     {
                     match('\r'); if (state.failed) return ;
 
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:257:5: '\\u000A'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:257:5: '\\u000A'
                     {
                     match('\n'); if (state.failed) return ;
 
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:258:5: '\\u000D' '\\u000A'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:258:5: '\\u000D' '\\u000A'
                     {
                     match('\r'); if (state.failed) return ;
 
@@ -2907,21 +2907,21 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:259:5: '\\u0085'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:259:5: '\\u0085'
                     {
                     match('\u0085'); if (state.failed) return ;
 
                     }
                     break;
                 case 5 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:260:5: '\\u2028'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:260:5: '\\u2028'
                     {
                     match('\u2028'); if (state.failed) return ;
 
                     }
                     break;
                 case 6 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:261:5: '\\u2029'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:261:5: '\\u2029'
                     {
                     match('\u2029'); if (state.failed) return ;
 
@@ -2949,14 +2949,14 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = SINGLE_LINE_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:267:3: ( '//' ( Input_character )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:267:5: '//' ( Input_character )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:267:3: ( '//' ( Input_character )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:267:5: '//' ( Input_character )*
             {
             match("//"); if (state.failed) return ;
 
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:267:10: ( Input_character )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:267:10: ( Input_character )*
             loop64:
             do {
                 int alt64=2;
@@ -2969,7 +2969,7 @@ public class CSharp4PreProcessor extends Lexer {
 
                 switch (alt64) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             	    {
             	    if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '\t')||(input.LA(1) >= '\u000B' && input.LA(1) <= '\f')||(input.LA(1) >= '\u000E' && input.LA(1) <= '\u0084')||(input.LA(1) >= '\u0086' && input.LA(1) <= '\u2027')||(input.LA(1) >= '\u202A' && input.LA(1) <= '\uFFFF') ) {
             	        input.consume();
@@ -3008,10 +3008,10 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Input_characters"
     public final void mInput_characters() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:270:3: ( ( Input_character )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:270:5: ( Input_character )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:270:3: ( ( Input_character )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:270:5: ( Input_character )+
             {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:270:5: ( Input_character )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:270:5: ( Input_character )+
             int cnt65=0;
             loop65:
             do {
@@ -3025,7 +3025,7 @@ public class CSharp4PreProcessor extends Lexer {
 
                 switch (alt65) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             	    {
             	    if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '\t')||(input.LA(1) >= '\u000B' && input.LA(1) <= '\f')||(input.LA(1) >= '\u000E' && input.LA(1) <= '\u0084')||(input.LA(1) >= '\u0086' && input.LA(1) <= '\u2027')||(input.LA(1) >= '\u202A' && input.LA(1) <= '\uFFFF') ) {
             	        input.consume();
@@ -3066,8 +3066,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Input_character"
     public final void mInput_character() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:273:3: (~ NEW_LINE_CHARACTER )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:273:3: (~ NEW_LINE_CHARACTER )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '\t')||(input.LA(1) >= '\u000B' && input.LA(1) <= '\f')||(input.LA(1) >= '\u000E' && input.LA(1) <= '\u0084')||(input.LA(1) >= '\u0086' && input.LA(1) <= '\u2027')||(input.LA(1) >= '\u202A' && input.LA(1) <= '\uFFFF') ) {
                 input.consume();
@@ -3094,8 +3094,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "NEW_LINE_CHARACTER"
     public final void mNEW_LINE_CHARACTER() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:276:3: ( '\\u000D' | '\\u000A' | '\\u0085' | '\\u2028' | '\\u2029' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:276:3: ( '\\u000D' | '\\u000A' | '\\u0085' | '\\u2028' | '\\u2029' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( input.LA(1)=='\n'||input.LA(1)=='\r'||input.LA(1)=='\u0085'||(input.LA(1) >= '\u2028' && input.LA(1) <= '\u2029') ) {
                 input.consume();
@@ -3124,21 +3124,21 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = DELIMITED_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:284:3: ( '/*' ( Delimited_comment_section )* Asterisks '/' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:284:5: '/*' ( Delimited_comment_section )* Asterisks '/'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:284:3: ( '/*' ( Delimited_comment_section )* Asterisks '/' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:284:5: '/*' ( Delimited_comment_section )* Asterisks '/'
             {
             match("/*"); if (state.failed) return ;
 
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:284:10: ( Delimited_comment_section )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:284:10: ( Delimited_comment_section )*
             loop66:
             do {
                 int alt66=2;
                 alt66 = dfa66.predict(input);
                 switch (alt66) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:284:10: Delimited_comment_section
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:284:10: Delimited_comment_section
             	    {
             	    mDelimited_comment_section(); if (state.failed) return ;
 
@@ -3173,7 +3173,7 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Delimited_comment_section"
     public final void mDelimited_comment_section() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:287:3: ( '/' | ( Asterisks )? Not_slash_or_asterisk )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:287:3: ( '/' | ( Asterisks )? Not_slash_or_asterisk )
             int alt68=2;
             int LA68_0 = input.LA(1);
 
@@ -3193,16 +3193,16 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt68) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:287:5: '/'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:287:5: '/'
                     {
                     match('/'); if (state.failed) return ;
 
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:288:5: ( Asterisks )? Not_slash_or_asterisk
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:288:5: ( Asterisks )? Not_slash_or_asterisk
                     {
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:288:5: ( Asterisks )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:288:5: ( Asterisks )?
                     int alt67=2;
                     int LA67_0 = input.LA(1);
 
@@ -3211,7 +3211,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     switch (alt67) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:288:5: Asterisks
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:288:5: Asterisks
                             {
                             mAsterisks(); if (state.failed) return ;
 
@@ -3240,10 +3240,10 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Asterisks"
     public final void mAsterisks() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:291:3: ( ( '*' )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:291:5: ( '*' )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:291:3: ( ( '*' )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:291:5: ( '*' )+
             {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:291:5: ( '*' )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:291:5: ( '*' )+
             int cnt69=0;
             loop69:
             do {
@@ -3257,7 +3257,7 @@ public class CSharp4PreProcessor extends Lexer {
 
                 switch (alt69) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:291:5: '*'
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:291:5: '*'
             	    {
             	    match('*'); if (state.failed) return ;
 
@@ -3288,8 +3288,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Not_slash_or_asterisk"
     public final void mNot_slash_or_asterisk() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:295:3: (~ ( '/' | '*' ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:295:3: (~ ( '/' | '*' ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( (input.LA(1) >= '\u0000' && input.LA(1) <= ')')||(input.LA(1) >= '+' && input.LA(1) <= '.')||(input.LA(1) >= '0' && input.LA(1) <= '\uFFFF') ) {
                 input.consume();
@@ -3318,8 +3318,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = WHITESPACE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:300:3: ( Whitespace_characters )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:300:5: Whitespace_characters
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:300:3: ( Whitespace_characters )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:300:5: Whitespace_characters
             {
             mWhitespace_characters(); if (state.failed) return ;
 
@@ -3340,10 +3340,10 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Whitespace_characters"
     public final void mWhitespace_characters() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:304:3: ( ( Whitespace_character )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:304:5: ( Whitespace_character )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:304:3: ( ( Whitespace_character )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:304:5: ( Whitespace_character )+
             {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:304:5: ( Whitespace_character )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:304:5: ( Whitespace_character )+
             int cnt70=0;
             loop70:
             do {
@@ -3357,7 +3357,7 @@ public class CSharp4PreProcessor extends Lexer {
 
                 switch (alt70) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             	    {
             	    if ( input.LA(1)=='\t'||(input.LA(1) >= '\u000B' && input.LA(1) <= '\f')||input.LA(1)==' '||input.LA(1)=='\u00A0'||input.LA(1)=='\u1680'||input.LA(1)=='\u180E'||(input.LA(1) >= '\u2000' && input.LA(1) <= '\u2006')||(input.LA(1) >= '\u2008' && input.LA(1) <= '\u200A')||input.LA(1)=='\u202F'||input.LA(1)=='\u205F'||input.LA(1)=='\u3000' ) {
             	        input.consume();
@@ -3398,8 +3398,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Whitespace_character"
     public final void mWhitespace_character() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:308:3: ( UNICODE_CLASS_ZS | '\\u0009' | '\\u000B' | '\\u000C' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:308:3: ( UNICODE_CLASS_ZS | '\\u0009' | '\\u000B' | '\\u000C' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( input.LA(1)=='\t'||(input.LA(1) >= '\u000B' && input.LA(1) <= '\f')||input.LA(1)==' '||input.LA(1)=='\u00A0'||input.LA(1)=='\u1680'||input.LA(1)=='\u180E'||(input.LA(1) >= '\u2000' && input.LA(1) <= '\u2006')||(input.LA(1) >= '\u2008' && input.LA(1) <= '\u200A')||input.LA(1)=='\u202F'||input.LA(1)=='\u205F'||input.LA(1)=='\u3000' ) {
                 input.consume();
@@ -3426,7 +3426,7 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Unicode_escape_sequence"
     public final void mUnicode_escape_sequence() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:316:3: ( '\\\\u' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT | '\\\\U' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:316:3: ( '\\\\u' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT | '\\\\U' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT )
             int alt71=2;
             int LA71_0 = input.LA(1);
 
@@ -3458,7 +3458,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt71) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:316:5: '\\\\u' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:316:5: '\\\\u' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT
                     {
                     match("\\u"); if (state.failed) return ;
 
@@ -3479,7 +3479,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:317:5: '\\\\U' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:317:5: '\\\\U' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT
                     {
                     match("\\U"); if (state.failed) return ;
 
@@ -3526,8 +3526,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = ABSTRACT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:321:10: ( 'abstract' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:321:12: 'abstract'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:321:10: ( 'abstract' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:321:12: 'abstract'
             {
             match("abstract"); if (state.failed) return ;
 
@@ -3549,8 +3549,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = AS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:322:4: ( 'as' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:322:6: 'as'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:322:4: ( 'as' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:322:6: 'as'
             {
             match("as"); if (state.failed) return ;
 
@@ -3572,8 +3572,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = BASE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:323:6: ( 'base' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:323:8: 'base'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:323:6: ( 'base' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:323:8: 'base'
             {
             match("base"); if (state.failed) return ;
 
@@ -3595,8 +3595,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = BOOL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:324:6: ( 'bool' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:324:8: 'bool'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:324:6: ( 'bool' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:324:8: 'bool'
             {
             match("bool"); if (state.failed) return ;
 
@@ -3618,8 +3618,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = BREAK;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:325:7: ( 'break' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:325:9: 'break'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:325:7: ( 'break' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:325:9: 'break'
             {
             match("break"); if (state.failed) return ;
 
@@ -3641,8 +3641,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = BYTE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:326:6: ( 'byte' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:326:8: 'byte'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:326:6: ( 'byte' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:326:8: 'byte'
             {
             match("byte"); if (state.failed) return ;
 
@@ -3664,8 +3664,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = CASE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:327:6: ( 'case' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:327:8: 'case'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:327:6: ( 'case' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:327:8: 'case'
             {
             match("case"); if (state.failed) return ;
 
@@ -3687,8 +3687,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = CATCH;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:328:7: ( 'catch' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:328:9: 'catch'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:328:7: ( 'catch' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:328:9: 'catch'
             {
             match("catch"); if (state.failed) return ;
 
@@ -3710,8 +3710,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = CHAR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:329:6: ( 'char' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:329:8: 'char'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:329:6: ( 'char' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:329:8: 'char'
             {
             match("char"); if (state.failed) return ;
 
@@ -3733,8 +3733,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = CHECKED;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:330:9: ( 'checked' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:330:11: 'checked'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:330:9: ( 'checked' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:330:11: 'checked'
             {
             match("checked"); if (state.failed) return ;
 
@@ -3756,8 +3756,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = CLASS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:331:7: ( 'class' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:331:9: 'class'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:331:7: ( 'class' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:331:9: 'class'
             {
             match("class"); if (state.failed) return ;
 
@@ -3779,8 +3779,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = CONST;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:332:7: ( 'const' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:332:9: 'const'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:332:7: ( 'const' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:332:9: 'const'
             {
             match("const"); if (state.failed) return ;
 
@@ -3802,8 +3802,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = CONTINUE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:333:10: ( 'continue' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:333:12: 'continue'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:333:10: ( 'continue' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:333:12: 'continue'
             {
             match("continue"); if (state.failed) return ;
 
@@ -3825,8 +3825,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = DECIMAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:334:9: ( 'decimal' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:334:11: 'decimal'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:334:9: ( 'decimal' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:334:11: 'decimal'
             {
             match("decimal"); if (state.failed) return ;
 
@@ -3848,8 +3848,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = DEFAULT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:335:9: ( 'default' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:335:11: 'default'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:335:9: ( 'default' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:335:11: 'default'
             {
             match("default"); if (state.failed) return ;
 
@@ -3871,8 +3871,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = DELEGATE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:336:10: ( 'delegate' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:336:12: 'delegate'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:336:10: ( 'delegate' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:336:12: 'delegate'
             {
             match("delegate"); if (state.failed) return ;
 
@@ -3894,8 +3894,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = DO;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:337:4: ( 'do' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:337:6: 'do'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:337:4: ( 'do' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:337:6: 'do'
             {
             match("do"); if (state.failed) return ;
 
@@ -3917,8 +3917,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = DOUBLE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:338:8: ( 'double' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:338:10: 'double'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:338:8: ( 'double' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:338:10: 'double'
             {
             match("double"); if (state.failed) return ;
 
@@ -3940,8 +3940,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = ELSE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:339:6: ( 'else' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:339:8: 'else'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:339:6: ( 'else' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:339:8: 'else'
             {
             match("else"); if (state.failed) return ;
 
@@ -3963,8 +3963,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = ENUM;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:340:6: ( 'enum' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:340:8: 'enum'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:340:6: ( 'enum' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:340:8: 'enum'
             {
             match("enum"); if (state.failed) return ;
 
@@ -3986,8 +3986,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = EVENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:341:7: ( 'event' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:341:9: 'event'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:341:7: ( 'event' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:341:9: 'event'
             {
             match("event"); if (state.failed) return ;
 
@@ -4009,8 +4009,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = EXPLICIT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:342:10: ( 'explicit' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:342:12: 'explicit'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:342:10: ( 'explicit' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:342:12: 'explicit'
             {
             match("explicit"); if (state.failed) return ;
 
@@ -4032,8 +4032,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = EXTERN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:343:8: ( 'extern' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:343:10: 'extern'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:343:8: ( 'extern' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:343:10: 'extern'
             {
             match("extern"); if (state.failed) return ;
 
@@ -4055,8 +4055,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = FALSE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:344:7: ( 'false' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:344:9: 'false'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:344:7: ( 'false' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:344:9: 'false'
             {
             match("false"); if (state.failed) return ;
 
@@ -4078,8 +4078,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = FINALLY;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:345:9: ( 'finally' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:345:11: 'finally'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:345:9: ( 'finally' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:345:11: 'finally'
             {
             match("finally"); if (state.failed) return ;
 
@@ -4101,8 +4101,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = FIXED;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:346:7: ( 'fixed' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:346:9: 'fixed'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:346:7: ( 'fixed' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:346:9: 'fixed'
             {
             match("fixed"); if (state.failed) return ;
 
@@ -4124,8 +4124,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = FLOAT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:347:7: ( 'float' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:347:9: 'float'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:347:7: ( 'float' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:347:9: 'float'
             {
             match("float"); if (state.failed) return ;
 
@@ -4147,8 +4147,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = FOR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:348:5: ( 'for' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:348:7: 'for'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:348:5: ( 'for' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:348:7: 'for'
             {
             match("for"); if (state.failed) return ;
 
@@ -4170,8 +4170,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = FOREACH;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:349:9: ( 'foreach' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:349:11: 'foreach'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:349:9: ( 'foreach' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:349:11: 'foreach'
             {
             match("foreach"); if (state.failed) return ;
 
@@ -4193,8 +4193,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = GOTO;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:350:6: ( 'goto' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:350:8: 'goto'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:350:6: ( 'goto' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:350:8: 'goto'
             {
             match("goto"); if (state.failed) return ;
 
@@ -4216,8 +4216,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = IF;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:351:4: ( 'if' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:351:6: 'if'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:351:4: ( 'if' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:351:6: 'if'
             {
             match("if"); if (state.failed) return ;
 
@@ -4239,8 +4239,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = IMPLICIT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:352:10: ( 'implicit' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:352:12: 'implicit'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:352:10: ( 'implicit' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:352:12: 'implicit'
             {
             match("implicit"); if (state.failed) return ;
 
@@ -4262,8 +4262,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = IN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:353:4: ( 'in' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:353:6: 'in'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:353:4: ( 'in' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:353:6: 'in'
             {
             match("in"); if (state.failed) return ;
 
@@ -4285,8 +4285,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = INT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:354:5: ( 'int' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:354:7: 'int'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:354:5: ( 'int' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:354:7: 'int'
             {
             match("int"); if (state.failed) return ;
 
@@ -4308,8 +4308,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = INTERFACE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:355:11: ( 'interface' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:355:13: 'interface'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:355:11: ( 'interface' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:355:13: 'interface'
             {
             match("interface"); if (state.failed) return ;
 
@@ -4331,8 +4331,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = INTERNAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:356:10: ( 'internal' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:356:12: 'internal'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:356:10: ( 'internal' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:356:12: 'internal'
             {
             match("internal"); if (state.failed) return ;
 
@@ -4354,8 +4354,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = IS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:357:4: ( 'is' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:357:6: 'is'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:357:4: ( 'is' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:357:6: 'is'
             {
             match("is"); if (state.failed) return ;
 
@@ -4377,8 +4377,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = LOCK;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:358:6: ( 'lock' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:358:8: 'lock'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:358:6: ( 'lock' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:358:8: 'lock'
             {
             match("lock"); if (state.failed) return ;
 
@@ -4400,8 +4400,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = LONG;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:359:6: ( 'long' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:359:8: 'long'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:359:6: ( 'long' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:359:8: 'long'
             {
             match("long"); if (state.failed) return ;
 
@@ -4423,8 +4423,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = NAMESPACE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:360:11: ( 'namespace' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:360:13: 'namespace'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:360:11: ( 'namespace' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:360:13: 'namespace'
             {
             match("namespace"); if (state.failed) return ;
 
@@ -4446,8 +4446,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = NEW;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:361:5: ( 'new' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:361:7: 'new'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:361:5: ( 'new' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:361:7: 'new'
             {
             match("new"); if (state.failed) return ;
 
@@ -4469,8 +4469,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = NULL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:362:6: ( 'null' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:362:8: 'null'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:362:6: ( 'null' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:362:8: 'null'
             {
             match("null"); if (state.failed) return ;
 
@@ -4492,8 +4492,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = OBJECT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:363:8: ( 'object' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:363:10: 'object'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:363:8: ( 'object' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:363:10: 'object'
             {
             match("object"); if (state.failed) return ;
 
@@ -4515,8 +4515,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = OPERATOR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:364:10: ( 'operator' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:364:12: 'operator'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:364:10: ( 'operator' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:364:12: 'operator'
             {
             match("operator"); if (state.failed) return ;
 
@@ -4538,8 +4538,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = OUT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:365:5: ( 'out' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:365:7: 'out'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:365:5: ( 'out' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:365:7: 'out'
             {
             match("out"); if (state.failed) return ;
 
@@ -4561,8 +4561,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = OVERRIDE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:366:10: ( 'override' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:366:12: 'override'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:366:10: ( 'override' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:366:12: 'override'
             {
             match("override"); if (state.failed) return ;
 
@@ -4584,8 +4584,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = PARAMS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:367:8: ( 'params' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:367:10: 'params'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:367:8: ( 'params' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:367:10: 'params'
             {
             match("params"); if (state.failed) return ;
 
@@ -4607,8 +4607,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = PRIVATE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:368:9: ( 'private' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:368:11: 'private'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:368:9: ( 'private' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:368:11: 'private'
             {
             match("private"); if (state.failed) return ;
 
@@ -4630,8 +4630,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = PROTECTED;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:369:11: ( 'protected' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:369:13: 'protected'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:369:11: ( 'protected' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:369:13: 'protected'
             {
             match("protected"); if (state.failed) return ;
 
@@ -4653,8 +4653,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = PUBLIC;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:370:8: ( 'public' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:370:10: 'public'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:370:8: ( 'public' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:370:10: 'public'
             {
             match("public"); if (state.failed) return ;
 
@@ -4676,8 +4676,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = READONLY;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:371:10: ( 'readonly' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:371:12: 'readonly'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:371:10: ( 'readonly' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:371:12: 'readonly'
             {
             match("readonly"); if (state.failed) return ;
 
@@ -4699,8 +4699,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = REF;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:372:5: ( 'ref' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:372:7: 'ref'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:372:5: ( 'ref' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:372:7: 'ref'
             {
             match("ref"); if (state.failed) return ;
 
@@ -4722,8 +4722,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = RETURN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:373:8: ( 'return' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:373:10: 'return'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:373:8: ( 'return' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:373:10: 'return'
             {
             match("return"); if (state.failed) return ;
 
@@ -4745,8 +4745,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = SBYTE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:374:7: ( 'sbyte' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:374:9: 'sbyte'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:374:7: ( 'sbyte' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:374:9: 'sbyte'
             {
             match("sbyte"); if (state.failed) return ;
 
@@ -4768,8 +4768,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = SEALED;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:375:8: ( 'sealed' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:375:10: 'sealed'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:375:8: ( 'sealed' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:375:10: 'sealed'
             {
             match("sealed"); if (state.failed) return ;
 
@@ -4791,8 +4791,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = SHORT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:376:7: ( 'short' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:376:9: 'short'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:376:7: ( 'short' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:376:9: 'short'
             {
             match("short"); if (state.failed) return ;
 
@@ -4814,8 +4814,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = SIZEOF;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:377:8: ( 'sizeof' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:377:10: 'sizeof'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:377:8: ( 'sizeof' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:377:10: 'sizeof'
             {
             match("sizeof"); if (state.failed) return ;
 
@@ -4837,8 +4837,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = STACKALLOC;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:378:12: ( 'stackalloc' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:378:14: 'stackalloc'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:378:12: ( 'stackalloc' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:378:14: 'stackalloc'
             {
             match("stackalloc"); if (state.failed) return ;
 
@@ -4860,8 +4860,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = STATIC;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:379:8: ( 'static' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:379:10: 'static'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:379:8: ( 'static' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:379:10: 'static'
             {
             match("static"); if (state.failed) return ;
 
@@ -4883,8 +4883,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = STRING;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:380:8: ( 'string' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:380:10: 'string'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:380:8: ( 'string' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:380:10: 'string'
             {
             match("string"); if (state.failed) return ;
 
@@ -4906,8 +4906,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = STRUCT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:381:8: ( 'struct' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:381:10: 'struct'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:381:8: ( 'struct' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:381:10: 'struct'
             {
             match("struct"); if (state.failed) return ;
 
@@ -4929,8 +4929,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = SWITCH;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:382:8: ( 'switch' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:382:10: 'switch'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:382:8: ( 'switch' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:382:10: 'switch'
             {
             match("switch"); if (state.failed) return ;
 
@@ -4952,8 +4952,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = THIS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:383:6: ( 'this' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:383:8: 'this'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:383:6: ( 'this' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:383:8: 'this'
             {
             match("this"); if (state.failed) return ;
 
@@ -4975,8 +4975,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = THROW;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:384:7: ( 'throw' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:384:9: 'throw'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:384:7: ( 'throw' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:384:9: 'throw'
             {
             match("throw"); if (state.failed) return ;
 
@@ -4998,8 +4998,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = TRUE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:385:6: ( 'true' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:385:8: 'true'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:385:6: ( 'true' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:385:8: 'true'
             {
             match("true"); if (state.failed) return ;
 
@@ -5021,8 +5021,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = TRY;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:386:5: ( 'try' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:386:7: 'try'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:386:5: ( 'try' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:386:7: 'try'
             {
             match("try"); if (state.failed) return ;
 
@@ -5044,8 +5044,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = TYPEOF;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:387:8: ( 'typeof' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:387:10: 'typeof'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:387:8: ( 'typeof' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:387:10: 'typeof'
             {
             match("typeof"); if (state.failed) return ;
 
@@ -5067,8 +5067,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = UINT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:388:6: ( 'uint' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:388:8: 'uint'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:388:6: ( 'uint' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:388:8: 'uint'
             {
             match("uint"); if (state.failed) return ;
 
@@ -5090,8 +5090,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = ULONG;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:389:7: ( 'ulong' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:389:9: 'ulong'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:389:7: ( 'ulong' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:389:9: 'ulong'
             {
             match("ulong"); if (state.failed) return ;
 
@@ -5113,8 +5113,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = UNCHECKED;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:390:11: ( 'unchecked' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:390:13: 'unchecked'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:390:11: ( 'unchecked' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:390:13: 'unchecked'
             {
             match("unchecked"); if (state.failed) return ;
 
@@ -5136,8 +5136,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = UNSAFE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:391:8: ( 'unsafe' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:391:10: 'unsafe'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:391:8: ( 'unsafe' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:391:10: 'unsafe'
             {
             match("unsafe"); if (state.failed) return ;
 
@@ -5159,8 +5159,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = USHORT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:392:8: ( 'ushort' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:392:10: 'ushort'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:392:8: ( 'ushort' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:392:10: 'ushort'
             {
             match("ushort"); if (state.failed) return ;
 
@@ -5182,8 +5182,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = USING;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:393:7: ( 'using' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:393:9: 'using'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:393:7: ( 'using' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:393:9: 'using'
             {
             match("using"); if (state.failed) return ;
 
@@ -5205,8 +5205,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = VIRTUAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:394:9: ( 'virtual' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:394:11: 'virtual'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:394:9: ( 'virtual' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:394:11: 'virtual'
             {
             match("virtual"); if (state.failed) return ;
 
@@ -5228,8 +5228,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = VOID;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:395:6: ( 'void' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:395:8: 'void'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:395:6: ( 'void' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:395:8: 'void'
             {
             match("void"); if (state.failed) return ;
 
@@ -5251,8 +5251,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = VOLATILE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:396:10: ( 'volatile' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:396:12: 'volatile'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:396:10: ( 'volatile' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:396:12: 'volatile'
             {
             match("volatile"); if (state.failed) return ;
 
@@ -5274,8 +5274,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = WHILE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:397:7: ( 'while' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:397:9: 'while'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:397:7: ( 'while' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:397:9: 'while'
             {
             match("while"); if (state.failed) return ;
 
@@ -5297,7 +5297,7 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = IDENTIFIER;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:402:3: ( Available_identifier | '@' Identifier_or_keyword )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:402:3: ( Available_identifier | '@' Identifier_or_keyword )
             int alt72=2;
             int LA72_0 = input.LA(1);
 
@@ -5317,7 +5317,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt72) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:402:5: Available_identifier
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:402:5: Available_identifier
                     {
                     mAvailable_identifier(); if (state.failed) return ;
 
@@ -5325,7 +5325,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:403:5: '@' Identifier_or_keyword
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:403:5: '@' Identifier_or_keyword
                     {
                     match('@'); if (state.failed) return ;
 
@@ -5348,8 +5348,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Available_identifier"
     public final void mAvailable_identifier() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:408:3: ( Identifier_or_keyword )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:408:5: Identifier_or_keyword
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:408:3: ( Identifier_or_keyword )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:408:5: Identifier_or_keyword
             {
             mIdentifier_or_keyword(); if (state.failed) return ;
 
@@ -5367,13 +5367,13 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Identifier_or_keyword"
     public final void mIdentifier_or_keyword() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:411:3: ( Identifier_start_character ( Identifier_part_character )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:411:5: Identifier_start_character ( Identifier_part_character )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:411:3: ( Identifier_start_character ( Identifier_part_character )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:411:5: Identifier_start_character ( Identifier_part_character )*
             {
             mIdentifier_start_character(); if (state.failed) return ;
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:411:32: ( Identifier_part_character )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:411:32: ( Identifier_part_character )*
             loop73:
             do {
                 int alt73=2;
@@ -5386,7 +5386,7 @@ public class CSharp4PreProcessor extends Lexer {
 
                 switch (alt73) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             	    {
             	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9')||(input.LA(1) >= 'A' && input.LA(1) <= 'Z')||input.LA(1)=='_'||(input.LA(1) >= 'a' && input.LA(1) <= 'z')||input.LA(1)=='\u00AD'||(input.LA(1) >= '\u00C0' && input.LA(1) <= '\u00DE')||input.LA(1)=='\u01BB'||(input.LA(1) >= '\u01C0' && input.LA(1) <= '\u01C3')||input.LA(1)=='\u01C5'||input.LA(1)=='\u01C8'||input.LA(1)=='\u01CB'||input.LA(1)=='\u01F2'||input.LA(1)=='\u0294'||(input.LA(1) >= '\u02B0' && input.LA(1) <= '\u02EE')||(input.LA(1) >= '\u0300' && input.LA(1) <= '\u0310')||(input.LA(1) >= '\u0600' && input.LA(1) <= '\u0603')||input.LA(1)=='\u06DD'||input.LA(1)=='\u0903'||(input.LA(1) >= '\u093E' && input.LA(1) <= '\u0940')||(input.LA(1) >= '\u0949' && input.LA(1) <= '\u094C')||(input.LA(1) >= '\u16EE' && input.LA(1) <= '\u16F0')||(input.LA(1) >= '\u203F' && input.LA(1) <= '\u2040')||input.LA(1)=='\u2054'||(input.LA(1) >= '\u2160' && input.LA(1) <= '\u216F')||(input.LA(1) >= '\uFE33' && input.LA(1) <= '\uFE34')||(input.LA(1) >= '\uFE4D' && input.LA(1) <= '\uFE4F')||input.LA(1)=='\uFF3F' ) {
             	        input.consume();
@@ -5422,8 +5422,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Identifier_start_character"
     public final void mIdentifier_start_character() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:414:3: ( Letter_character | '_' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:414:3: ( Letter_character | '_' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( (input.LA(1) >= 'A' && input.LA(1) <= 'Z')||input.LA(1)=='_'||(input.LA(1) >= 'a' && input.LA(1) <= 'z')||(input.LA(1) >= '\u00C0' && input.LA(1) <= '\u00DE')||input.LA(1)=='\u01BB'||(input.LA(1) >= '\u01C0' && input.LA(1) <= '\u01C3')||input.LA(1)=='\u01C5'||input.LA(1)=='\u01C8'||input.LA(1)=='\u01CB'||input.LA(1)=='\u01F2'||input.LA(1)=='\u0294'||(input.LA(1) >= '\u02B0' && input.LA(1) <= '\u02EE')||(input.LA(1) >= '\u16EE' && input.LA(1) <= '\u16F0')||(input.LA(1) >= '\u2160' && input.LA(1) <= '\u216F') ) {
                 input.consume();
@@ -5450,8 +5450,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Identifier_part_character"
     public final void mIdentifier_part_character() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:418:3: ( Letter_character | Decimal_digit_character | Connecting_character | Combining_character | Formatting_character )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:418:3: ( Letter_character | Decimal_digit_character | Connecting_character | Combining_character | Formatting_character )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( (input.LA(1) >= '0' && input.LA(1) <= '9')||(input.LA(1) >= 'A' && input.LA(1) <= 'Z')||input.LA(1)=='_'||(input.LA(1) >= 'a' && input.LA(1) <= 'z')||input.LA(1)=='\u00AD'||(input.LA(1) >= '\u00C0' && input.LA(1) <= '\u00DE')||input.LA(1)=='\u01BB'||(input.LA(1) >= '\u01C0' && input.LA(1) <= '\u01C3')||input.LA(1)=='\u01C5'||input.LA(1)=='\u01C8'||input.LA(1)=='\u01CB'||input.LA(1)=='\u01F2'||input.LA(1)=='\u0294'||(input.LA(1) >= '\u02B0' && input.LA(1) <= '\u02EE')||(input.LA(1) >= '\u0300' && input.LA(1) <= '\u0310')||(input.LA(1) >= '\u0600' && input.LA(1) <= '\u0603')||input.LA(1)=='\u06DD'||input.LA(1)=='\u0903'||(input.LA(1) >= '\u093E' && input.LA(1) <= '\u0940')||(input.LA(1) >= '\u0949' && input.LA(1) <= '\u094C')||(input.LA(1) >= '\u16EE' && input.LA(1) <= '\u16F0')||(input.LA(1) >= '\u203F' && input.LA(1) <= '\u2040')||input.LA(1)=='\u2054'||(input.LA(1) >= '\u2160' && input.LA(1) <= '\u216F')||(input.LA(1) >= '\uFE33' && input.LA(1) <= '\uFE34')||(input.LA(1) >= '\uFE4D' && input.LA(1) <= '\uFE4F')||input.LA(1)=='\uFF3F' ) {
                 input.consume();
@@ -5478,8 +5478,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Letter_character"
     public final void mLetter_character() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:427:3: ( UNICODE_CLASS_LU | UNICODE_CLASS_LL | UNICODE_CLASS_LT | UNICODE_CLASS_LM | UNICODE_CLASS_LO | UNICODE_CLASS_NL )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:427:3: ( UNICODE_CLASS_LU | UNICODE_CLASS_LL | UNICODE_CLASS_LT | UNICODE_CLASS_LM | UNICODE_CLASS_LO | UNICODE_CLASS_NL )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( (input.LA(1) >= 'A' && input.LA(1) <= 'Z')||(input.LA(1) >= 'a' && input.LA(1) <= 'z')||(input.LA(1) >= '\u00C0' && input.LA(1) <= '\u00DE')||input.LA(1)=='\u01BB'||(input.LA(1) >= '\u01C0' && input.LA(1) <= '\u01C3')||input.LA(1)=='\u01C5'||input.LA(1)=='\u01C8'||input.LA(1)=='\u01CB'||input.LA(1)=='\u01F2'||input.LA(1)=='\u0294'||(input.LA(1) >= '\u02B0' && input.LA(1) <= '\u02EE')||(input.LA(1) >= '\u16EE' && input.LA(1) <= '\u16F0')||(input.LA(1) >= '\u2160' && input.LA(1) <= '\u216F') ) {
                 input.consume();
@@ -5506,8 +5506,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Combining_character"
     public final void mCombining_character() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:438:3: ( UNICODE_CLASS_MN | UNICODE_CLASS_MC )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:438:3: ( UNICODE_CLASS_MN | UNICODE_CLASS_MC )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( (input.LA(1) >= '\u0300' && input.LA(1) <= '\u0310')||input.LA(1)=='\u0903'||(input.LA(1) >= '\u093E' && input.LA(1) <= '\u0940')||(input.LA(1) >= '\u0949' && input.LA(1) <= '\u094C') ) {
                 input.consume();
@@ -5534,8 +5534,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Decimal_digit_character"
     public final void mDecimal_digit_character() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:445:3: ( UNICODE_CLASS_ND )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:445:3: ( UNICODE_CLASS_ND )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
                 input.consume();
@@ -5562,8 +5562,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Connecting_character"
     public final void mConnecting_character() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:451:3: ( UNICODE_CLASS_PC )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:451:3: ( UNICODE_CLASS_PC )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( input.LA(1)=='_'||(input.LA(1) >= '\u203F' && input.LA(1) <= '\u2040')||input.LA(1)=='\u2054'||(input.LA(1) >= '\uFE33' && input.LA(1) <= '\uFE34')||(input.LA(1) >= '\uFE4D' && input.LA(1) <= '\uFE4F')||input.LA(1)=='\uFF3F' ) {
                 input.consume();
@@ -5590,8 +5590,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Formatting_character"
     public final void mFormatting_character() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:457:3: ( UNICODE_CLASS_CF )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:457:3: ( UNICODE_CLASS_CF )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( input.LA(1)=='\u00AD'||(input.LA(1) >= '\u0600' && input.LA(1) <= '\u0603')||input.LA(1)=='\u06DD' ) {
                 input.consume();
@@ -5620,7 +5620,7 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = INTEGER_LITERAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:464:3: ( Decimal_integer_literal | Hexadecimal_integer_literal )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:464:3: ( Decimal_integer_literal | Hexadecimal_integer_literal )
             int alt74=2;
             int LA74_0 = input.LA(1);
 
@@ -5647,7 +5647,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt74) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:464:5: Decimal_integer_literal
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:464:5: Decimal_integer_literal
                     {
                     mDecimal_integer_literal(); if (state.failed) return ;
 
@@ -5655,7 +5655,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:465:5: Hexadecimal_integer_literal
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:465:5: Hexadecimal_integer_literal
                     {
                     mHexadecimal_integer_literal(); if (state.failed) return ;
 
@@ -5676,13 +5676,13 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Decimal_integer_literal"
     public final void mDecimal_integer_literal() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:468:3: ( Decimal_digits ( Integer_type_suffix )? )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:468:5: Decimal_digits ( Integer_type_suffix )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:468:3: ( Decimal_digits ( Integer_type_suffix )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:468:5: Decimal_digits ( Integer_type_suffix )?
             {
             mDecimal_digits(); if (state.failed) return ;
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:468:20: ( Integer_type_suffix )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:468:20: ( Integer_type_suffix )?
             int alt75=2;
             int LA75_0 = input.LA(1);
 
@@ -5691,7 +5691,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt75) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:468:20: Integer_type_suffix
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:468:20: Integer_type_suffix
                     {
                     mInteger_type_suffix(); if (state.failed) return ;
 
@@ -5715,10 +5715,10 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Decimal_digits"
     public final void mDecimal_digits() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:471:3: ( ( DECIMAL_DIGIT )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:471:5: ( DECIMAL_DIGIT )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:471:3: ( ( DECIMAL_DIGIT )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:471:5: ( DECIMAL_DIGIT )+
             {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:471:5: ( DECIMAL_DIGIT )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:471:5: ( DECIMAL_DIGIT )+
             int cnt76=0;
             loop76:
             do {
@@ -5732,7 +5732,7 @@ public class CSharp4PreProcessor extends Lexer {
 
                 switch (alt76) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             	    {
             	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
             	        input.consume();
@@ -5773,8 +5773,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "DECIMAL_DIGIT"
     public final void mDECIMAL_DIGIT() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:474:3: ( '0' .. '9' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:474:3: ( '0' .. '9' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
                 input.consume();
@@ -5801,7 +5801,7 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Integer_type_suffix"
     public final void mInteger_type_suffix() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:477:3: ( 'U' | 'u' | 'L' | 'l' | 'UL' | 'Ul' | 'uL' | 'ul' | 'LU' | 'Lu' | 'lU' | 'lu' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:477:3: ( 'U' | 'u' | 'L' | 'l' | 'UL' | 'Ul' | 'uL' | 'ul' | 'LU' | 'Lu' | 'lU' | 'lu' )
             int alt77=12;
             switch ( input.LA(1) ) {
             case 'U':
@@ -5891,35 +5891,35 @@ public class CSharp4PreProcessor extends Lexer {
 
             switch (alt77) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:477:5: 'U'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:477:5: 'U'
                     {
                     match('U'); if (state.failed) return ;
 
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:478:5: 'u'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:478:5: 'u'
                     {
                     match('u'); if (state.failed) return ;
 
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:479:5: 'L'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:479:5: 'L'
                     {
                     match('L'); if (state.failed) return ;
 
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:480:5: 'l'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:480:5: 'l'
                     {
                     match('l'); if (state.failed) return ;
 
                     }
                     break;
                 case 5 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:481:5: 'UL'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:481:5: 'UL'
                     {
                     match("UL"); if (state.failed) return ;
 
@@ -5928,7 +5928,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 6 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:482:5: 'Ul'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:482:5: 'Ul'
                     {
                     match("Ul"); if (state.failed) return ;
 
@@ -5937,7 +5937,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 7 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:483:5: 'uL'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:483:5: 'uL'
                     {
                     match("uL"); if (state.failed) return ;
 
@@ -5946,7 +5946,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 8 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:484:5: 'ul'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:484:5: 'ul'
                     {
                     match("ul"); if (state.failed) return ;
 
@@ -5955,7 +5955,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 9 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:485:5: 'LU'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:485:5: 'LU'
                     {
                     match("LU"); if (state.failed) return ;
 
@@ -5964,7 +5964,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 10 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:486:5: 'Lu'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:486:5: 'Lu'
                     {
                     match("Lu"); if (state.failed) return ;
 
@@ -5973,7 +5973,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 11 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:487:5: 'lU'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:487:5: 'lU'
                     {
                     match("lU"); if (state.failed) return ;
 
@@ -5982,7 +5982,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 12 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:488:5: 'lu'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:488:5: 'lu'
                     {
                     match("lu"); if (state.failed) return ;
 
@@ -6003,10 +6003,10 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Hexadecimal_integer_literal"
     public final void mHexadecimal_integer_literal() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:491:3: ( ( '0x' | '0X' ) Hex_digits ( Integer_type_suffix )? )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:491:5: ( '0x' | '0X' ) Hex_digits ( Integer_type_suffix )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:491:3: ( ( '0x' | '0X' ) Hex_digits ( Integer_type_suffix )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:491:5: ( '0x' | '0X' ) Hex_digits ( Integer_type_suffix )?
             {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:491:5: ( '0x' | '0X' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:491:5: ( '0x' | '0X' )
             int alt78=2;
             int LA78_0 = input.LA(1);
 
@@ -6038,7 +6038,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt78) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:491:6: '0x'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:491:6: '0x'
                     {
                     match("0x"); if (state.failed) return ;
 
@@ -6047,7 +6047,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:491:13: '0X'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:491:13: '0X'
                     {
                     match("0X"); if (state.failed) return ;
 
@@ -6062,7 +6062,7 @@ public class CSharp4PreProcessor extends Lexer {
             mHex_digits(); if (state.failed) return ;
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:491:30: ( Integer_type_suffix )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:491:30: ( Integer_type_suffix )?
             int alt79=2;
             int LA79_0 = input.LA(1);
 
@@ -6071,7 +6071,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt79) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:491:30: Integer_type_suffix
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:491:30: Integer_type_suffix
                     {
                     mInteger_type_suffix(); if (state.failed) return ;
 
@@ -6095,10 +6095,10 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Hex_digits"
     public final void mHex_digits() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:494:3: ( ( HEX_DIGIT )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:494:5: ( HEX_DIGIT )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:494:3: ( ( HEX_DIGIT )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:494:5: ( HEX_DIGIT )+
             {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:494:5: ( HEX_DIGIT )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:494:5: ( HEX_DIGIT )+
             int cnt80=0;
             loop80:
             do {
@@ -6112,7 +6112,7 @@ public class CSharp4PreProcessor extends Lexer {
 
                 switch (alt80) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             	    {
             	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9')||(input.LA(1) >= 'A' && input.LA(1) <= 'F')||(input.LA(1) >= 'a' && input.LA(1) <= 'f') ) {
             	        input.consume();
@@ -6153,8 +6153,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "HEX_DIGIT"
     public final void mHEX_DIGIT() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:497:3: ( '0' .. '9' | 'A' .. 'F' | 'a' .. 'f' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:497:3: ( '0' .. '9' | 'A' .. 'F' | 'a' .. 'f' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( (input.LA(1) >= '0' && input.LA(1) <= '9')||(input.LA(1) >= 'A' && input.LA(1) <= 'F')||(input.LA(1) >= 'a' && input.LA(1) <= 'f') ) {
                 input.consume();
@@ -6187,8 +6187,8 @@ public class CSharp4PreProcessor extends Lexer {
             CommonToken d=null;
             CommonToken id=null;
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:505:3: (il= INTEGER_LITERAL d= DOT id= IDENTIFIER )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:505:5: il= INTEGER_LITERAL d= DOT id= IDENTIFIER
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:505:3: (il= INTEGER_LITERAL d= DOT id= IDENTIFIER )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:505:5: il= INTEGER_LITERAL d= DOT id= IDENTIFIER
             {
             int ilStart2407 = getCharIndex();
             int ilStartLine2407 = getLine();
@@ -6239,12 +6239,12 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = REAL_LITERAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:511:3: ( Decimal_digits DOT Decimal_digits ( Exponent_part )? ( Real_type_suffix )? | DOT Decimal_digits ( Exponent_part )? ( Real_type_suffix )? | Decimal_digits Exponent_part ( Real_type_suffix )? | Decimal_digits Real_type_suffix )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:511:3: ( Decimal_digits DOT Decimal_digits ( Exponent_part )? ( Real_type_suffix )? | DOT Decimal_digits ( Exponent_part )? ( Real_type_suffix )? | Decimal_digits Exponent_part ( Real_type_suffix )? | Decimal_digits Real_type_suffix )
             int alt86=4;
             alt86 = dfa86.predict(input);
             switch (alt86) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:511:5: Decimal_digits DOT Decimal_digits ( Exponent_part )? ( Real_type_suffix )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:511:5: Decimal_digits DOT Decimal_digits ( Exponent_part )? ( Real_type_suffix )?
                     {
                     mDecimal_digits(); if (state.failed) return ;
 
@@ -6255,7 +6255,7 @@ public class CSharp4PreProcessor extends Lexer {
                     mDecimal_digits(); if (state.failed) return ;
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:511:39: ( Exponent_part )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:511:39: ( Exponent_part )?
                     int alt81=2;
                     int LA81_0 = input.LA(1);
 
@@ -6264,7 +6264,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     switch (alt81) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:511:39: Exponent_part
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:511:39: Exponent_part
                             {
                             mExponent_part(); if (state.failed) return ;
 
@@ -6275,7 +6275,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:511:54: ( Real_type_suffix )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:511:54: ( Real_type_suffix )?
                     int alt82=2;
                     int LA82_0 = input.LA(1);
 
@@ -6284,7 +6284,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     switch (alt82) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
                             {
                             if ( input.LA(1)=='D'||input.LA(1)=='F'||input.LA(1)=='M'||input.LA(1)=='d'||input.LA(1)=='f'||input.LA(1)=='m' ) {
                                 input.consume();
@@ -6307,7 +6307,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:512:5: DOT Decimal_digits ( Exponent_part )? ( Real_type_suffix )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:512:5: DOT Decimal_digits ( Exponent_part )? ( Real_type_suffix )?
                     {
                     mDOT(); if (state.failed) return ;
 
@@ -6315,7 +6315,7 @@ public class CSharp4PreProcessor extends Lexer {
                     mDecimal_digits(); if (state.failed) return ;
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:512:24: ( Exponent_part )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:512:24: ( Exponent_part )?
                     int alt83=2;
                     int LA83_0 = input.LA(1);
 
@@ -6324,7 +6324,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     switch (alt83) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:512:24: Exponent_part
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:512:24: Exponent_part
                             {
                             mExponent_part(); if (state.failed) return ;
 
@@ -6335,7 +6335,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:512:39: ( Real_type_suffix )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:512:39: ( Real_type_suffix )?
                     int alt84=2;
                     int LA84_0 = input.LA(1);
 
@@ -6344,7 +6344,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     switch (alt84) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
                             {
                             if ( input.LA(1)=='D'||input.LA(1)=='F'||input.LA(1)=='M'||input.LA(1)=='d'||input.LA(1)=='f'||input.LA(1)=='m' ) {
                                 input.consume();
@@ -6367,7 +6367,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:513:5: Decimal_digits Exponent_part ( Real_type_suffix )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:513:5: Decimal_digits Exponent_part ( Real_type_suffix )?
                     {
                     mDecimal_digits(); if (state.failed) return ;
 
@@ -6375,7 +6375,7 @@ public class CSharp4PreProcessor extends Lexer {
                     mExponent_part(); if (state.failed) return ;
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:513:34: ( Real_type_suffix )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:513:34: ( Real_type_suffix )?
                     int alt85=2;
                     int LA85_0 = input.LA(1);
 
@@ -6384,7 +6384,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     switch (alt85) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
                             {
                             if ( input.LA(1)=='D'||input.LA(1)=='F'||input.LA(1)=='M'||input.LA(1)=='d'||input.LA(1)=='f'||input.LA(1)=='m' ) {
                                 input.consume();
@@ -6407,7 +6407,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:514:5: Decimal_digits Real_type_suffix
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:514:5: Decimal_digits Real_type_suffix
                     {
                     mDecimal_digits(); if (state.failed) return ;
 
@@ -6431,8 +6431,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Exponent_part"
     public final void mExponent_part() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:517:3: ( ( 'e' | 'E' ) ( Sign )? Decimal_digits )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:517:5: ( 'e' | 'E' ) ( Sign )? Decimal_digits
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:517:3: ( ( 'e' | 'E' ) ( Sign )? Decimal_digits )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:517:5: ( 'e' | 'E' ) ( Sign )? Decimal_digits
             {
             if ( input.LA(1)=='E'||input.LA(1)=='e' ) {
                 input.consume();
@@ -6446,7 +6446,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:517:17: ( Sign )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:517:17: ( Sign )?
             int alt87=2;
             int LA87_0 = input.LA(1);
 
@@ -6455,7 +6455,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt87) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
                     {
                     if ( input.LA(1)=='+'||input.LA(1)=='-' ) {
                         input.consume();
@@ -6491,8 +6491,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Sign"
     public final void mSign() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:520:3: ( '+' | '-' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:520:3: ( '+' | '-' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( input.LA(1)=='+'||input.LA(1)=='-' ) {
                 input.consume();
@@ -6519,8 +6519,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Real_type_suffix"
     public final void mReal_type_suffix() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:524:3: ( 'F' | 'f' | 'D' | 'd' | 'M' | 'm' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:524:3: ( 'F' | 'f' | 'D' | 'd' | 'M' | 'm' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( input.LA(1)=='D'||input.LA(1)=='F'||input.LA(1)=='M'||input.LA(1)=='d'||input.LA(1)=='f'||input.LA(1)=='m' ) {
                 input.consume();
@@ -6549,8 +6549,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = CHARACTER_LITERAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:532:3: ( QUOTE Character QUOTE )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:532:5: QUOTE Character QUOTE
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:532:3: ( QUOTE Character QUOTE )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:532:5: QUOTE Character QUOTE
             {
             mQUOTE(); if (state.failed) return ;
 
@@ -6575,7 +6575,7 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Character"
     public final void mCharacter() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:535:3: ( Single_character | Simple_escape_sequence | Hexadecimal_escape_sequence | Unicode_escape_sequence )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:535:3: ( Single_character | Simple_escape_sequence | Hexadecimal_escape_sequence | Unicode_escape_sequence )
             int alt88=4;
             int LA88_0 = input.LA(1);
 
@@ -6630,7 +6630,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt88) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:535:5: Single_character
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:535:5: Single_character
                     {
                     mSingle_character(); if (state.failed) return ;
 
@@ -6638,7 +6638,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:536:5: Simple_escape_sequence
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:536:5: Simple_escape_sequence
                     {
                     mSimple_escape_sequence(); if (state.failed) return ;
 
@@ -6646,7 +6646,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:537:5: Hexadecimal_escape_sequence
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:537:5: Hexadecimal_escape_sequence
                     {
                     mHexadecimal_escape_sequence(); if (state.failed) return ;
 
@@ -6654,7 +6654,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:538:5: Unicode_escape_sequence
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:538:5: Unicode_escape_sequence
                     {
                     mUnicode_escape_sequence(); if (state.failed) return ;
 
@@ -6674,8 +6674,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Single_character"
     public final void mSingle_character() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:541:3: (~ ( QUOTE | BACK_SLASH | NEW_LINE_CHARACTER ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:541:3: (~ ( QUOTE | BACK_SLASH | NEW_LINE_CHARACTER ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '\t')||(input.LA(1) >= '\u000B' && input.LA(1) <= '\f')||(input.LA(1) >= '\u000E' && input.LA(1) <= '&')||(input.LA(1) >= '(' && input.LA(1) <= '[')||(input.LA(1) >= ']' && input.LA(1) <= '\u0084')||(input.LA(1) >= '\u0086' && input.LA(1) <= '\u2027')||(input.LA(1) >= '\u202A' && input.LA(1) <= '\uFFFF') ) {
                 input.consume();
@@ -6702,7 +6702,7 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Simple_escape_sequence"
     public final void mSimple_escape_sequence() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:546:3: ( '\\\\\\'' | '\\\\\"' | DOUBLE_BACK_SLASH | '\\\\0' | '\\\\a' | '\\\\b' | '\\\\f' | '\\\\n' | '\\\\r' | '\\\\t' | '\\\\v' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:546:3: ( '\\\\\\'' | '\\\\\"' | DOUBLE_BACK_SLASH | '\\\\0' | '\\\\a' | '\\\\b' | '\\\\f' | '\\\\n' | '\\\\r' | '\\\\t' | '\\\\v' )
             int alt89=11;
             int LA89_0 = input.LA(1);
 
@@ -6783,7 +6783,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt89) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:546:5: '\\\\\\''
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:546:5: '\\\\\\''
                     {
                     match("\\'"); if (state.failed) return ;
 
@@ -6792,7 +6792,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:547:5: '\\\\\"'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:547:5: '\\\\\"'
                     {
                     match("\\\""); if (state.failed) return ;
 
@@ -6801,7 +6801,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:548:5: DOUBLE_BACK_SLASH
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:548:5: DOUBLE_BACK_SLASH
                     {
                     mDOUBLE_BACK_SLASH(); if (state.failed) return ;
 
@@ -6809,7 +6809,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:549:5: '\\\\0'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:549:5: '\\\\0'
                     {
                     match("\\0"); if (state.failed) return ;
 
@@ -6818,7 +6818,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 5 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:550:5: '\\\\a'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:550:5: '\\\\a'
                     {
                     match("\\a"); if (state.failed) return ;
 
@@ -6827,7 +6827,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 6 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:551:5: '\\\\b'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:551:5: '\\\\b'
                     {
                     match("\\b"); if (state.failed) return ;
 
@@ -6836,7 +6836,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 7 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:552:5: '\\\\f'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:552:5: '\\\\f'
                     {
                     match("\\f"); if (state.failed) return ;
 
@@ -6845,7 +6845,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 8 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:553:5: '\\\\n'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:553:5: '\\\\n'
                     {
                     match("\\n"); if (state.failed) return ;
 
@@ -6854,7 +6854,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 9 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:554:5: '\\\\r'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:554:5: '\\\\r'
                     {
                     match("\\r"); if (state.failed) return ;
 
@@ -6863,7 +6863,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 10 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:555:5: '\\\\t'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:555:5: '\\\\t'
                     {
                     match("\\t"); if (state.failed) return ;
 
@@ -6872,7 +6872,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 11 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:556:5: '\\\\v'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:556:5: '\\\\v'
                     {
                     match("\\v"); if (state.failed) return ;
 
@@ -6893,7 +6893,7 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Hexadecimal_escape_sequence"
     public final void mHexadecimal_escape_sequence() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:559:3: ( '\\\\x' HEX_DIGIT | '\\\\x' HEX_DIGIT HEX_DIGIT | '\\\\x' HEX_DIGIT HEX_DIGIT HEX_DIGIT | '\\\\x' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:559:3: ( '\\\\x' HEX_DIGIT | '\\\\x' HEX_DIGIT HEX_DIGIT | '\\\\x' HEX_DIGIT HEX_DIGIT HEX_DIGIT | '\\\\x' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT )
             int alt90=4;
             int LA90_0 = input.LA(1);
 
@@ -6955,7 +6955,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt90) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:559:5: '\\\\x' HEX_DIGIT
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:559:5: '\\\\x' HEX_DIGIT
                     {
                     match("\\x"); if (state.failed) return ;
 
@@ -6967,7 +6967,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:560:5: '\\\\x' HEX_DIGIT HEX_DIGIT
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:560:5: '\\\\x' HEX_DIGIT HEX_DIGIT
                     {
                     match("\\x"); if (state.failed) return ;
 
@@ -6982,7 +6982,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:561:5: '\\\\x' HEX_DIGIT HEX_DIGIT HEX_DIGIT
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:561:5: '\\\\x' HEX_DIGIT HEX_DIGIT HEX_DIGIT
                     {
                     match("\\x"); if (state.failed) return ;
 
@@ -7000,7 +7000,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:562:5: '\\\\x' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:562:5: '\\\\x' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT
                     {
                     match("\\x"); if (state.failed) return ;
 
@@ -7035,7 +7035,7 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = STRING_LITERAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:565:3: ( Regular_string_literal | Verbatim_string_literal )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:565:3: ( Regular_string_literal | Verbatim_string_literal )
             int alt91=2;
             int LA91_0 = input.LA(1);
 
@@ -7055,7 +7055,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt91) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:565:5: Regular_string_literal
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:565:5: Regular_string_literal
                     {
                     mRegular_string_literal(); if (state.failed) return ;
 
@@ -7063,7 +7063,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:566:5: Verbatim_string_literal
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:566:5: Verbatim_string_literal
                     {
                     mVerbatim_string_literal(); if (state.failed) return ;
 
@@ -7084,13 +7084,13 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Regular_string_literal"
     public final void mRegular_string_literal() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:569:3: ( DOUBLE_QUOTE ( Regular_string_literal_character )* DOUBLE_QUOTE )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:569:5: DOUBLE_QUOTE ( Regular_string_literal_character )* DOUBLE_QUOTE
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:569:3: ( DOUBLE_QUOTE ( Regular_string_literal_character )* DOUBLE_QUOTE )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:569:5: DOUBLE_QUOTE ( Regular_string_literal_character )* DOUBLE_QUOTE
             {
             mDOUBLE_QUOTE(); if (state.failed) return ;
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:569:18: ( Regular_string_literal_character )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:569:18: ( Regular_string_literal_character )*
             loop92:
             do {
                 int alt92=2;
@@ -7103,7 +7103,7 @@ public class CSharp4PreProcessor extends Lexer {
 
                 switch (alt92) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:569:18: Regular_string_literal_character
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:569:18: Regular_string_literal_character
             	    {
             	    mRegular_string_literal_character(); if (state.failed) return ;
 
@@ -7133,7 +7133,7 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Regular_string_literal_character"
     public final void mRegular_string_literal_character() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:572:3: ( Single_regular_string_literal_character | Simple_escape_sequence | Hexadecimal_escape_sequence | Unicode_escape_sequence )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:572:3: ( Single_regular_string_literal_character | Simple_escape_sequence | Hexadecimal_escape_sequence | Unicode_escape_sequence )
             int alt93=4;
             int LA93_0 = input.LA(1);
 
@@ -7188,7 +7188,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt93) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:572:5: Single_regular_string_literal_character
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:572:5: Single_regular_string_literal_character
                     {
                     mSingle_regular_string_literal_character(); if (state.failed) return ;
 
@@ -7196,7 +7196,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:573:5: Simple_escape_sequence
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:573:5: Simple_escape_sequence
                     {
                     mSimple_escape_sequence(); if (state.failed) return ;
 
@@ -7204,7 +7204,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:574:5: Hexadecimal_escape_sequence
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:574:5: Hexadecimal_escape_sequence
                     {
                     mHexadecimal_escape_sequence(); if (state.failed) return ;
 
@@ -7212,7 +7212,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:575:5: Unicode_escape_sequence
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:575:5: Unicode_escape_sequence
                     {
                     mUnicode_escape_sequence(); if (state.failed) return ;
 
@@ -7232,8 +7232,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Single_regular_string_literal_character"
     public final void mSingle_regular_string_literal_character() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:579:3: (~ ( DOUBLE_QUOTE | BACK_SLASH | NEW_LINE_CHARACTER ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:579:3: (~ ( DOUBLE_QUOTE | BACK_SLASH | NEW_LINE_CHARACTER ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '\t')||(input.LA(1) >= '\u000B' && input.LA(1) <= '\f')||(input.LA(1) >= '\u000E' && input.LA(1) <= '!')||(input.LA(1) >= '#' && input.LA(1) <= '[')||(input.LA(1) >= ']' && input.LA(1) <= '\u0084')||(input.LA(1) >= '\u0086' && input.LA(1) <= '\u2027')||(input.LA(1) >= '\u202A' && input.LA(1) <= '\uFFFF') ) {
                 input.consume();
@@ -7260,15 +7260,15 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Verbatim_string_literal"
     public final void mVerbatim_string_literal() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:582:3: ( '@' DOUBLE_QUOTE ( Verbatim_string_literal_character )* DOUBLE_QUOTE )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:582:5: '@' DOUBLE_QUOTE ( Verbatim_string_literal_character )* DOUBLE_QUOTE
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:582:3: ( '@' DOUBLE_QUOTE ( Verbatim_string_literal_character )* DOUBLE_QUOTE )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:582:5: '@' DOUBLE_QUOTE ( Verbatim_string_literal_character )* DOUBLE_QUOTE
             {
             match('@'); if (state.failed) return ;
 
             mDOUBLE_QUOTE(); if (state.failed) return ;
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:582:22: ( Verbatim_string_literal_character )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:582:22: ( Verbatim_string_literal_character )*
             loop94:
             do {
                 int alt94=2;
@@ -7290,7 +7290,7 @@ public class CSharp4PreProcessor extends Lexer {
 
                 switch (alt94) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:582:22: Verbatim_string_literal_character
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:582:22: Verbatim_string_literal_character
             	    {
             	    mVerbatim_string_literal_character(); if (state.failed) return ;
 
@@ -7320,7 +7320,7 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Verbatim_string_literal_character"
     public final void mVerbatim_string_literal_character() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:585:3: ( Single_verbatim_string_literal_character | Quote_escape_sequence )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:585:3: ( Single_verbatim_string_literal_character | Quote_escape_sequence )
             int alt95=2;
             int LA95_0 = input.LA(1);
 
@@ -7340,7 +7340,7 @@ public class CSharp4PreProcessor extends Lexer {
             }
             switch (alt95) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:585:5: Single_verbatim_string_literal_character
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:585:5: Single_verbatim_string_literal_character
                     {
                     mSingle_verbatim_string_literal_character(); if (state.failed) return ;
 
@@ -7348,7 +7348,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:586:5: Quote_escape_sequence
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:586:5: Quote_escape_sequence
                     {
                     mQuote_escape_sequence(); if (state.failed) return ;
 
@@ -7368,8 +7368,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Single_verbatim_string_literal_character"
     public final void mSingle_verbatim_string_literal_character() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:589:3: (~ DOUBLE_QUOTE )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:589:3: (~ DOUBLE_QUOTE )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '!')||(input.LA(1) >= '#' && input.LA(1) <= '\uFFFF') ) {
                 input.consume();
@@ -7396,8 +7396,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Quote_escape_sequence"
     public final void mQuote_escape_sequence() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:592:3: ( DOUBLE_QUOTE DOUBLE_QUOTE )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:592:5: DOUBLE_QUOTE DOUBLE_QUOTE
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:592:3: ( DOUBLE_QUOTE DOUBLE_QUOTE )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:592:5: DOUBLE_QUOTE DOUBLE_QUOTE
             {
             mDOUBLE_QUOTE(); if (state.failed) return ;
 
@@ -7420,8 +7420,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = OPEN_BRACE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:596:12: ( '{' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:596:14: '{'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:596:12: ( '{' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:596:14: '{'
             {
             match('{'); if (state.failed) return ;
 
@@ -7441,8 +7441,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = CLOSE_BRACE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:597:13: ( '}' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:597:15: '}'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:597:13: ( '}' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:597:15: '}'
             {
             match('}'); if (state.failed) return ;
 
@@ -7462,8 +7462,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = OPEN_BRACKET;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:598:14: ( '[' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:598:16: '['
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:598:14: ( '[' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:598:16: '['
             {
             match('['); if (state.failed) return ;
 
@@ -7483,8 +7483,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = CLOSE_BRACKET;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:599:15: ( ']' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:599:17: ']'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:599:15: ( ']' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:599:17: ']'
             {
             match(']'); if (state.failed) return ;
 
@@ -7504,8 +7504,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = OPEN_PARENS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:600:13: ( '(' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:600:15: '('
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:600:13: ( '(' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:600:15: '('
             {
             match('('); if (state.failed) return ;
 
@@ -7525,8 +7525,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = CLOSE_PARENS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:601:14: ( ')' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:601:16: ')'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:601:14: ( ')' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:601:16: ')'
             {
             match(')'); if (state.failed) return ;
 
@@ -7546,8 +7546,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = DOT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:602:5: ( '.' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:602:7: '.'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:602:5: ( '.' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:602:7: '.'
             {
             match('.'); if (state.failed) return ;
 
@@ -7567,8 +7567,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = COMMA;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:603:7: ( ',' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:603:9: ','
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:603:7: ( ',' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:603:9: ','
             {
             match(','); if (state.failed) return ;
 
@@ -7588,8 +7588,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = COLON;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:604:7: ( ':' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:604:9: ':'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:604:7: ( ':' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:604:9: ':'
             {
             match(':'); if (state.failed) return ;
 
@@ -7609,8 +7609,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = SEMICOLON;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:605:11: ( ';' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:605:13: ';'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:605:11: ( ';' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:605:13: ';'
             {
             match(';'); if (state.failed) return ;
 
@@ -7630,8 +7630,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = PLUS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:606:6: ( '+' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:606:8: '+'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:606:6: ( '+' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:606:8: '+'
             {
             match('+'); if (state.failed) return ;
 
@@ -7651,8 +7651,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = MINUS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:607:7: ( '-' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:607:9: '-'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:607:7: ( '-' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:607:9: '-'
             {
             match('-'); if (state.failed) return ;
 
@@ -7672,8 +7672,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = STAR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:608:6: ( '*' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:608:8: '*'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:608:6: ( '*' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:608:8: '*'
             {
             match('*'); if (state.failed) return ;
 
@@ -7693,8 +7693,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = DIV;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:609:5: ( '/' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:609:7: '/'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:609:5: ( '/' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:609:7: '/'
             {
             match('/'); if (state.failed) return ;
 
@@ -7714,8 +7714,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = PERCENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:610:9: ( '%' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:610:11: '%'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:610:9: ( '%' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:610:11: '%'
             {
             match('%'); if (state.failed) return ;
 
@@ -7735,8 +7735,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = AMP;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:611:5: ( '&' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:611:7: '&'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:611:5: ( '&' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:611:7: '&'
             {
             match('&'); if (state.failed) return ;
 
@@ -7756,8 +7756,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = BITWISE_OR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:612:12: ( '|' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:612:14: '|'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:612:12: ( '|' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:612:14: '|'
             {
             match('|'); if (state.failed) return ;
 
@@ -7777,8 +7777,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = CARET;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:613:7: ( '^' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:613:9: '^'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:613:7: ( '^' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:613:9: '^'
             {
             match('^'); if (state.failed) return ;
 
@@ -7798,8 +7798,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = BANG;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:614:6: ( '!' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:614:8: '!'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:614:6: ( '!' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:614:8: '!'
             {
             match('!'); if (state.failed) return ;
 
@@ -7819,8 +7819,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = TILDE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:615:7: ( '~' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:615:9: '~'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:615:7: ( '~' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:615:9: '~'
             {
             match('~'); if (state.failed) return ;
 
@@ -7840,8 +7840,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = ASSIGNMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:616:12: ( '=' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:616:14: '='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:616:12: ( '=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:616:14: '='
             {
             match('='); if (state.failed) return ;
 
@@ -7861,8 +7861,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = LT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:617:4: ( '<' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:617:6: '<'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:617:4: ( '<' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:617:6: '<'
             {
             match('<'); if (state.failed) return ;
 
@@ -7882,8 +7882,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = GT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:618:4: ( '>' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:618:6: '>'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:618:4: ( '>' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:618:6: '>'
             {
             match('>'); if (state.failed) return ;
 
@@ -7903,8 +7903,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = INTERR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:619:8: ( '?' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:619:10: '?'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:619:8: ( '?' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:619:10: '?'
             {
             match('?'); if (state.failed) return ;
 
@@ -7924,8 +7924,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = DOUBLE_COLON;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:620:14: ( '::' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:620:16: '::'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:620:14: ( '::' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:620:16: '::'
             {
             match("::"); if (state.failed) return ;
 
@@ -7947,8 +7947,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = OP_COALESCING;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:621:15: ( '??' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:621:17: '??'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:621:15: ( '??' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:621:17: '??'
             {
             match("??"); if (state.failed) return ;
 
@@ -7970,8 +7970,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = OP_INC;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:622:8: ( '++' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:622:10: '++'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:622:8: ( '++' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:622:10: '++'
             {
             match("++"); if (state.failed) return ;
 
@@ -7993,8 +7993,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = OP_DEC;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:623:8: ( '--' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:623:10: '--'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:623:8: ( '--' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:623:10: '--'
             {
             match("--"); if (state.failed) return ;
 
@@ -8016,8 +8016,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = OP_AND;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:624:8: ( '&&' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:624:10: '&&'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:624:8: ( '&&' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:624:10: '&&'
             {
             match("&&"); if (state.failed) return ;
 
@@ -8039,8 +8039,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = OP_OR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:625:7: ( '||' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:625:9: '||'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:625:7: ( '||' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:625:9: '||'
             {
             match("||"); if (state.failed) return ;
 
@@ -8062,8 +8062,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = OP_PTR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:626:8: ( '->' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:626:10: '->'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:626:8: ( '->' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:626:10: '->'
             {
             match("->"); if (state.failed) return ;
 
@@ -8085,8 +8085,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = OP_EQ;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:627:7: ( '==' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:627:9: '=='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:627:7: ( '==' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:627:9: '=='
             {
             match("=="); if (state.failed) return ;
 
@@ -8108,8 +8108,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = OP_NE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:628:7: ( '!=' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:628:9: '!='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:628:7: ( '!=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:628:9: '!='
             {
             match("!="); if (state.failed) return ;
 
@@ -8131,8 +8131,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = OP_LE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:629:7: ( '<=' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:629:9: '<='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:629:7: ( '<=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:629:9: '<='
             {
             match("<="); if (state.failed) return ;
 
@@ -8154,8 +8154,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = OP_GE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:630:7: ( '>=' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:630:9: '>='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:630:7: ( '>=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:630:9: '>='
             {
             match(">="); if (state.failed) return ;
 
@@ -8177,8 +8177,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = OP_ADD_ASSIGNMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:631:19: ( '+=' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:631:21: '+='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:631:19: ( '+=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:631:21: '+='
             {
             match("+="); if (state.failed) return ;
 
@@ -8200,8 +8200,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = OP_SUB_ASSIGNMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:632:19: ( '-=' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:632:21: '-='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:632:19: ( '-=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:632:21: '-='
             {
             match("-="); if (state.failed) return ;
 
@@ -8223,8 +8223,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = OP_MULT_ASSIGNMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:633:20: ( '*=' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:633:22: '*='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:633:20: ( '*=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:633:22: '*='
             {
             match("*="); if (state.failed) return ;
 
@@ -8246,8 +8246,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = OP_DIV_ASSIGNMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:634:19: ( '/=' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:634:21: '/='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:634:19: ( '/=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:634:21: '/='
             {
             match("/="); if (state.failed) return ;
 
@@ -8269,8 +8269,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = OP_MOD_ASSIGNMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:635:19: ( '%=' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:635:21: '%='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:635:19: ( '%=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:635:21: '%='
             {
             match("%="); if (state.failed) return ;
 
@@ -8292,8 +8292,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = OP_AND_ASSIGNMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:636:19: ( '&=' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:636:21: '&='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:636:19: ( '&=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:636:21: '&='
             {
             match("&="); if (state.failed) return ;
 
@@ -8315,8 +8315,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = OP_OR_ASSIGNMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:637:18: ( '|=' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:637:20: '|='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:637:18: ( '|=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:637:20: '|='
             {
             match("|="); if (state.failed) return ;
 
@@ -8338,8 +8338,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = OP_XOR_ASSIGNMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:638:19: ( '^=' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:638:21: '^='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:638:19: ( '^=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:638:21: '^='
             {
             match("^="); if (state.failed) return ;
 
@@ -8361,8 +8361,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = OP_LEFT_SHIFT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:639:15: ( '<<' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:639:17: '<<'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:639:15: ( '<<' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:639:17: '<<'
             {
             match("<<"); if (state.failed) return ;
 
@@ -8384,8 +8384,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = OP_LEFT_SHIFT_ASSIGNMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:640:26: ( '<<=' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:640:28: '<<='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:640:26: ( '<<=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:640:28: '<<='
             {
             match("<<="); if (state.failed) return ;
 
@@ -8407,8 +8407,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = QUOTE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:646:7: ( '\\'' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:646:21: '\\''
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:646:7: ( '\\'' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:646:21: '\\''
             {
             match('\''); if (state.failed) return ;
 
@@ -8428,8 +8428,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = DOUBLE_QUOTE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:647:14: ( '\"' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:647:21: '\"'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:647:14: ( '\"' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:647:21: '\"'
             {
             match('\"'); if (state.failed) return ;
 
@@ -8449,8 +8449,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = BACK_SLASH;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:648:12: ( '\\\\' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:648:21: '\\\\'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:648:12: ( '\\\\' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:648:21: '\\\\'
             {
             match('\\'); if (state.failed) return ;
 
@@ -8470,8 +8470,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = DOUBLE_BACK_SLASH;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:649:19: ( '\\\\\\\\' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:649:21: '\\\\\\\\'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:649:19: ( '\\\\\\\\' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:649:21: '\\\\\\\\'
             {
             match("\\\\"); if (state.failed) return ;
 
@@ -8493,8 +8493,8 @@ public class CSharp4PreProcessor extends Lexer {
         try {
             int _type = SHARP;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:650:7: ( '#' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:650:21: '#'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:650:7: ( '#' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:650:21: '#'
             {
             match('#'); if (state.failed) return ;
 
@@ -8512,8 +8512,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "UNICODE_CLASS_ZS"
     public final void mUNICODE_CLASS_ZS() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:654:3: ( '\\u0020' | '\\u00A0' | '\\u1680' | '\\u180E' | '\\u2000' | '\\u2001' | '\\u2002' | '\\u2003' | '\\u2004' | '\\u2005' | '\\u2006' | '\\u2008' | '\\u2009' | '\\u200A' | '\\u202F' | '\\u3000' | '\\u205F' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:654:3: ( '\\u0020' | '\\u00A0' | '\\u1680' | '\\u180E' | '\\u2000' | '\\u2001' | '\\u2002' | '\\u2003' | '\\u2004' | '\\u2005' | '\\u2006' | '\\u2008' | '\\u2009' | '\\u200A' | '\\u202F' | '\\u3000' | '\\u205F' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( input.LA(1)==' '||input.LA(1)=='\u00A0'||input.LA(1)=='\u1680'||input.LA(1)=='\u180E'||(input.LA(1) >= '\u2000' && input.LA(1) <= '\u2006')||(input.LA(1) >= '\u2008' && input.LA(1) <= '\u200A')||input.LA(1)=='\u202F'||input.LA(1)=='\u205F'||input.LA(1)=='\u3000' ) {
                 input.consume();
@@ -8540,8 +8540,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "UNICODE_CLASS_LU"
     public final void mUNICODE_CLASS_LU() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:674:3: ( '\\u0041' .. '\\u005A' | '\\u00C0' .. '\\u00DE' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:674:3: ( '\\u0041' .. '\\u005A' | '\\u00C0' .. '\\u00DE' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( (input.LA(1) >= 'A' && input.LA(1) <= 'Z')||(input.LA(1) >= '\u00C0' && input.LA(1) <= '\u00DE') ) {
                 input.consume();
@@ -8568,8 +8568,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "UNICODE_CLASS_LL"
     public final void mUNICODE_CLASS_LL() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:680:3: ( '\\u0061' .. '\\u007A' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:680:3: ( '\\u0061' .. '\\u007A' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( (input.LA(1) >= 'a' && input.LA(1) <= 'z') ) {
                 input.consume();
@@ -8596,8 +8596,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "UNICODE_CLASS_LT"
     public final void mUNICODE_CLASS_LT() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:684:3: ( '\\u01C5' | '\\u01C8' | '\\u01CB' | '\\u01F2' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:684:3: ( '\\u01C5' | '\\u01C8' | '\\u01CB' | '\\u01F2' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( input.LA(1)=='\u01C5'||input.LA(1)=='\u01C8'||input.LA(1)=='\u01CB'||input.LA(1)=='\u01F2' ) {
                 input.consume();
@@ -8624,8 +8624,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "UNICODE_CLASS_LM"
     public final void mUNICODE_CLASS_LM() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:691:3: ( '\\u02B0' .. '\\u02EE' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:691:3: ( '\\u02B0' .. '\\u02EE' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( (input.LA(1) >= '\u02B0' && input.LA(1) <= '\u02EE') ) {
                 input.consume();
@@ -8652,8 +8652,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "UNICODE_CLASS_LO"
     public final void mUNICODE_CLASS_LO() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:695:3: ( '\\u01BB' | '\\u01C0' | '\\u01C1' | '\\u01C2' | '\\u01C3' | '\\u0294' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:695:3: ( '\\u01BB' | '\\u01C0' | '\\u01C1' | '\\u01C2' | '\\u01C3' | '\\u0294' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( input.LA(1)=='\u01BB'||(input.LA(1) >= '\u01C0' && input.LA(1) <= '\u01C3')||input.LA(1)=='\u0294' ) {
                 input.consume();
@@ -8680,8 +8680,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "UNICODE_CLASS_NL"
     public final void mUNICODE_CLASS_NL() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:704:3: ( '\\u16EE' | '\\u16EF' | '\\u16F0' | '\\u2160' | '\\u2161' | '\\u2162' | '\\u2163' | '\\u2164' | '\\u2165' | '\\u2166' | '\\u2167' | '\\u2168' | '\\u2169' | '\\u216A' | '\\u216B' | '\\u216C' | '\\u216D' | '\\u216E' | '\\u216F' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:704:3: ( '\\u16EE' | '\\u16EF' | '\\u16F0' | '\\u2160' | '\\u2161' | '\\u2162' | '\\u2163' | '\\u2164' | '\\u2165' | '\\u2166' | '\\u2167' | '\\u2168' | '\\u2169' | '\\u216A' | '\\u216B' | '\\u216C' | '\\u216D' | '\\u216E' | '\\u216F' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( (input.LA(1) >= '\u16EE' && input.LA(1) <= '\u16F0')||(input.LA(1) >= '\u2160' && input.LA(1) <= '\u216F') ) {
                 input.consume();
@@ -8708,8 +8708,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "UNICODE_CLASS_MN"
     public final void mUNICODE_CLASS_MN() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:726:3: ( '\\u0300' | '\\u0301' | '\\u0302' | '\\u0303' | '\\u0304' | '\\u0305' | '\\u0306' | '\\u0307' | '\\u0308' | '\\u0309' | '\\u030A' | '\\u030B' | '\\u030C' | '\\u030D' | '\\u030E' | '\\u030F' | '\\u0310' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:726:3: ( '\\u0300' | '\\u0301' | '\\u0302' | '\\u0303' | '\\u0304' | '\\u0305' | '\\u0306' | '\\u0307' | '\\u0308' | '\\u0309' | '\\u030A' | '\\u030B' | '\\u030C' | '\\u030D' | '\\u030E' | '\\u030F' | '\\u0310' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( (input.LA(1) >= '\u0300' && input.LA(1) <= '\u0310') ) {
                 input.consume();
@@ -8736,8 +8736,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "UNICODE_CLASS_MC"
     public final void mUNICODE_CLASS_MC() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:746:3: ( '\\u0903' | '\\u093E' | '\\u093F' | '\\u0940' | '\\u0949' | '\\u094A' | '\\u094B' | '\\u094C' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:746:3: ( '\\u0903' | '\\u093E' | '\\u093F' | '\\u0940' | '\\u0949' | '\\u094A' | '\\u094B' | '\\u094C' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( input.LA(1)=='\u0903'||(input.LA(1) >= '\u093E' && input.LA(1) <= '\u0940')||(input.LA(1) >= '\u0949' && input.LA(1) <= '\u094C') ) {
                 input.consume();
@@ -8764,8 +8764,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "UNICODE_CLASS_CF"
     public final void mUNICODE_CLASS_CF() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:757:3: ( '\\u00AD' | '\\u0600' | '\\u0601' | '\\u0602' | '\\u0603' | '\\u06DD' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:757:3: ( '\\u00AD' | '\\u0600' | '\\u0601' | '\\u0602' | '\\u0603' | '\\u06DD' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( input.LA(1)=='\u00AD'||(input.LA(1) >= '\u0600' && input.LA(1) <= '\u0603')||input.LA(1)=='\u06DD' ) {
                 input.consume();
@@ -8792,8 +8792,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "UNICODE_CLASS_PC"
     public final void mUNICODE_CLASS_PC() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:766:3: ( '\\u005F' | '\\u203F' | '\\u2040' | '\\u2054' | '\\uFE33' | '\\uFE34' | '\\uFE4D' | '\\uFE4E' | '\\uFE4F' | '\\uFF3F' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:766:3: ( '\\u005F' | '\\u203F' | '\\u2040' | '\\u2054' | '\\uFE33' | '\\uFE34' | '\\uFE4D' | '\\uFE4E' | '\\uFE4F' | '\\uFF3F' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( input.LA(1)=='_'||(input.LA(1) >= '\u203F' && input.LA(1) <= '\u2040')||input.LA(1)=='\u2054'||(input.LA(1) >= '\uFE33' && input.LA(1) <= '\uFE34')||(input.LA(1) >= '\uFE4D' && input.LA(1) <= '\uFE4F')||input.LA(1)=='\uFF3F' ) {
                 input.consume();
@@ -8820,8 +8820,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "UNICODE_CLASS_ND"
     public final void mUNICODE_CLASS_ND() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:779:3: ( '\\u0030' | '\\u0031' | '\\u0032' | '\\u0033' | '\\u0034' | '\\u0035' | '\\u0036' | '\\u0037' | '\\u0038' | '\\u0039' )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:779:3: ( '\\u0030' | '\\u0031' | '\\u0032' | '\\u0033' | '\\u0034' | '\\u0035' | '\\u0036' | '\\u0037' | '\\u0038' | '\\u0039' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
                 input.consume();
@@ -8848,14 +8848,14 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "SkiPped_section_part"
     public final void mSkiPped_section_part() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:795:3: ( ( WHITESPACE )? ( SkiPped_characters )? NEW_LINE | Pp_directive )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:795:3: ( ( WHITESPACE )? ( SkiPped_characters )? NEW_LINE | Pp_directive )
             int alt98=2;
             alt98 = dfa98.predict(input);
             switch (alt98) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:795:5: ( WHITESPACE )? ( SkiPped_characters )? NEW_LINE
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:795:5: ( WHITESPACE )? ( SkiPped_characters )? NEW_LINE
                     {
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:795:5: ( WHITESPACE )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:795:5: ( WHITESPACE )?
                     int alt96=2;
                     int LA96_0 = input.LA(1);
 
@@ -8864,7 +8864,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     switch (alt96) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:795:5: WHITESPACE
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:795:5: WHITESPACE
                             {
                             mWHITESPACE(); if (state.failed) return ;
 
@@ -8875,7 +8875,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:795:17: ( SkiPped_characters )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:795:17: ( SkiPped_characters )?
                     int alt97=2;
                     int LA97_0 = input.LA(1);
 
@@ -8884,7 +8884,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     switch (alt97) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:795:17: SkiPped_characters
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:795:17: SkiPped_characters
                             {
                             mSkiPped_characters(); if (state.failed) return ;
 
@@ -8901,7 +8901,7 @@ public class CSharp4PreProcessor extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:796:5: Pp_directive
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:796:5: Pp_directive
                     {
                     mPp_directive(); if (state.failed) return ;
 
@@ -8921,13 +8921,13 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "SkiPped_characters"
     public final void mSkiPped_characters() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:799:3: ( Not_number_sign ( Input_character )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:799:5: Not_number_sign ( Input_character )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:799:3: ( Not_number_sign ( Input_character )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:799:5: Not_number_sign ( Input_character )*
             {
             mNot_number_sign(); if (state.failed) return ;
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:799:21: ( Input_character )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:799:21: ( Input_character )*
             loop99:
             do {
                 int alt99=2;
@@ -8940,7 +8940,7 @@ public class CSharp4PreProcessor extends Lexer {
 
                 switch (alt99) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             	    {
             	    if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '\t')||(input.LA(1) >= '\u000B' && input.LA(1) <= '\f')||(input.LA(1) >= '\u000E' && input.LA(1) <= '\u0084')||(input.LA(1) >= '\u0086' && input.LA(1) <= '\u2027')||(input.LA(1) >= '\u202A' && input.LA(1) <= '\uFFFF') ) {
             	        input.consume();
@@ -8976,8 +8976,8 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR start "Not_number_sign"
     public final void mNot_number_sign() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:804:3: (~ ( Whitespace_character | NEW_LINE_CHARACTER | SHARP ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:804:3: (~ ( Whitespace_character | NEW_LINE_CHARACTER | SHARP ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:
             {
             if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '\b')||(input.LA(1) >= '\u000E' && input.LA(1) <= '\u001F')||(input.LA(1) >= '!' && input.LA(1) <= '\"')||(input.LA(1) >= '$' && input.LA(1) <= '\u0084')||(input.LA(1) >= '\u0086' && input.LA(1) <= '\u009F')||(input.LA(1) >= '\u00A1' && input.LA(1) <= '\u167F')||(input.LA(1) >= '\u1681' && input.LA(1) <= '\u180D')||(input.LA(1) >= '\u180F' && input.LA(1) <= '\u1FFF')||input.LA(1)=='\u2007'||(input.LA(1) >= '\u200B' && input.LA(1) <= '\u2027')||(input.LA(1) >= '\u202A' && input.LA(1) <= '\u202E')||(input.LA(1) >= '\u2030' && input.LA(1) <= '\u205E')||(input.LA(1) >= '\u2060' && input.LA(1) <= '\u2FFF')||(input.LA(1) >= '\u3001' && input.LA(1) <= '\uFFFF') ) {
                 input.consume();
@@ -9002,12 +9002,12 @@ public class CSharp4PreProcessor extends Lexer {
     // $ANTLR end "Not_number_sign"
 
     public void mTokens() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:8: ( Pp_directive | SINGLE_LINE_DOC_COMMENT | DELIMITED_DOC_COMMENT | NEW_LINE | SINGLE_LINE_COMMENT | DELIMITED_COMMENT | WHITESPACE | ABSTRACT | AS | BASE | BOOL | BREAK | BYTE | CASE | CATCH | CHAR | CHECKED | CLASS | CONST | CONTINUE | DECIMAL | DEFAULT | DELEGATE | DO | DOUBLE | ELSE | ENUM | EVENT | EXPLICIT | EXTERN | FALSE | FINALLY | FIXED | FLOAT | FOR | FOREACH | GOTO | IF | IMPLICIT | IN | INT | INTERFACE | INTERNAL | IS | LOCK | LONG | NAMESPACE | NEW | NULL | OBJECT | OPERATOR | OUT | OVERRIDE | PARAMS | PRIVATE | PROTECTED | PUBLIC | READONLY | REF | RETURN | SBYTE | SEALED | SHORT | SIZEOF | STACKALLOC | STATIC | STRING | STRUCT | SWITCH | THIS | THROW | TRUE | TRY | TYPEOF | UINT | ULONG | UNCHECKED | UNSAFE | USHORT | USING | VIRTUAL | VOID | VOLATILE | WHILE | IDENTIFIER | INTEGER_LITERAL | LiteralAccess | REAL_LITERAL | CHARACTER_LITERAL | STRING_LITERAL | OPEN_BRACE | CLOSE_BRACE | OPEN_BRACKET | CLOSE_BRACKET | OPEN_PARENS | CLOSE_PARENS | DOT | COMMA | COLON | SEMICOLON | PLUS | MINUS | STAR | DIV | PERCENT | AMP | BITWISE_OR | CARET | BANG | TILDE | ASSIGNMENT | LT | GT | INTERR | DOUBLE_COLON | OP_COALESCING | OP_INC | OP_DEC | OP_AND | OP_OR | OP_PTR | OP_EQ | OP_NE | OP_LE | OP_GE | OP_ADD_ASSIGNMENT | OP_SUB_ASSIGNMENT | OP_MULT_ASSIGNMENT | OP_DIV_ASSIGNMENT | OP_MOD_ASSIGNMENT | OP_AND_ASSIGNMENT | OP_OR_ASSIGNMENT | OP_XOR_ASSIGNMENT | OP_LEFT_SHIFT | OP_LEFT_SHIFT_ASSIGNMENT | QUOTE | DOUBLE_QUOTE | BACK_SLASH | DOUBLE_BACK_SLASH | SHARP )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:8: ( Pp_directive | SINGLE_LINE_DOC_COMMENT | DELIMITED_DOC_COMMENT | NEW_LINE | SINGLE_LINE_COMMENT | DELIMITED_COMMENT | WHITESPACE | ABSTRACT | AS | BASE | BOOL | BREAK | BYTE | CASE | CATCH | CHAR | CHECKED | CLASS | CONST | CONTINUE | DECIMAL | DEFAULT | DELEGATE | DO | DOUBLE | ELSE | ENUM | EVENT | EXPLICIT | EXTERN | FALSE | FINALLY | FIXED | FLOAT | FOR | FOREACH | GOTO | IF | IMPLICIT | IN | INT | INTERFACE | INTERNAL | IS | LOCK | LONG | NAMESPACE | NEW | NULL | OBJECT | OPERATOR | OUT | OVERRIDE | PARAMS | PRIVATE | PROTECTED | PUBLIC | READONLY | REF | RETURN | SBYTE | SEALED | SHORT | SIZEOF | STACKALLOC | STATIC | STRING | STRUCT | SWITCH | THIS | THROW | TRUE | TRY | TYPEOF | UINT | ULONG | UNCHECKED | UNSAFE | USHORT | USING | VIRTUAL | VOID | VOLATILE | WHILE | IDENTIFIER | INTEGER_LITERAL | LiteralAccess | REAL_LITERAL | CHARACTER_LITERAL | STRING_LITERAL | OPEN_BRACE | CLOSE_BRACE | OPEN_BRACKET | CLOSE_BRACKET | OPEN_PARENS | CLOSE_PARENS | DOT | COMMA | COLON | SEMICOLON | PLUS | MINUS | STAR | DIV | PERCENT | AMP | BITWISE_OR | CARET | BANG | TILDE | ASSIGNMENT | LT | GT | INTERR | DOUBLE_COLON | OP_COALESCING | OP_INC | OP_DEC | OP_AND | OP_OR | OP_PTR | OP_EQ | OP_NE | OP_LE | OP_GE | OP_ADD_ASSIGNMENT | OP_SUB_ASSIGNMENT | OP_MULT_ASSIGNMENT | OP_DIV_ASSIGNMENT | OP_MOD_ASSIGNMENT | OP_AND_ASSIGNMENT | OP_OR_ASSIGNMENT | OP_XOR_ASSIGNMENT | OP_LEFT_SHIFT | OP_LEFT_SHIFT_ASSIGNMENT | QUOTE | DOUBLE_QUOTE | BACK_SLASH | DOUBLE_BACK_SLASH | SHARP )
         int alt100=140;
         alt100 = dfa100.predict(input);
         switch (alt100) {
             case 1 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:10: Pp_directive
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:10: Pp_directive
                 {
                 mPp_directive(); if (state.failed) return ;
 
@@ -9015,7 +9015,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 2 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:23: SINGLE_LINE_DOC_COMMENT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:23: SINGLE_LINE_DOC_COMMENT
                 {
                 mSINGLE_LINE_DOC_COMMENT(); if (state.failed) return ;
 
@@ -9023,7 +9023,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 3 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:47: DELIMITED_DOC_COMMENT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:47: DELIMITED_DOC_COMMENT
                 {
                 mDELIMITED_DOC_COMMENT(); if (state.failed) return ;
 
@@ -9031,7 +9031,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 4 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:69: NEW_LINE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:69: NEW_LINE
                 {
                 mNEW_LINE(); if (state.failed) return ;
 
@@ -9039,7 +9039,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 5 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:78: SINGLE_LINE_COMMENT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:78: SINGLE_LINE_COMMENT
                 {
                 mSINGLE_LINE_COMMENT(); if (state.failed) return ;
 
@@ -9047,7 +9047,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 6 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:98: DELIMITED_COMMENT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:98: DELIMITED_COMMENT
                 {
                 mDELIMITED_COMMENT(); if (state.failed) return ;
 
@@ -9055,7 +9055,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 7 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:116: WHITESPACE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:116: WHITESPACE
                 {
                 mWHITESPACE(); if (state.failed) return ;
 
@@ -9063,7 +9063,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 8 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:127: ABSTRACT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:127: ABSTRACT
                 {
                 mABSTRACT(); if (state.failed) return ;
 
@@ -9071,7 +9071,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 9 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:136: AS
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:136: AS
                 {
                 mAS(); if (state.failed) return ;
 
@@ -9079,7 +9079,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 10 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:139: BASE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:139: BASE
                 {
                 mBASE(); if (state.failed) return ;
 
@@ -9087,7 +9087,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 11 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:144: BOOL
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:144: BOOL
                 {
                 mBOOL(); if (state.failed) return ;
 
@@ -9095,7 +9095,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 12 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:149: BREAK
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:149: BREAK
                 {
                 mBREAK(); if (state.failed) return ;
 
@@ -9103,7 +9103,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 13 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:155: BYTE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:155: BYTE
                 {
                 mBYTE(); if (state.failed) return ;
 
@@ -9111,7 +9111,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 14 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:160: CASE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:160: CASE
                 {
                 mCASE(); if (state.failed) return ;
 
@@ -9119,7 +9119,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 15 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:165: CATCH
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:165: CATCH
                 {
                 mCATCH(); if (state.failed) return ;
 
@@ -9127,7 +9127,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 16 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:171: CHAR
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:171: CHAR
                 {
                 mCHAR(); if (state.failed) return ;
 
@@ -9135,7 +9135,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 17 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:176: CHECKED
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:176: CHECKED
                 {
                 mCHECKED(); if (state.failed) return ;
 
@@ -9143,7 +9143,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 18 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:184: CLASS
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:184: CLASS
                 {
                 mCLASS(); if (state.failed) return ;
 
@@ -9151,7 +9151,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 19 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:190: CONST
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:190: CONST
                 {
                 mCONST(); if (state.failed) return ;
 
@@ -9159,7 +9159,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 20 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:196: CONTINUE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:196: CONTINUE
                 {
                 mCONTINUE(); if (state.failed) return ;
 
@@ -9167,7 +9167,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 21 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:205: DECIMAL
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:205: DECIMAL
                 {
                 mDECIMAL(); if (state.failed) return ;
 
@@ -9175,7 +9175,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 22 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:213: DEFAULT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:213: DEFAULT
                 {
                 mDEFAULT(); if (state.failed) return ;
 
@@ -9183,7 +9183,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 23 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:221: DELEGATE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:221: DELEGATE
                 {
                 mDELEGATE(); if (state.failed) return ;
 
@@ -9191,7 +9191,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 24 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:230: DO
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:230: DO
                 {
                 mDO(); if (state.failed) return ;
 
@@ -9199,7 +9199,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 25 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:233: DOUBLE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:233: DOUBLE
                 {
                 mDOUBLE(); if (state.failed) return ;
 
@@ -9207,7 +9207,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 26 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:240: ELSE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:240: ELSE
                 {
                 mELSE(); if (state.failed) return ;
 
@@ -9215,7 +9215,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 27 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:245: ENUM
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:245: ENUM
                 {
                 mENUM(); if (state.failed) return ;
 
@@ -9223,7 +9223,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 28 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:250: EVENT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:250: EVENT
                 {
                 mEVENT(); if (state.failed) return ;
 
@@ -9231,7 +9231,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 29 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:256: EXPLICIT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:256: EXPLICIT
                 {
                 mEXPLICIT(); if (state.failed) return ;
 
@@ -9239,7 +9239,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 30 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:265: EXTERN
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:265: EXTERN
                 {
                 mEXTERN(); if (state.failed) return ;
 
@@ -9247,7 +9247,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 31 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:272: FALSE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:272: FALSE
                 {
                 mFALSE(); if (state.failed) return ;
 
@@ -9255,7 +9255,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 32 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:278: FINALLY
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:278: FINALLY
                 {
                 mFINALLY(); if (state.failed) return ;
 
@@ -9263,7 +9263,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 33 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:286: FIXED
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:286: FIXED
                 {
                 mFIXED(); if (state.failed) return ;
 
@@ -9271,7 +9271,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 34 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:292: FLOAT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:292: FLOAT
                 {
                 mFLOAT(); if (state.failed) return ;
 
@@ -9279,7 +9279,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 35 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:298: FOR
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:298: FOR
                 {
                 mFOR(); if (state.failed) return ;
 
@@ -9287,7 +9287,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 36 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:302: FOREACH
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:302: FOREACH
                 {
                 mFOREACH(); if (state.failed) return ;
 
@@ -9295,7 +9295,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 37 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:310: GOTO
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:310: GOTO
                 {
                 mGOTO(); if (state.failed) return ;
 
@@ -9303,7 +9303,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 38 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:315: IF
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:315: IF
                 {
                 mIF(); if (state.failed) return ;
 
@@ -9311,7 +9311,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 39 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:318: IMPLICIT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:318: IMPLICIT
                 {
                 mIMPLICIT(); if (state.failed) return ;
 
@@ -9319,7 +9319,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 40 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:327: IN
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:327: IN
                 {
                 mIN(); if (state.failed) return ;
 
@@ -9327,7 +9327,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 41 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:330: INT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:330: INT
                 {
                 mINT(); if (state.failed) return ;
 
@@ -9335,7 +9335,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 42 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:334: INTERFACE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:334: INTERFACE
                 {
                 mINTERFACE(); if (state.failed) return ;
 
@@ -9343,7 +9343,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 43 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:344: INTERNAL
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:344: INTERNAL
                 {
                 mINTERNAL(); if (state.failed) return ;
 
@@ -9351,7 +9351,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 44 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:353: IS
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:353: IS
                 {
                 mIS(); if (state.failed) return ;
 
@@ -9359,7 +9359,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 45 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:356: LOCK
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:356: LOCK
                 {
                 mLOCK(); if (state.failed) return ;
 
@@ -9367,7 +9367,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 46 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:361: LONG
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:361: LONG
                 {
                 mLONG(); if (state.failed) return ;
 
@@ -9375,7 +9375,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 47 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:366: NAMESPACE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:366: NAMESPACE
                 {
                 mNAMESPACE(); if (state.failed) return ;
 
@@ -9383,7 +9383,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 48 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:376: NEW
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:376: NEW
                 {
                 mNEW(); if (state.failed) return ;
 
@@ -9391,7 +9391,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 49 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:380: NULL
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:380: NULL
                 {
                 mNULL(); if (state.failed) return ;
 
@@ -9399,7 +9399,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 50 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:385: OBJECT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:385: OBJECT
                 {
                 mOBJECT(); if (state.failed) return ;
 
@@ -9407,7 +9407,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 51 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:392: OPERATOR
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:392: OPERATOR
                 {
                 mOPERATOR(); if (state.failed) return ;
 
@@ -9415,7 +9415,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 52 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:401: OUT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:401: OUT
                 {
                 mOUT(); if (state.failed) return ;
 
@@ -9423,7 +9423,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 53 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:405: OVERRIDE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:405: OVERRIDE
                 {
                 mOVERRIDE(); if (state.failed) return ;
 
@@ -9431,7 +9431,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 54 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:414: PARAMS
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:414: PARAMS
                 {
                 mPARAMS(); if (state.failed) return ;
 
@@ -9439,7 +9439,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 55 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:421: PRIVATE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:421: PRIVATE
                 {
                 mPRIVATE(); if (state.failed) return ;
 
@@ -9447,7 +9447,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 56 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:429: PROTECTED
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:429: PROTECTED
                 {
                 mPROTECTED(); if (state.failed) return ;
 
@@ -9455,7 +9455,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 57 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:439: PUBLIC
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:439: PUBLIC
                 {
                 mPUBLIC(); if (state.failed) return ;
 
@@ -9463,7 +9463,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 58 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:446: READONLY
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:446: READONLY
                 {
                 mREADONLY(); if (state.failed) return ;
 
@@ -9471,7 +9471,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 59 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:455: REF
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:455: REF
                 {
                 mREF(); if (state.failed) return ;
 
@@ -9479,7 +9479,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 60 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:459: RETURN
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:459: RETURN
                 {
                 mRETURN(); if (state.failed) return ;
 
@@ -9487,7 +9487,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 61 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:466: SBYTE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:466: SBYTE
                 {
                 mSBYTE(); if (state.failed) return ;
 
@@ -9495,7 +9495,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 62 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:472: SEALED
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:472: SEALED
                 {
                 mSEALED(); if (state.failed) return ;
 
@@ -9503,7 +9503,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 63 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:479: SHORT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:479: SHORT
                 {
                 mSHORT(); if (state.failed) return ;
 
@@ -9511,7 +9511,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 64 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:485: SIZEOF
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:485: SIZEOF
                 {
                 mSIZEOF(); if (state.failed) return ;
 
@@ -9519,7 +9519,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 65 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:492: STACKALLOC
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:492: STACKALLOC
                 {
                 mSTACKALLOC(); if (state.failed) return ;
 
@@ -9527,7 +9527,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 66 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:503: STATIC
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:503: STATIC
                 {
                 mSTATIC(); if (state.failed) return ;
 
@@ -9535,7 +9535,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 67 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:510: STRING
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:510: STRING
                 {
                 mSTRING(); if (state.failed) return ;
 
@@ -9543,7 +9543,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 68 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:517: STRUCT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:517: STRUCT
                 {
                 mSTRUCT(); if (state.failed) return ;
 
@@ -9551,7 +9551,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 69 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:524: SWITCH
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:524: SWITCH
                 {
                 mSWITCH(); if (state.failed) return ;
 
@@ -9559,7 +9559,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 70 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:531: THIS
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:531: THIS
                 {
                 mTHIS(); if (state.failed) return ;
 
@@ -9567,7 +9567,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 71 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:536: THROW
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:536: THROW
                 {
                 mTHROW(); if (state.failed) return ;
 
@@ -9575,7 +9575,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 72 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:542: TRUE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:542: TRUE
                 {
                 mTRUE(); if (state.failed) return ;
 
@@ -9583,7 +9583,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 73 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:547: TRY
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:547: TRY
                 {
                 mTRY(); if (state.failed) return ;
 
@@ -9591,7 +9591,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 74 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:551: TYPEOF
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:551: TYPEOF
                 {
                 mTYPEOF(); if (state.failed) return ;
 
@@ -9599,7 +9599,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 75 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:558: UINT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:558: UINT
                 {
                 mUINT(); if (state.failed) return ;
 
@@ -9607,7 +9607,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 76 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:563: ULONG
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:563: ULONG
                 {
                 mULONG(); if (state.failed) return ;
 
@@ -9615,7 +9615,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 77 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:569: UNCHECKED
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:569: UNCHECKED
                 {
                 mUNCHECKED(); if (state.failed) return ;
 
@@ -9623,7 +9623,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 78 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:579: UNSAFE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:579: UNSAFE
                 {
                 mUNSAFE(); if (state.failed) return ;
 
@@ -9631,7 +9631,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 79 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:586: USHORT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:586: USHORT
                 {
                 mUSHORT(); if (state.failed) return ;
 
@@ -9639,7 +9639,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 80 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:593: USING
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:593: USING
                 {
                 mUSING(); if (state.failed) return ;
 
@@ -9647,7 +9647,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 81 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:599: VIRTUAL
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:599: VIRTUAL
                 {
                 mVIRTUAL(); if (state.failed) return ;
 
@@ -9655,7 +9655,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 82 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:607: VOID
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:607: VOID
                 {
                 mVOID(); if (state.failed) return ;
 
@@ -9663,7 +9663,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 83 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:612: VOLATILE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:612: VOLATILE
                 {
                 mVOLATILE(); if (state.failed) return ;
 
@@ -9671,7 +9671,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 84 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:621: WHILE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:621: WHILE
                 {
                 mWHILE(); if (state.failed) return ;
 
@@ -9679,7 +9679,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 85 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:627: IDENTIFIER
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:627: IDENTIFIER
                 {
                 mIDENTIFIER(); if (state.failed) return ;
 
@@ -9687,7 +9687,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 86 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:638: INTEGER_LITERAL
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:638: INTEGER_LITERAL
                 {
                 mINTEGER_LITERAL(); if (state.failed) return ;
 
@@ -9695,7 +9695,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 87 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:654: LiteralAccess
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:654: LiteralAccess
                 {
                 mLiteralAccess(); if (state.failed) return ;
 
@@ -9703,7 +9703,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 88 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:668: REAL_LITERAL
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:668: REAL_LITERAL
                 {
                 mREAL_LITERAL(); if (state.failed) return ;
 
@@ -9711,7 +9711,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 89 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:681: CHARACTER_LITERAL
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:681: CHARACTER_LITERAL
                 {
                 mCHARACTER_LITERAL(); if (state.failed) return ;
 
@@ -9719,7 +9719,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 90 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:699: STRING_LITERAL
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:699: STRING_LITERAL
                 {
                 mSTRING_LITERAL(); if (state.failed) return ;
 
@@ -9727,7 +9727,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 91 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:714: OPEN_BRACE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:714: OPEN_BRACE
                 {
                 mOPEN_BRACE(); if (state.failed) return ;
 
@@ -9735,7 +9735,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 92 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:725: CLOSE_BRACE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:725: CLOSE_BRACE
                 {
                 mCLOSE_BRACE(); if (state.failed) return ;
 
@@ -9743,7 +9743,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 93 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:737: OPEN_BRACKET
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:737: OPEN_BRACKET
                 {
                 mOPEN_BRACKET(); if (state.failed) return ;
 
@@ -9751,7 +9751,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 94 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:750: CLOSE_BRACKET
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:750: CLOSE_BRACKET
                 {
                 mCLOSE_BRACKET(); if (state.failed) return ;
 
@@ -9759,7 +9759,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 95 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:764: OPEN_PARENS
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:764: OPEN_PARENS
                 {
                 mOPEN_PARENS(); if (state.failed) return ;
 
@@ -9767,7 +9767,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 96 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:776: CLOSE_PARENS
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:776: CLOSE_PARENS
                 {
                 mCLOSE_PARENS(); if (state.failed) return ;
 
@@ -9775,7 +9775,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 97 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:789: DOT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:789: DOT
                 {
                 mDOT(); if (state.failed) return ;
 
@@ -9783,7 +9783,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 98 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:793: COMMA
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:793: COMMA
                 {
                 mCOMMA(); if (state.failed) return ;
 
@@ -9791,7 +9791,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 99 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:799: COLON
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:799: COLON
                 {
                 mCOLON(); if (state.failed) return ;
 
@@ -9799,7 +9799,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 100 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:805: SEMICOLON
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:805: SEMICOLON
                 {
                 mSEMICOLON(); if (state.failed) return ;
 
@@ -9807,7 +9807,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 101 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:815: PLUS
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:815: PLUS
                 {
                 mPLUS(); if (state.failed) return ;
 
@@ -9815,7 +9815,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 102 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:820: MINUS
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:820: MINUS
                 {
                 mMINUS(); if (state.failed) return ;
 
@@ -9823,7 +9823,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 103 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:826: STAR
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:826: STAR
                 {
                 mSTAR(); if (state.failed) return ;
 
@@ -9831,7 +9831,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 104 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:831: DIV
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:831: DIV
                 {
                 mDIV(); if (state.failed) return ;
 
@@ -9839,7 +9839,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 105 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:835: PERCENT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:835: PERCENT
                 {
                 mPERCENT(); if (state.failed) return ;
 
@@ -9847,7 +9847,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 106 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:843: AMP
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:843: AMP
                 {
                 mAMP(); if (state.failed) return ;
 
@@ -9855,7 +9855,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 107 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:847: BITWISE_OR
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:847: BITWISE_OR
                 {
                 mBITWISE_OR(); if (state.failed) return ;
 
@@ -9863,7 +9863,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 108 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:858: CARET
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:858: CARET
                 {
                 mCARET(); if (state.failed) return ;
 
@@ -9871,7 +9871,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 109 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:864: BANG
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:864: BANG
                 {
                 mBANG(); if (state.failed) return ;
 
@@ -9879,7 +9879,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 110 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:869: TILDE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:869: TILDE
                 {
                 mTILDE(); if (state.failed) return ;
 
@@ -9887,7 +9887,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 111 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:875: ASSIGNMENT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:875: ASSIGNMENT
                 {
                 mASSIGNMENT(); if (state.failed) return ;
 
@@ -9895,7 +9895,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 112 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:886: LT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:886: LT
                 {
                 mLT(); if (state.failed) return ;
 
@@ -9903,7 +9903,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 113 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:889: GT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:889: GT
                 {
                 mGT(); if (state.failed) return ;
 
@@ -9911,7 +9911,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 114 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:892: INTERR
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:892: INTERR
                 {
                 mINTERR(); if (state.failed) return ;
 
@@ -9919,7 +9919,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 115 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:899: DOUBLE_COLON
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:899: DOUBLE_COLON
                 {
                 mDOUBLE_COLON(); if (state.failed) return ;
 
@@ -9927,7 +9927,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 116 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:912: OP_COALESCING
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:912: OP_COALESCING
                 {
                 mOP_COALESCING(); if (state.failed) return ;
 
@@ -9935,7 +9935,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 117 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:926: OP_INC
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:926: OP_INC
                 {
                 mOP_INC(); if (state.failed) return ;
 
@@ -9943,7 +9943,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 118 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:933: OP_DEC
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:933: OP_DEC
                 {
                 mOP_DEC(); if (state.failed) return ;
 
@@ -9951,7 +9951,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 119 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:940: OP_AND
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:940: OP_AND
                 {
                 mOP_AND(); if (state.failed) return ;
 
@@ -9959,7 +9959,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 120 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:947: OP_OR
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:947: OP_OR
                 {
                 mOP_OR(); if (state.failed) return ;
 
@@ -9967,7 +9967,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 121 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:953: OP_PTR
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:953: OP_PTR
                 {
                 mOP_PTR(); if (state.failed) return ;
 
@@ -9975,7 +9975,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 122 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:960: OP_EQ
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:960: OP_EQ
                 {
                 mOP_EQ(); if (state.failed) return ;
 
@@ -9983,7 +9983,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 123 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:966: OP_NE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:966: OP_NE
                 {
                 mOP_NE(); if (state.failed) return ;
 
@@ -9991,7 +9991,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 124 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:972: OP_LE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:972: OP_LE
                 {
                 mOP_LE(); if (state.failed) return ;
 
@@ -9999,7 +9999,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 125 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:978: OP_GE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:978: OP_GE
                 {
                 mOP_GE(); if (state.failed) return ;
 
@@ -10007,7 +10007,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 126 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:984: OP_ADD_ASSIGNMENT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:984: OP_ADD_ASSIGNMENT
                 {
                 mOP_ADD_ASSIGNMENT(); if (state.failed) return ;
 
@@ -10015,7 +10015,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 127 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1002: OP_SUB_ASSIGNMENT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1002: OP_SUB_ASSIGNMENT
                 {
                 mOP_SUB_ASSIGNMENT(); if (state.failed) return ;
 
@@ -10023,7 +10023,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 128 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1020: OP_MULT_ASSIGNMENT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1020: OP_MULT_ASSIGNMENT
                 {
                 mOP_MULT_ASSIGNMENT(); if (state.failed) return ;
 
@@ -10031,7 +10031,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 129 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1039: OP_DIV_ASSIGNMENT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1039: OP_DIV_ASSIGNMENT
                 {
                 mOP_DIV_ASSIGNMENT(); if (state.failed) return ;
 
@@ -10039,7 +10039,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 130 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1057: OP_MOD_ASSIGNMENT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1057: OP_MOD_ASSIGNMENT
                 {
                 mOP_MOD_ASSIGNMENT(); if (state.failed) return ;
 
@@ -10047,7 +10047,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 131 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1075: OP_AND_ASSIGNMENT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1075: OP_AND_ASSIGNMENT
                 {
                 mOP_AND_ASSIGNMENT(); if (state.failed) return ;
 
@@ -10055,7 +10055,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 132 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1093: OP_OR_ASSIGNMENT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1093: OP_OR_ASSIGNMENT
                 {
                 mOP_OR_ASSIGNMENT(); if (state.failed) return ;
 
@@ -10063,7 +10063,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 133 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1110: OP_XOR_ASSIGNMENT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1110: OP_XOR_ASSIGNMENT
                 {
                 mOP_XOR_ASSIGNMENT(); if (state.failed) return ;
 
@@ -10071,7 +10071,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 134 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1128: OP_LEFT_SHIFT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1128: OP_LEFT_SHIFT
                 {
                 mOP_LEFT_SHIFT(); if (state.failed) return ;
 
@@ -10079,7 +10079,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 135 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1142: OP_LEFT_SHIFT_ASSIGNMENT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1142: OP_LEFT_SHIFT_ASSIGNMENT
                 {
                 mOP_LEFT_SHIFT_ASSIGNMENT(); if (state.failed) return ;
 
@@ -10087,7 +10087,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 136 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1167: QUOTE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1167: QUOTE
                 {
                 mQUOTE(); if (state.failed) return ;
 
@@ -10095,7 +10095,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 137 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1173: DOUBLE_QUOTE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1173: DOUBLE_QUOTE
                 {
                 mDOUBLE_QUOTE(); if (state.failed) return ;
 
@@ -10103,7 +10103,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 138 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1186: BACK_SLASH
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1186: BACK_SLASH
                 {
                 mBACK_SLASH(); if (state.failed) return ;
 
@@ -10111,7 +10111,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 139 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1197: DOUBLE_BACK_SLASH
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1197: DOUBLE_BACK_SLASH
                 {
                 mDOUBLE_BACK_SLASH(); if (state.failed) return ;
 
@@ -10119,7 +10119,7 @@ public class CSharp4PreProcessor extends Lexer {
                 }
                 break;
             case 140 :
-                // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1215: SHARP
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:1:1215: SHARP
                 {
                 mSHARP(); if (state.failed) return ;
 
@@ -10133,8 +10133,8 @@ public class CSharp4PreProcessor extends Lexer {
 
     // $ANTLR start synpred1_CSharp4PreProcessor
     public final void synpred1_CSharp4PreProcessor_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:149:5: ( TRUE )
-        // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:149:6: TRUE
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:149:5: ( TRUE )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:149:6: TRUE
         {
         mTRUE(); if (state.failed) return ;
 
@@ -10146,8 +10146,8 @@ public class CSharp4PreProcessor extends Lexer {
 
     // $ANTLR start synpred2_CSharp4PreProcessor
     public final void synpred2_CSharp4PreProcessor_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:150:5: ( FALSE )
-        // C:\\Users\\chw\\workspace-cloudmig\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:150:6: FALSE
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:150:5: ( FALSE )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpKDMDiscoverer\\grammars\\CSharp4PreProcessor.g:150:6: FALSE
         {
         mFALSE(); if (state.failed) return ;
 

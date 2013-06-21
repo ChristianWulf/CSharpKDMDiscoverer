@@ -2725,7 +2725,6 @@ operator_declaration2
          (COMMA t2=type id2=IDENTIFIER)? CLOSE_PARENS operator_body
     -> ^(OPERATOR overloadable_operator ^(FIRST_OP $t1 $id1) ^(SECOND_OP $t2? $id2?) operator_body)
   ;
-
 interface_method_declaration2
   : IDENTIFIER type_parameter_list? OPEN_PARENS formal_parameter_list? CLOSE_PARENS type_parameter_constraints_clauses? SEMICOLON
     -> ^(METHOD_DECL ^(MEMBER_NAME ^(NAMESPACE_OR_TYPE_NAME IDENTIFIER))  type_parameter_list?  formal_parameter_list?   type_parameter_constraints_clauses?)

@@ -4,13 +4,10 @@
  * + Department of Computer Science
  * + Software Engineering Group
  * and others.
- * 
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
  * http://www.apache.org/licenses/LICENSE-2.0
- * 
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -22,6 +19,8 @@ package mapping.action.visitor;
 
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 import mapping.KDMElementFactory;
 import mapping.KDMElementFactory.GlobalKind;
@@ -43,18 +42,47 @@ public class ActionSourceFileVisitor extends DefaultSourceFileVisitor {
 	private final CodeModel										internalCodeModel;
 	private final ConcurrentMap<String, ISourceFileTypeParser>	sourceFileParsers;
 
+	private final ExecutorService								executorService;
+
+	private long												start;
+
 	public ActionSourceFileVisitor(final IProgressMonitor monitor) {
 		this.monitor = monitor;
-		this.internalCodeModel = KDMElementFactory.createGenericCodeModel("Internal CodeModel",
-				GlobalKind.INTERNAL);
+		this.internalCodeModel = KDMElementFactory.createGenericCodeModel("Internal CodeModel", GlobalKind.INTERNAL);
 		this.sourceFileParsers = new ConcurrentHashMap<String, ISourceFileTypeParser>();
+		executorService = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
 	}
 
 	@Override
 	public void visitSourceFile(final SourceFile sourceFile) {
-		if (monitor.isCanceled())
-			throw new OperationCanceledException();
+		if (monitor.isCanceled()) throw new OperationCanceledException();
+		//		executorService.execute(new Runnable() {
+		//			@Override
+		//			public void run() {
+		//				processSourceFile(sourceFile);
+		//			}
+		//		});
 		processSourceFile(sourceFile);
+	}
+
+	@Override
+	public void beforeWalk() {
+		start = System.currentTimeMillis();
+	}
+
+	@Override
+	public void afterWalk() {
+		long end = System.currentTimeMillis();
+		long duration = end - start;
+		LOGGER.info("Took " + duration + " msec");
+		LOGGER.fine("Waiting...");
+		//		executorService.shutdown();
+		//		try {
+		//			executorService.awaitTermination(0, TimeUnit.SECONDS);
+		//		} catch (InterruptedException e) {
+		//			LOGGER.error(e);
+		//		}
+		LOGGER.fine("...Done.");
 	}
 
 	@Override
@@ -69,8 +97,7 @@ public class ActionSourceFileVisitor extends DefaultSourceFileVisitor {
 	private void processSourceFile(final SourceFile sourceFile) {
 		ISourceFileTypeParser sourceFileParser = sourceFileParsers.get(sourceFile.getLanguage());
 		if (sourceFileParser == null) {
-			LOGGER.warning("No appropriate source file parser found for language '"
-					+ sourceFile.getPath() + "'.");
+			LOGGER.warning("No appropriate source file parser found for language '" + sourceFile.getPath() + "'.");
 			return;
 		}
 
