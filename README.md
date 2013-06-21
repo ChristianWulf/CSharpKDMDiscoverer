@@ -16,15 +16,15 @@ A first example can be found in src/example/TransformationTest.java.
 Compilation
 ---
 
-Requirements
----
+#### Requirements
+
 - JDK 1.5+
 - Eclipse
 - EMF
 - JUnit
 
-Steps to run
----
+#### Steps to run
+
 - If some EMF libraries are missing, let them be searched and added automatically by Eclipse via
 
 ~~~
